@@ -225,3 +225,35 @@ footer {
   padding: 10px;
   font-family: sans-serif; 
 }
+
+.sticker {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.sticker img {
+  opacity: 0.8;
+}
+
+.sticker img:hover{
+  opacity: 1;
+}
+
+.gallery ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery ul li {
+  list-style: none;
+  flex-grow: 1;
+}
+
+.gallery ul li img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
