@@ -14,7 +14,6 @@ header {
 
 footer {
   position: relative;
-  /*bottom: 0.5%;*/
   margin-top: 0px; /* negative value of footer height */
   height: 40px;
   width: 99%;
