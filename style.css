@@ -14,7 +14,7 @@ header {
 
 footer {
   position: relative;
-  bottom: 0.5%;
+  /*bottom: 0.5%;*/
   margin-top: 0px; /* negative value of footer height */
   height: 40px;
   width: 99%;
@@ -103,6 +103,17 @@ footer {
   height: 60px;
   line-height: 60px;
   cursor: pointer;
+  padding: 0 10px;
+}
+
+.container .navbar .nolink {
+  text-decoration: none;
+  color: #888888;
+  font-size: 14px;
+  text-transform: uppercase;
+  display: block;
+  height: 60px;
+  line-height: 60px;
   padding: 0 10px;
 }
 
