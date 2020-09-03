@@ -120,6 +120,7 @@ footer {
   color: black;
   background-color: rgba(232, 117, 150, 0.9); /* Pink from logo */
 }
+
 .container .navbar ul li a:hover {
   color: #ffffff;
   background-color: rgba(165, 124, 189, 0.9); /* Lilac from logo */
@@ -139,25 +140,6 @@ footer {
   cursor: pointer;
 }
 
-.container .navbar .icon-bar {
-  padding: 18px 8px;
-  width: 50px;
-  height: 60px;
-  display: none;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  cursor: pointer;
-}
-
-.container .navbar .icon-bar i {
-  background-color: #ffffff;
-  height: 2px;
-}
 
 @media only screen and (max-width: 650px) {
   .container {
@@ -220,6 +202,7 @@ footer {
 }
 
 .body {
+  min-height: 100vh;
   max-width: 700px;
   margin: 0 auto;
   padding: 10px;
