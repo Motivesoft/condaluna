@@ -52,6 +52,7 @@ p {
 /* Style all font awesome icons */
 .social {
   padding-top: 5px;
+  line-height: 0px;
   text-align: center;
   text-decoration: none;
   color: white;
