@@ -48,8 +48,18 @@
 
   <div class="body">
 
-    <img src="./assets/stickers/love-hearts.gif" style="float: right; width: 250px; height: 250px;"></img>
     <p>Hello, and welcome to my Condaluna gallery.</p>
+    <a id="randomluna"></a>
+    <script>
+      let lunas=[ 
+      "./assets/stickers/love-hearts.gif",
+      "./assets/stickers/bee-kind.gif",
+      "./assets/stickers/confetti.gif",
+      "./assets/stickers/love-squeeze.gif"
+      ]
+      i = Math.floor(Math.random() * 4);
+      document.getElementById("randomluna").innerHTML = "<img src='" + lunas[ i ]+ "' style='float: right; width: 250px; height: 250px;'></img>";
+    </script>
     <p>I love drawing and doodling, and I create digital illustrations, GIFs, wallpapers, fonts and digital stickers.</p>
     <p>You can download the fonts and wallpapers for your own personal use, and pending approval from GIPHY the stickers will soon be available for you to use in your Facebook and Instagram stories!</p>
     <p>- Catherine x</p>
