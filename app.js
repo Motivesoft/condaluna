@@ -1,8 +1,6 @@
-var navList = document.getElementById("nav-lists");
-function Show() {
-navList.classList.add("_Menus-show");
-}
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-function Hide(){
-navList.classList.remove("_Menus-show");
-}
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
