@@ -92,6 +92,12 @@ p {
   align-content: center;
 }
 
+.brand-title a img {
+  padding-top: 2px;
+  width: 80px;
+  height: 80px;
+}
+
 .navbar-links {
   height: 100%;
 }
