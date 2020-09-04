@@ -1,73 +1,206 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>@condaluna home page</title>
+  <title>@condaluna stickers, GIFs, fonts and wallpapers</title>
 
-<link rel="stylesheet" type="text/css" href="./style.css">
+  <!--<link rel="stylesheet" type="text/css" href="./style.css">-->
 
-<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-<link rel="manifest" href="./site.webmanifest">
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
 
-<meta http-equiv="content-type" content="text/html; charset=utf-8" >
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-</style>
+  <style>
+    * {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    header {
+      margin: 0;
+      padding: 0;
+      width: 99%;
+      margin-top: 0.5%;
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+    }
+    
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    footer {
+      border-radius: 5px;
+      height: 40px;
+      width: 99%;
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      margin-bottom: 0.5%;
+      font-size: 14px;
+      border: 2px solid #333;
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: white;
+    }
+
+    .navbar {
+      border-radius: 5px;
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: white;
+    }
+
+    .brand-title {
+      font-size: 1rem;
+      margin: .5rem;
+    }
+
+    .navbar-links {
+      height: 100%;
+    }
+
+    .navbar-links ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar-links li {
+      list-style: none;
+    }
+
+    .navbar-links li a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      padding: 1rem;
+    }
+
+    .navbar-links li:hover {
+      background-color: #555;
+    }
+
+    .toggle-button {
+      position: absolute;
+      top: .75rem;
+      right: 1rem;
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30px;
+      height: 21px;
+    }
+
+    .toggle-button .bar {
+      height: 3px;
+      width: 100%;
+      background-color: white;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 500px) {
+      .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .toggle-button {
+        display: flex;
+      }
+
+      .navbar-links {
+        display: none;
+        width: 100%;
+      }
+
+      .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+      }
+
+      .navbar-links ul li {
+        text-align: center;
+      }
+
+      .navbar-links ul li a {
+        padding: .5rem 1rem;
+      }
+
+      .navbar-links.active {
+        display: flex;
+      }
+    }
+  </style>
 </head>
 
 <body>
-
   <header>
-    <!-- Main menu -->
-    
-    <div class="container">
-      <div class="logo">
-        <a href="./index.html"><img src="./logo.png" alt="@condaluna"></a>
-      </div>
 
-      <div class="navbar">
-        <ul id="nav-lists">
-          <li class="close"><span onclick="Hide()">×</span></li>
+    <nav class="navbar">
+      <div class="brand-title"><img src="./logo.png" height="50" width="50"></div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
           <li><a href="./stickers.html">Stickers</a></li>
           <li><a href="./gifs.html">GIFs</a></li>
           <li><a href="./fonts.html">Fonts</a></li>
           <li><a href="./wallpapers.html">Wallpapers</a></li>
         </ul>
-        
       </div>
-    </div>
+    </nav>
 
+
+    
+    <script>
+      const toggleButton = document.getElementsByClassName('toggle-button')[0]
+      const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+      toggleButton.addEventListener('click', () => {
+        navbarLinks.classList.toggle('active')
+      })
+    </script>
   </header>
 
   <div class="body">
-    <p>Currently awaiting approval from <a href="https://giphy.com/">GIPHY</a>, after which these should be available for everyone to use on their Facebook and Instagram stories!</p>
-    <!--<p>All stickers and GIFs can be found on <a href="https://giphy.com/search/@condaluna">my GIPHY page</a></p>-->
 
-    <div class="row">
-      <div class="column">
-        <img src="./assets/stickers/bee-kind.gif"/>
-        <img src="./assets/stickers/music.gif"/>
-        <img src="./assets/stickers/new-post.gif"/>
-      </div>
-      <div class="column">
-        <img src="./assets/stickers/love-squeeze.gif"/>
-        <img src="./assets/stickers/happy-birthday.gif"/>
-      </div>
-      <div class="column">
-        <img src="./assets/stickers/confetti.gif"/>
-        <img src="./assets/stickers/sleeping-cat.gif"/>
-      </div>
-      <div class="column">
-        <img src="./assets/stickers/love-hearts.gif"/>
-        <img src="./assets/stickers/proud-cat.gif"/>
-      </div>
+    <p>Welcome to the @condaluna gallery, where you can find stickers and GIFs to for everyone to use on their Facebook and Instagram stories! 
+    You can also find fonts and wallpapers free to download and use however you fancy.</p>
+
+    <div class="page-box">
+      <h1><a href="./stickers.html">Stickers</a></h1>
+      <p>Stickers for Instagram and Facebook</p>
     </div>
-  </div>
 
-  <script src="./app.js"></script>
+    <div class="page-box">
+      <h1><a href="./gifs.html">GIFs</a></h1>
+      <p>Animated GIFs for Instagram and Facebook</p>
+    </div>
+
+    <div class="page-box">
+      <h1><a href="./fonts.html">Fonts</a></h1>
+      <p>A collection of fun fonts to use for your own projects</p>
+    </div>
+
+    <div class="page-box">
+      <h1><a href="./wallpapers.html">Wallpapers</a></h1>
+      <p>Images you can set as the wallpaper on your device</p>
+    </div>  </div>
 
   <!-- Footer -->
   <div class="footer">
