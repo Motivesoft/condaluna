@@ -62,21 +62,34 @@
 
   <!-- Footer -->
   <div class="footer">
-    <a id="footer">
-      <noscript>
-        <footer>Copyright &copy; 2020 Catherine Brown.</footer>
-      </noscript>
-    </a>
-    <script>
-      originYear = "2020";
-      d = new Date();
-      y = d.getFullYear();
-      if( y != originYear )
-      { 
-        y = originYear.concat("-").concat(y); 
-      }
-      document.getElementById("footer").innerHTML = "<footer>Copyright &copy; " + y + " Catherine Brown.</footer>";
-    </script>
+    <footer>
+      <div class="social">
+        <a href="https://www.facebook.com/CondalunaArt/">
+          <img src="./assets/social/facebook-trans.png"/>
+        </a>
+        <a href="https://twitter.com/CatCondaluna">
+          <img src="./assets/social/twitter-trans.png"/>
+        </a>
+        <a href="https://www.instagram.com/catherinebrown666">
+          <img src="./assets/social/instagram-trans.png"/>
+        </a>
+      </div>
+      <a id="footer">
+        <noscript>
+          <footer>Copyright &copy; 2020 Catherine Brown.</footer>
+        </noscript>
+      </a>
+      <script>
+        originYear = "2020";
+        d = new Date();
+        y = d.getFullYear();
+        if( y != originYear )
+        { 
+          y = originYear.concat("-").concat(y); 
+        }
+        document.getElementById("footer").innerHTML = "Copyright &copy; " + y + " Catherine Brown.";
+      </script>
+    </footer>
   </div>
 
 </body>
