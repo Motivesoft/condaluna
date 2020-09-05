@@ -61,7 +61,8 @@ p {
 }
 
 /* Add a hover effect if you want */
-.social a:hover {
+.social a:hover,
+.social a:focus {
   opacity: 0.7;
 }
 
@@ -119,7 +120,8 @@ p {
   padding: 1rem;
 }
 
-.navbar-links li:hover {
+.navbar-links li:hover,
+.navbar-links li:focus {
   border-radius: 5px;
   background-color: #555;
 }
