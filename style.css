@@ -55,9 +55,12 @@ p {
   padding-top: 5px;
   line-height: 0px;
   text-align: center;
-  text-decoration: none;
   color: white;
   background-color: #333;
+}
+
+.social a{
+  text-decoration: none;
 }
 
 /* Add a hover effect if you want */
