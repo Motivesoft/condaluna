@@ -86,6 +86,54 @@
     font-family: 'Rounded Dry Ink', sans-serif
 }
 
+.font-box {
+  border: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.font-name h1 {
+  text-align: center;
+}
+.font-story {
+  text-align: center;
+  padding-top: 10px;
+}
+.font-showcase {
+  text-align: center;
+}
+.font-downloads {
+  display: inline-flex;
+  flex-flow: wrap;
+  align-items: center;
+}
+.font-button {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.font-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.font-button:hover,
+.font-button:focus {
+  background-color: #555;
+}
+
 </style>
 </head>
 
@@ -114,94 +162,155 @@
   <div class="body">
     <p>I created these fonts using samples of my own ever-varying handwriting styles. You can download them, they are free for personal use. Please note they currently have a limited character set.</p>
 
-    <!-- For each font -->
-    <div class="fontbox">
-      <div class="andrew">
-        <h2>Andrew</h2>
-        <p>ABCDEFGHIJLKMNOPQRSTUVWXYZ</p>
-        <p>abcdefghijklmnopqrstuvwxyz</p>
-        <p>1234567890 #!"&*':@,./?-</p>
-      </div>
-      <div class="button">
-        <a href="./assets/fonts/AndrewFont-Regular.ttf">Download TTF</a>
-      </div>
-      <div class="button">
-        <a href="./assets/fonts/AndrewFont-Regular.otf">Download OTF</a>
-      </div>
-    </div>
-
-    <div class="fontbox">
-      <div class="brush2">
-        <h2>Brush 2</h2>
-        <p>ABCDEFGHIJLKMNOPQRSTUVWXYZ</p>
-        <p>abcdefghijklmnopqrstuvwxyz</p>
-        <p>1234567890 #!"&*':@,./?-</p>
-      </div>
-      <div class="button">
-        <a href="./assets/fonts/Brush2-Regular.ttf">Download TTF</a>
-      </div>
-      <div class="button">
-        <a href="./assets/fonts/Brush2-Regular.otf">Download OTF</a>
+    <div class="font-boxes">
+      <div class="font-box">
+        <div class="font-name andrew">
+          <h1>Andrew Font</h1>
+        </div>
+        <div class="font-showcase andrew">
+          <p>ABCDEFGHIJLKMNOPQRSTUVWXYZ</p>
+          <p>abcdefghijklmnopqrstuvwxyz</p>
+          <p>1234567890 #!"&*':@,./?-</p>
+        </div>
+        <div class="font-story andrew">
+          <p>
+            This was a fun font to design! I am left-handed, and deviced to
+            see if I could write with my other hand. This font is the result!
+          </p>
+        </div>
+        <div class="font-downloads">
+          <div class="font-button">
+            <a href="./assets/fonts/AndrewFont-Regular.ttf">Download TTF</a>
+          </div>
+          <div class="font-button">
+            <a href="./assets/fonts/AndrewFont-Regular.otf">Download OTF</a>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="fontbox">
-      <div class="chunkycas2">
-        <h2>Chunk Cas 2</h2>
+    <div class="font-box">
+      <div class="font-name brush2">
+        <h1>Brush 2</h1>
+      </div>
+      <div class="font-showcase brush2">
         <p>ABCDEFGHIJLKMNOPQRSTUVWXYZ</p>
         <p>abcdefghijklmnopqrstuvwxyz</p>
         <p>1234567890 #!"&*':@,./?-</p>
       </div>
-      <div class="button">
-        <a href="./assets/fonts/ChunkyCas2-Regular.ttf">Download TTF</a>
+      <div class="font-story brush2">
+        <p>
+          This font was created with a brush pen, and was my second run at it,
+          hence the unimaginative name!  
+        </p>
       </div>
-      <div class="button">
-        <a href="./assets/fonts/ChunkyCas2-Regular.otf">Download OTF</a>
+      <div class="font-downloads">
+        <div class="font-button">
+          <a href="./assets/fonts/Brush2-Regular.ttf">Download TTF</a>
+        </div>
+        <div class="font-button">
+          <a href="./assets/fonts/Brush2-Regular.otf">Download OTF</a>
+        </div>
       </div>
     </div>
-
-    <div class="fontbox">
-      <div class="cmbnuman2">
-        <h2>Cmb Numan 2</h2>
+    <div class="font-box">
+      <div class="font-name chunkycas2">
+        <h1>Chunky Cas 2</h1>
+      </div>
+      <div class="font-showcase chunkycas2">
         <p>ABCDEFGHIJLKMNOPQRSTUVWXYZ</p>
         <p>abcdefghijklmnopqrstuvwxyz</p>
         <p>1234567890 #!"&*':@,./?-</p>
       </div>
-      <div class="button">
-        <a href="./assets/fonts/CmbNumanFont2-Regular.ttf">Download TTF</a>
+      <div class="font-story chunkycas2">
+        <p>
+          When I was little, I was always fascinated by how neatly some of my
+          friends wrote. I spent many a happy hour trying to copy the style,
+          as I noticed they got better grades when the teachers could actually
+          read their work!
+        </p>
       </div>
-      <div class="button">
-        <a href="./assets/fonts/CmbNumanFont2-Regular.otf">Download OTF</a>
+      <div class="font-downloads">
+        <div class="font-button">
+          <a href="./assets/fonts/ChunkyCas2-Regular.ttf">Download TTF</a>
+        </div>
+        <div class="font-button">
+          <a href="./assets/fonts/ChunkyCas2-Regular.otf">Download OTF</a>
+        </div>
       </div>
     </div>
-
-    <div class="fontbox">
-      <div class="flathand">
-        <h2>Flathand</h2>
+    <div class="font-box">
+      <div class="font-name cmbnuman2">
+        <h1>Cmb Numan 2</h1>
+      </div>
+      <div class="font-showcase cmbnuman2">
         <p>ABCDEFGHIJLKMNOPQRSTUVWXYZ</p>
         <p>abcdefghijklmnopqrstuvwxyz</p>
         <p>1234567890 #!"&*':@,./?-</p>
       </div>
-      <div class="button">
-        <a href="./assets/fonts/FlatHand-Regular.ttf">Download TTF</a>
+      <div class="font-story cmbnuman2">
+        <p>
+          Christmas 1979 - all I wanted was either The Pleasure Principle by Gary Numan,
+          or Replicas by Tubeway Army. My Dad bought me both! I was over the moon. 
+          One of the album inserts had the lyrics to all the songs written out in the most
+          fascinating script. I spent hours practising the style. This font is probably
+          nothing like the origina after all these years, but I have named it accordingly!
+        </p>
       </div>
-      <div class="button">
-        <a href="./assets/fonts/FlatHand-Regular.otf">Download OTF</a>
+      <div class="font-downloads">
+        <div class="font-button">
+          <a href="./assets/fonts/CmbNumanFont2-Regular.ttf">Download TTF</a>
+        </div>
+        <div class="font-button">
+          <a href="./assets/fonts/CmbNumanFont2-Regular.otf">Download OTF</a>
+        </div>
       </div>
     </div>
-
-    <div class="fontbox">
-      <div class="roundeddry">
-        <h2>Rounded Dry</h2>
+    <div class="font-box">
+      <div class="font-name flathand">
+        <h1>Flat Hand</h1>
+      </div>
+      <div class="font-showcase flathand">
         <p>ABCDEFGHIJLKMNOPQRSTUVWXYZ</p>
         <p>abcdefghijklmnopqrstuvwxyz</p>
         <p>1234567890 #!"&*':@,./?-</p>
       </div>
-      <div class="button">
-        <a href="./assets/fonts/RoundedDryInk-Regular.ttf">Download TTF</a>
+      <div class="font-story flathand">
+        <p>
+          I used to try writing long, flat letters in an attempt to quickly fill up
+          more of the pages using fewer words at school! Over the years, it has developed
+          into a stlye of writing that I still enjoy using today.
+        </p>
       </div>
-      <div class="button">
-        <a href="./assets/fonts/RoundedDryInk-Regular.otf">Download OTF</a>
+      <div class="font-downloads">
+        <div class="font-button">
+          <a href="./assets/fonts/FlatHand-Regular.ttf">Download TTF</a>
+        </div>
+        <div class="font-button">
+          <a href="./assets/fonts/FlatHand-Regular.otf">Download OTF</a>
+        </div>
+      </div>
+    </div>
+    <div class="font-box">
+      <div class="font-name roundeddry">
+        <h1>Rounded Dry Ink</h1>
+      </div>
+      <div class="font-showcase roundeddry">
+        <p>ABCDEFGHIJLKMNOPQRSTUVWXYZ</p>
+        <p>abcdefghijklmnopqrstuvwxyz</p>
+        <p>1234567890 #!"&*':@,./?-</p>
+      </div>
+      <div class="font-story roundeddry">
+        <p>
+          This is a simple rounded font, reated using a dry ink brush.
+        </p>
+      </div>
+      <div class="font-downloads">
+        <div class="font-button">
+          <a href="./assets/fonts/RoundedDryInk-Regular.ttf">Download TTF</a>
+        </div>
+        <div class="font-button">
+          <a href="./assets/fonts/RoundedDryInk-Regular.otf">Download OTF</a>
+        </div>
       </div>
     </div>
   </div>
