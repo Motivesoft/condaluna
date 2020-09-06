@@ -136,8 +136,14 @@ p {
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  width: 30px;
-  height: 21px;
+  width: 40px;
+  height: 31px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  margin-top: 15px;
 }
 
 .toggle-button .bar {
@@ -147,12 +153,17 @@ p {
   border-radius: 10px;
 }
 
-@media (max-width: 500px) {
+.toggle-button:hover,
+.toggle-button:focus {
+  background-color: grey;
+}
+
+@media (max-width: 640px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
   }
-
+  
   .toggle-button {
     display: flex;
   }
