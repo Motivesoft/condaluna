@@ -75,7 +75,6 @@
     <loc>https://condaluna.com/gifs.html</loc>
     <lastmod>2020-09-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>None</priority>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
       <image:title>@condaluna.com logo</image:title>
@@ -113,7 +112,6 @@
     <loc>https://condaluna.com</loc>
     <lastmod>2020-09-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>None</priority>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
       <image:title>@condaluna.com logo</image:title>
@@ -135,7 +133,6 @@
     <loc>https://condaluna.com/index.html</loc>
     <lastmod>2020-09-06</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>None</priority>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
       <image:title>@condaluna.com logo</image:title>
