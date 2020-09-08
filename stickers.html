@@ -14,6 +14,24 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" >
   <meta name='description' content='Gallery - free stickers, GIFs, fonts, wallpapers to download or use in Instagram, Facebook, Twitter stories - Catherine Brown, a digital artist & illustrator'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    .flex-container {
+      margin: 0 auto 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .flex-container img {
+      padding: 1em;
+      min-width: 100px;
+      min-height: 100px;
+      max-width: 195px;
+      max-height: 195px;
+    }
+  </style>
 </head>
 
 <body>
@@ -42,26 +60,18 @@
     <h1>Stickers</h1>
     <p>Available for your Facebook and Instagram stories (pending approval from GIPHY). To use them in your stories, just go to add stickers and type ‘Condaluna’ in the search bar.</p>
 
-    <div class="row">
-      <div class="column">
+    <div class="flex-container">
         <img src="./assets/stickers/bee-kind.gif" title="Bee Kind" alt="Bee Kind"/>
         <img src="./assets/stickers/hahaha.gif" title="Ha Ha Ha" alt="Ha Ha Ha"/>
         <img src="./assets/stickers/new-post.gif" title="New post" alt="New post"/>
-      </div>
-      <div class="column">
         <img src="./assets/stickers/love-squeeze.gif" title="Love Squeeze" alt="Love Squeeze"/>
         <img src="./assets/stickers/music.gif" title="Music" alt="Music"/>
         <img src="./assets/stickers/happy-birthday.gif" title="Happy Birthday" alt="Happy Birthday"/>
-      </div>
-      <div class="column">
         <img src="./assets/stickers/confetti.gif" title="Confetti" alt="Confetti"/>
         <img src="./assets/stickers/sleeping-cat.gif" title="Sleeping Cat" alt="Sleeping Cat"/>
         <img src="./assets/stickers/love-hearts.gif" title="Love Hearts" alt="Love Hearts"/>
-      </div>
-      <div class="column">
         <img src="./assets/stickers/proud-cat.gif" title="Proud Cat" alt="Proud Cat"/>
-      </div>
-    </div>
+    </div> 
   </div>
 
   <script src="./app.js"></script>

@@ -222,23 +222,6 @@ p {
   opacity: 1;
 }
 
-.gallery ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.gallery ul li {
-  list-style: none;
-  flex-grow: 1;
-}
-
-.gallery ul li img {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: cover;
-  vertical-align: bottom;
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
