@@ -14,6 +14,14 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" >
   <meta name='description' content='Gallery - free stickers, GIFs, fonts, wallpapers to download or use in Instagram, Facebook, Twitter stories - Catherine Brown, a digital artist & illustrator'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+     @media screen and (max-width: 300px) { 
+       .body img {
+           display: none; 
+        } 
+      }
+  </style>
 </head>
 
 <body>
@@ -52,8 +60,10 @@
       "./assets/stickers/music-headphones.gif",
       "./assets/stickers/coffee.gif"
       ]
-      i = Math.floor(Math.random() * lunas.length);
-      document.getElementById("randomluna").innerHTML = "<img src='" + lunas[ i ]+ "' style='float: right; width: 25%; height: 25%;' title='luna'></img>";
+      // i = Math.floor(Math.random() * lunas.length);
+      // Slightly quirky way to create a random index into the list of lunas
+      i = Date.now() % lunas.length;
+      document.getElementById("randomluna").innerHTML = "<img src='" + lunas[ i ]+ "' style='float: right; width: max(25%, 150px); height: auto;' title='luna'></img>";
     </script>
     <p>I love drawing and doodling, and I create digital illustrations, GIFs, wallpapers, fonts and digital stickers.</p>
     <p>You can download the fonts and wallpapers for your own personal use, and pending approval from GIPHY the stickers will soon be available for you to use in your Facebook and Instagram stories!</p>
