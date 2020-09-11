@@ -14,6 +14,18 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" >
   <meta name='description' content='Gallery - free stickers, GIFs, fonts, wallpapers to download or use in Instagram, Facebook, Twitter stories - Catherine Brown, a digital artist & illustrator'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    main {
+      display: grid;
+      grid-template-columns: repeat( auto-fit, minmax( 200px, 1fr ) );
+      grid-gap: 1rem;
+    }
+
+    .card img {
+      width: 100%;
+    }    
+  </style>
 </head>
 
 <body>
@@ -42,20 +54,21 @@
     <h1>GIFs</h1>
     <p>A collection of my favourite animations, created using Procreate and my trusty old iPad!</p>
 
-    <div class="row">
-      <div class="column">
+    <main>
+      <div class="card">
         <img src="./assets/gifs/boxes.gif" title="Boxes" alt="Boxes"/>
       </div>
-      <div class="column">
+      <div class="card">
         <img src="./assets/gifs/fish-bowl.gif" title="Fish bowl" alt="Fish bowl"/>
       </div>
-      <div class="column">
+      <div class="card">
         <img src="./assets/gifs/infinity.gif" title="Infinity" alt="Infinity"/>
       </div>
-      <div class="column">
+      <div class="card">
         <img src="./assets/gifs/newtons-cradle.gif" title="Newton's cradle" alt="Newton's cradle"/>
       </div>
-    </div>
+    </main>
+
   </div>
 
   <script src="./app.js"></script>
