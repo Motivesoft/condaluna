@@ -36,17 +36,30 @@
         </ul>
       </div>
     </nav>
+
+    <style>
+      main {
+        display: grid;
+        grid-template-columns: repeat( auto-fill, minmax( 200px, 1fr ) );
+        grid-gap: 1rem;
+      }
+
+      .card img {
+        width: 100%;
+      }    
+    </style>
   </header>
 
   <div class="body">
     <h1>Wallpapers</h1>
     <p>Illustrated wallpapers for your phone!</p>
 
-    <div class="row">
-      <div class="column">
+    <main>
+      <div class="card">
         <img src="./assets/wallpapers/space-balloons.png" title="Space Balloons" alt="Space Balloons"/>
       </div>
-    </div>
+    </main>
+
   </div>
 
   <script src="./app.js"></script>
