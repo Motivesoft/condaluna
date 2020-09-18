@@ -60,7 +60,7 @@
   </url>
   <url>
     <loc>https://condaluna.com</loc>
-    <lastmod>2020-09-17</lastmod>
+    <lastmod>2020-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -81,7 +81,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/index.html</loc>
-    <lastmod>2020-09-17</lastmod>
+    <lastmod>2020-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -102,7 +102,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-09-17</lastmod>
+    <lastmod>2020-09-18</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -122,7 +122,11 @@
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/kisses.gif</image:loc>
-      <image:title>New post</image:title>
+      <image:title>Kisses</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/maracas.gif</image:loc>
+      <image:title>Maracas</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/love-squeeze.gif</image:loc>
