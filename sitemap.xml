@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://condaluna.com/fonts.html</loc>
-    <lastmod>2020-09-17</lastmod>
+    <lastmod>2020-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2020-09-17</lastmod>
+    <lastmod>2020-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -187,7 +187,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/wallpapers.html</loc>
-    <lastmod>2020-09-17</lastmod>
+    <lastmod>2020-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
