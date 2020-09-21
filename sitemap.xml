@@ -165,6 +165,14 @@
       <image:title>JaJaJa</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/impatient.gif</image:loc>
+      <image:title>Impatient</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/angry.gif</image:loc>
+      <image:title>Angry</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/music-headphones.gif</image:loc>
       <image:title>Music</image:title>
     </image:image>
