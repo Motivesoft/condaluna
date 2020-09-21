@@ -60,7 +60,7 @@
   </url>
   <url>
     <loc>https://condaluna.com</loc>
-    <lastmod>2020-09-19</lastmod>
+    <lastmod>2020-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -81,7 +81,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/index.html</loc>
-    <lastmod>2020-09-19</lastmod>
+    <lastmod>2020-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -102,7 +102,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-09-19</lastmod>
+    <lastmod>2020-09-21</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -131,6 +131,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/halloween-pumpkin.gif</image:loc>
       <image:title>Halloween Pumpkin</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/sleepy.gif</image:loc>
+      <image:title>Sleepy</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/love-squeeze.gif</image:loc>
