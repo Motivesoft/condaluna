@@ -80,27 +80,63 @@
     <p>To add them to your Instagram story, go to <i>stickers</i> and type <strong>condaluna</strong> into the search bar. For Facebook stories you’ll find them in the <i>GIF</i> search bar.</p>
 
     <div id="gallery" class="container-fluid">
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/proud-cat.gif" title="Proud Cat" alt="Proud Cat" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/coffee.gif" title="Coffee" alt="Coffee" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/bee-kind.gif" title="Bee Kind" alt="Bee Kind" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/hahaha.gif" title="Ha Ha Ha" alt="Ha Ha Ha" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/jajaja.gif" title="JaJaJa" alt="JaJaJa" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/love-squeeze.gif" title="Love Squeeze" alt="Love Squeeze" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/confetti.gif" title="Confetti" alt="Confetti" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/love-hearts.gif" title="Love Hearts" alt="Love Hearts" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/music-headphones.gif" title="Music" alt="Music" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/kisses.gif" title="Kisses" alt="Kisses" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/maracas.gif" title="Dancing with maracas" alt="Dancing with maracas" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/halloween-pumpkin.gif" title="Halloween Pumpkin" alt="Halloween Pumpkin" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/sleepy.gif" title="Sleepy" alt="Sleepy" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/impatient.gif" title="Impatient" alt="Impatient" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/angry.gif" title="Angry" alt="Angry" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/music.gif" title="Music" alt="Music" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/sleeping-cat.gif" title="Sleeping Cat" alt="Sleeping Cat" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/happy-birthday.gif" title="Happy Birthday" alt="Happy Birthday" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/link-in-bio.gif" title="Link In Bio" alt="Link In Bio" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/new-post.gif" title="New post" alt="New post" onclick="copySourceUrl(event)"/>
-      <img class="card img-responsive" loading="auto" src="./assets/stickers/new-post-flowers.gif" title="New Post" alt="New Post" onclick="copySourceUrl(event)"/>
+      <script>
+      let images=[ 
+        ["./assets/stickers/angry.gif", "Angry"],
+        ["./assets/stickers/bee-kind.gif", "Bee Kind"],
+        ["./assets/stickers/coffee.gif", "Coffee"],
+        ["./assets/stickers/confetti.gif", "Confetti"],
+        ["./assets/stickers/hahaha.gif", "Ha Ha Ha"],
+        ["./assets/stickers/halloween-pumpkin.gif", "Halloween Pumpkin"],
+        ["./assets/stickers/happy-birthday.gif", "Happy Birthday"],
+        ["./assets/stickers/impatient.gif", "Impatient"],
+        ["./assets/stickers/jajaja.gif", "JaJaJa"],
+        ["./assets/stickers/kisses.gif", "Kisses"],
+        ["./assets/stickers/link-in-bio.gif", "Link In Bio"],
+        ["./assets/stickers/love-hearts.gif", "Love Hearts"],
+        ["./assets/stickers/love-squeeze.gif", "Love Squeeze"],
+        ["./assets/stickers/maracas.gif", "Maracas"],
+        ["./assets/stickers/music-headphones.gif", "Music Headphones"],
+        ["./assets/stickers/music.gif", "Music"],
+        ["./assets/stickers/new-post-flowers.gif", "New Post Flowers"],
+        ["./assets/stickers/new-post.gif", "New Post"],
+        ["./assets/stickers/proud-cat.gif", "Proud Cat"],
+        ["./assets/stickers/sleeping-cat.gif", "Sleeping Cat"],
+        ["./assets/stickers/sleepy.gif", "Sleepy"],
+      ];
+      
+      // Shuffle them to show something different at the top each time
+      images.sort(() => Math.random() - 0.5);
+
+      html = "";
+      for( i = 0; i < images.length; i ++ ) {
+        html += "<img class='card img-responsive' loading='eager' src='"+images[i][0]+"' title='"+images[i][1]+"' alt='"+images[i][1]+"' onclick='copySourceUrl(event)'/>;"
+      }
+      document.getElementById("gallery").innerHTML = html;
+      </script>
+      <noscript>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/proud-cat.gif" alt="Proud Cat"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/coffee.gif" alt="Coffee"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/bee-kind.gif" alt="Bee Kind"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/hahaha.gif" alt="Ha Ha Ha"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/jajaja.gif" alt="JaJaJa"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/love-squeeze.gif" alt="Love Squeeze"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/confetti.gif" alt="Confetti"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/love-hearts.gif" alt="Love Hearts"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/music-headphones.gif" alt="Music"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/kisses.gif" alt="Kisses"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/maracas.gif" alt="Dancing with maracas"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/halloween-pumpkin.gif" alt="Halloween Pumpkin"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/sleepy.gif" alt="Sleepy"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/impatient.gif" alt="Impatient"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/angry.gif" alt="Angry"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/music.gif" alt="Music"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/sleeping-cat.gif" alt="Sleeping Cat"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/happy-birthday.gif" alt="Happy Birthday"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/link-in-bio.gif" alt="Link In Bio"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/new-post.gif" alt="New post"/>
+        <img class="card img-responsive" loading="auto" src="./assets/stickers/new-post-flowers.gif" alt="New Post"/>
+      </noscript>
     </div> 
   </div>
   
