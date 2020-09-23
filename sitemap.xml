@@ -181,6 +181,10 @@
       <image:title>Work</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/peekaboo.gif</image:loc>
+      <image:title>Peekaboo!</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/music-headphones.gif</image:loc>
       <image:title>Music</image:title>
     </image:image>
