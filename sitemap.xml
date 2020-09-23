@@ -60,7 +60,7 @@
   </url>
   <url>
     <loc>https://condaluna.com</loc>
-    <lastmod>2020-09-21</lastmod>
+    <lastmod>2020-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -81,7 +81,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/index.html</loc>
-    <lastmod>2020-09-21</lastmod>
+    <lastmod>2020-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -102,7 +102,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-09-21</lastmod>
+    <lastmod>2020-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -171,6 +171,14 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/angry.gif</image:loc>
       <image:title>Angry</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/buffering.gif</image:loc>
+      <image:title>Buffering</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/work.gif</image:loc>
+      <image:title>Work</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/music-headphones.gif</image:loc>

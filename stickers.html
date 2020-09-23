@@ -74,45 +74,49 @@
   </header>
 
   <div class="body">
-    <a href="https://giphy.com/search/condaluna-stickers"><img style="float:right;" src="./assets/social/stickers.png" alt="Condaluna stickers on GIPHY" title="Condaluna stickers on GIPHY"/></a>
+    <a href="https://giphy.com/search/condaluna-stickers">
+      <img style="float:right;" src="./assets/social/stickers.png" alt="Condaluna stickers on GIPHY" title="Condaluna stickers on GIPHY"/>
+    </a>
     <h1>Stickers</h1>
     <p>My stickers are now live on <a href="https://giphy.com/search/condaluna-stickers">GIPHY</a>!</p>
     <p>To add them to your Instagram story, go to <i>stickers</i> and type <strong>condaluna</strong> into the search bar. For Facebook stories you’ll find them in the <i>GIF</i> search bar.</p>
 
     <div id="gallery" class="container-fluid">
       <script>
-      let images=[ 
-        ["./assets/stickers/angry.gif", "Angry"],
-        ["./assets/stickers/bee-kind.gif", "Bee Kind"],
-        ["./assets/stickers/coffee.gif", "Coffee"],
-        ["./assets/stickers/confetti.gif", "Confetti"],
-        ["./assets/stickers/hahaha.gif", "Ha Ha Ha"],
-        ["./assets/stickers/halloween-pumpkin.gif", "Halloween Pumpkin"],
-        ["./assets/stickers/happy-birthday.gif", "Happy Birthday"],
-        ["./assets/stickers/impatient.gif", "Impatient"],
-        ["./assets/stickers/jajaja.gif", "JaJaJa"],
-        ["./assets/stickers/kisses.gif", "Kisses"],
-        ["./assets/stickers/link-in-bio.gif", "Link In Bio"],
-        ["./assets/stickers/love-hearts.gif", "Love Hearts"],
-        ["./assets/stickers/love-squeeze.gif", "Love Squeeze"],
-        ["./assets/stickers/maracas.gif", "Maracas"],
-        ["./assets/stickers/music-headphones.gif", "Music Headphones"],
-        ["./assets/stickers/music.gif", "Music"],
-        ["./assets/stickers/new-post-flowers.gif", "New Post Flowers"],
-        ["./assets/stickers/new-post.gif", "New Post"],
-        ["./assets/stickers/proud-cat.gif", "Proud Cat"],
-        ["./assets/stickers/sleeping-cat.gif", "Sleeping Cat"],
-        ["./assets/stickers/sleepy.gif", "Sleepy"],
-      ];
-      
-      // Shuffle them to show something different at the top each time
-      images.sort(() => Math.random() - 0.5);
+        let images=[ 
+          ["./assets/stickers/angry.gif", "Angry"],
+          ["./assets/stickers/bee-kind.gif", "Bee Kind"],
+          ["./assets/stickers/coffee.gif", "Coffee"],
+          ["./assets/stickers/confetti.gif", "Confetti"],
+          ["./assets/stickers/hahaha.gif", "Ha Ha Ha"],
+          ["./assets/stickers/halloween-pumpkin.gif", "Halloween Pumpkin"],
+          ["./assets/stickers/happy-birthday.gif", "Happy Birthday"],
+          ["./assets/stickers/impatient.gif", "Impatient"],
+          ["./assets/stickers/jajaja.gif", "JaJaJa"],
+          ["./assets/stickers/kisses.gif", "Kisses"],
+          ["./assets/stickers/link-in-bio.gif", "Link In Bio"],
+          ["./assets/stickers/love-hearts.gif", "Love Hearts"],
+          ["./assets/stickers/love-squeeze.gif", "Love Squeeze"],
+          ["./assets/stickers/maracas.gif", "Maracas"],
+          ["./assets/stickers/music-headphones.gif", "Music Headphones"],
+          ["./assets/stickers/music.gif", "Music"],
+          ["./assets/stickers/new-post-flowers.gif", "New Post Flowers"],
+          ["./assets/stickers/new-post.gif", "New Post"],
+          ["./assets/stickers/proud-cat.gif", "Proud Cat"],
+          ["./assets/stickers/sleeping-cat.gif", "Sleeping Cat"],
+          ["./assets/stickers/sleepy.gif", "Sleepy"],
+          ["./assets/stickers/work.gif", "Work"],
+          ["./assets/stickers/buffering.gif", "Buffering"],
+        ];
+        
+        // Shuffle them to show something different at the top each time
+        images.sort(() => Math.random() - 0.5);
 
-      html = "";
-      for( i = 0; i < images.length; i ++ ) {
-        html += "<img class='card img-responsive' src='"+images[i][0]+"' title='"+images[i][1]+"' alt='"+images[i][1]+"' onclick='copySourceUrl(event)'/>"
-      }
-      document.getElementById("gallery").innerHTML = html;
+        html = "";
+        for( i = 0; i < images.length; i ++ ) {
+          html += "<img class='card img-responsive' src='"+images[i][0]+"' title='"+images[i][1]+"' alt='"+images[i][1]+"' onclick='copySourceUrl(event)'/>"
+        }
+        document.getElementById("gallery").innerHTML = html;
       </script>
       <noscript>
         <img class="card img-responsive" src="./assets/stickers/proud-cat.gif" alt="Proud Cat"/>
