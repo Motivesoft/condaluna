@@ -185,6 +185,10 @@
       <image:title>Peekaboo!</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/hearts.gif</image:loc>
+      <image:title>Hearts and Sparkles</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/music-headphones.gif</image:loc>
       <image:title>Music</image:title>
     </image:image>
