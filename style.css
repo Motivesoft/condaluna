@@ -169,39 +169,6 @@ h2 {
   background-color: grey;
 }
 
-@media (max-width: 640px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .toggle-button {
-    display: flex;
-  }
-
-  .navbar-links {
-    display: none;
-    width: 100%;
-  }
-
-  .navbar-links ul {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .navbar-links ul li {
-    text-align: center;
-  }
-
-  .navbar-links ul li a {
-    padding: 1rem 1rem;
-  }
-
-  .navbar-links.active {
-    display: flex;
-  }
-}
-
 /* The snackbar - position it at the bottom and in the middle of the screen */
 #copyMessage {
   visibility: hidden; /* Hidden by default. Visible on click */
@@ -235,3 +202,36 @@ h2 {
   from {opacity: 1;}
   to {opacity: 0;}
 }    
+
+@media (max-width: 640px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+  }
+
+  .navbar-links ul li a {
+    padding: 1rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+}
