@@ -119,7 +119,7 @@ h2 {
 .navbar-links ul {
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 5px 0px;
 }
 
 .navbar-links li {
