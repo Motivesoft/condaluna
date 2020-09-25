@@ -16,15 +16,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <style>
-    main {
-      display: grid;
-      grid-template-columns: repeat( auto-fill, minmax( 200px, 1fr ) );
-      grid-gap: 1rem;
+    #gallery{
+      column-count: 4;
+    }
+
+    @media (max-width:880px) {
+      #gallery {
+        column-count: 3;
+      }
+    }
+
+    @media (max-width:760px) {
+      #gallery {
+        column-count: 2;
+      }
+    }
+
+    @media (max-width:640px) {
+      #gallery {
+        column-count: 1;
+      }
     }
 
     .card img {
       width: 100%;
-    }    
+      height: auto;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 
@@ -54,11 +72,11 @@
     <h1>Wallpapers</h1>
     <p>Illustrated wallpapers for your phone!</p>
 
-    <main>
+    <div id="gallery" class="container-fluid">
       <div class="card">
         <img src="./assets/wallpapers/space-balloons.png" loading="auto" title="Space Balloons" alt="Space Balloons" onclick="copySourceUrl(event)"/>
       </div>
-    </main>
+    </div>
   
     <div id="copyMessage">Source URL copied to clipboard.</div>
   </div>
