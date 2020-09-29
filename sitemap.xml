@@ -233,6 +233,22 @@
       <image:title>Wow</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/yes.gif</image:loc>
+      <image:title>Yes!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/amazing.gif</image:loc>
+      <image:title>Amazing!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/three-hearts.gif</image:loc>
+      <image:title>Hearts</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/love.gif</image:loc>
+      <image:title>Love</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/social/instagram-round.png</image:loc>
       <image:title>catherinebrown666 on Instagram</image:title>
     </image:image>
