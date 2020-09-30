@@ -102,7 +102,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-09-28</lastmod>
+    <lastmod>2020-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -247,6 +247,22 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/love.gif</image:loc>
       <image:title>Love</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/new.gif</image:loc>
+      <image:title>New!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/happy.gif</image:loc>
+      <image:title>Happy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/yay.gif</image:loc>
+      <image:title>Yay!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/cool-beans.gif</image:loc>
+      <image:title>Cool Beans</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/social/instagram-round.png</image:loc>
