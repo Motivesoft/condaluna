@@ -1,5 +1,5 @@
 
-$L = Import-Csv -Path .\assets\scripts\sticker-list.csv | Sort-Object -Property Title
+$L = Import-Csv -Path .\assets\scripts\sticker-list.csv | Sort-Object -Property File
 
 Write-Output "** <noscript>"
 $L | ForEach-Object {
