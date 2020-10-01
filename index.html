@@ -71,9 +71,9 @@
         "./assets/stickers/breathe.gif",
         "./assets/stickers/writing.gif",
       ];
-      // i = Math.floor(Math.random() * lunas.length);
-      // Slightly quirky way to create a random index into the list of lunas
-      i = Date.now() % lunas.length;
+
+      // Generate a random index into the list of lunas and display it
+      i = Math.floor( Math.random() * lunas.length );
       document.getElementById("randomluna").innerHTML = "<img src='" + lunas[ i ]+ "' style='float: right; width: max(25%, 150px); height: auto;' title='luna'></img>";
     </script>
     <p>I love drawing and doodling, and I create digital illustrations, GIFs, wallpapers, fonts and digital stickers.</p>
