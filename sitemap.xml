@@ -127,7 +127,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-10-01</lastmod>
+    <lastmod>2020-10-02</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -166,24 +166,40 @@
       <image:title>Buffering</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/chalk-arrow.gif</image:loc>
+      <image:title>Chalk Arrow</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/chalk-heart.gif</image:loc>
+      <image:title>Chalk Heart</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/coffee.gif</image:loc>
       <image:title>Coffee</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/coffee-cup.gif</image:loc>
+      <image:title>Coffee Cup</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/coffee-cup.gif</image:loc>
+      <image:title>Coffee Cup</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/confetti.gif</image:loc>
       <image:title>Confetti</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://condaluna.com/assets/stickers/cool-beans.gif</image:loc>
-      <image:title>Cool Beans</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/cool.gif</image:loc>
       <image:title>Cool!</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://condaluna.com/assets/stickers/maracas.gif</image:loc>
-      <image:title>Dancing with maracas</image:title>
+      <image:loc>https://condaluna.com/assets/stickers/cool-beans.gif</image:loc>
+      <image:title>Cool Beans</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/flower-explosion.gif</image:loc>
+      <image:title>Flower Explosion</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/hahaha.gif</image:loc>
@@ -202,10 +218,6 @@
       <image:title>Happy Birthday</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://condaluna.com/assets/stickers/three-hearts.gif</image:loc>
-      <image:title>Hearts</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/hearts.gif</image:loc>
       <image:title>Hearts and Sparkles</image:title>
     </image:image>
@@ -222,11 +234,11 @@
       <image:title>Kisses</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://condaluna.com/assets/stickers/link-in-bio-anim.gif</image:loc>
+      <image:loc>https://condaluna.com/assets/stickers/link-in-bio.gif</image:loc>
       <image:title>Link In Bio</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://condaluna.com/assets/stickers/link-in-bio.gif</image:loc>
+      <image:loc>https://condaluna.com/assets/stickers/link-in-bio-anim.gif</image:loc>
       <image:title>Link In Bio</image:title>
     </image:image>
     <image:image>
@@ -242,12 +254,24 @@
       <image:title>Love Squeeze</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/love-this.gif</image:loc>
+      <image:title>Love This!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/maracas.gif</image:loc>
+      <image:title>Dancing with maracas</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/music.gif</image:loc>
       <image:title>Music</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/music-headphones.gif</image:loc>
       <image:title>Music</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/new.gif</image:loc>
+      <image:title>New!</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/new-post.gif</image:loc>
@@ -258,8 +282,8 @@
       <image:title>New Post</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://condaluna.com/assets/stickers/new.gif</image:loc>
-      <image:title>New!</image:title>
+      <image:loc>https://condaluna.com/assets/stickers/on-a-coffee-break.gif</image:loc>
+      <image:title>On a Coffee Break</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/peekaboo.gif</image:loc>
@@ -290,12 +314,12 @@
       <image:title>Thank You</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://condaluna.com/assets/stickers/virtual-hugs.gif</image:loc>
-      <image:title>Virtual Hugs</image:title>
+      <image:loc>https://condaluna.com/assets/stickers/three-hearts.gif</image:loc>
+      <image:title>Hearts</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://condaluna.com/assets/stickers/washi-tape-3.gif</image:loc>
-      <image:title>Washi Tape</image:title>
+      <image:loc>https://condaluna.com/assets/stickers/virtual-hugs.gif</image:loc>
+      <image:title>Virtual Hugs</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/washi-tape-1.gif</image:loc>
@@ -303,6 +327,10 @@
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/washi-tape-2.gif</image:loc>
+      <image:title>Washi Tape</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/washi-tape-3.gif</image:loc>
       <image:title>Washi Tape</image:title>
     </image:image>
     <image:image>
