@@ -182,10 +182,6 @@
       <image:title>Coffee Cup</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://condaluna.com/assets/stickers/coffee-cup.gif</image:loc>
-      <image:title>Coffee Cup</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/confetti.gif</image:loc>
       <image:title>Confetti</image:title>
     </image:image>
@@ -260,6 +256,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/maracas.gif</image:loc>
       <image:title>Dancing with maracas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/migo-friday.gif</image:loc>
+      <image:title>Friday!</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/music.gif</image:loc>

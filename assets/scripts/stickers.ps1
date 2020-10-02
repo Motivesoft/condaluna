@@ -7,8 +7,9 @@ Write-Output "** <noscript>"
 $L | ForEach-Object {
     $File = $_.File
     $Title = $_.Title
+    $Background = $_.Background
 
-    Write-Output "        <img class='noscript-card' src='./$File' alt='$Title'/>"
+    Write-Output "        <img class='noscript-card' style='background: $Background;' src='./$File' alt='$Title'/>"
 }
 
 # Write the list of image array entries for stickers.html
@@ -16,8 +17,9 @@ Write-Output "** images[]"
 $L | ForEach-Object {
     $File = $_.File
     $Title = $_.Title
+    $Background = $_.Background
 
-    Write-Output "          [ './$File', '$Title' ], "
+    Write-Output "          [ './$File', '$Title', '$Background' ], "
 }
 
 # Write the list of image values for the stickers.html section in sitemap.xml
