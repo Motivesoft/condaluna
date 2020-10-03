@@ -154,6 +154,10 @@
       <image:title>Angry</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/animated-arrow.gif</image:loc>
+      <image:title>Arrow</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/bee-kind.gif</image:loc>
       <image:title>Bee Kind</image:title>
     </image:image>
@@ -290,10 +294,6 @@
       <image:title>Peekaboo!</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://condaluna.com/assets/stickers/star.gif</image:loc>
-      <image:title>Star</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/proud-cat.gif</image:loc>
       <image:title>Proud Cat</image:title>
     </image:image>
@@ -310,12 +310,20 @@
       <image:title>Sparkles and Hearts</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/star.gif</image:loc>
+      <image:title>Star</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/stars-and-sparkles.gif</image:loc>
       <image:title>Stars and Sparkles</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/thank-you.gif</image:loc>
       <image:title>Thank You</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/thank-you-pling.gif</image:loc>
+      <image:title>Thank you</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/three-hearts.gif</image:loc>
