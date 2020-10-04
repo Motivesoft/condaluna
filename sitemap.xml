@@ -127,7 +127,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-10-02</lastmod>
+    <lastmod>2020-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -156,6 +156,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/animated-arrow.gif</image:loc>
       <image:title>Arrow</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/bats.gif</image:loc>
+      <image:title>Bats!</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/bee-kind.gif</image:loc>
@@ -202,6 +206,14 @@
       <image:title>Flower Explosion</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/followers-1.gif</image:loc>
+      <image:title>I Love My Followers</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/followers-2.gif</image:loc>
+      <image:title>I Love My Followers</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/hahaha.gif</image:loc>
       <image:title>Ha Ha Ha</image:title>
     </image:image>
@@ -215,6 +227,10 @@
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/happy-birthday.gif</image:loc>
+      <image:title>Happy Birthday</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/happy-birthday-2.gif</image:loc>
       <image:title>Happy Birthday</image:title>
     </image:image>
     <image:image>
@@ -298,6 +314,10 @@
       <image:title>Proud Cat</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/pumpkin.gif</image:loc>
+      <image:title>Pumpkin</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/sleeping-cat.gif</image:loc>
       <image:title>Sleeping Cat</image:title>
     </image:image>
@@ -328,6 +348,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/three-hearts.gif</image:loc>
       <image:title>Hearts</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/trick-or-treat.gif</image:loc>
+      <image:title>Trick Or Treat</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/virtual-hugs.gif</image:loc>
