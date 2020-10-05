@@ -90,7 +90,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2020-09-25</lastmod>
+    <lastmod>2020-10-05</lastmod>
     <changefreq>monthly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -123,6 +123,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/newtons-cradle.gif</image:loc>
       <image:title>Newton's cradle</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/I love digital art!.gif</image:loc>
+      <image:title>I love digital art!</image:title>
     </image:image>
   </url>
   <url>
@@ -240,6 +244,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/i-drew-this.gif</image:loc>
       <image:title>I Drew This!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/i-love-digital-art.gif</image:loc>
+      <image:title>I Love Digital Art!</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/impatient.gif</image:loc>
