@@ -366,6 +366,10 @@
       <image:title>Trick Or Treat</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/twinkles.gif</image:loc>
+      <image:title>Twinkles</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/virtual-hugs.gif</image:loc>
       <image:title>Virtual Hugs</image:title>
     </image:image>
