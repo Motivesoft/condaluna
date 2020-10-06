@@ -148,6 +148,7 @@
           [ './assets/stickers/writing.gif', 'Writing', '#fff' ], 
           [ './assets/stickers/yay.gif', 'Yay!', '#fff' ], 
           [ './assets/stickers/yes.gif', 'Yes!', '#000' ], 
+          [ './assets/stickers/yummy.gif', 'Yummy!', '#000' ], 
         ];
         
         // Shuffle them to show something different at the top each time
@@ -156,7 +157,7 @@
         html = "";
         for( i = 0; i < images.length; i ++ ) {
           html += "<div class='card'>"
-          html += "  <img src='"+images[i][0]+"' loading='auto' title='"+images[i][1]+"' alt='"+images[i][1]+"' style='background: "+images[i][2]+";' onclick='copySourceUrl(event)'/>"
+          html += "  <img src='"+images[i][0]+"' loading='auto' alt='"+images[i][1]+"' style='background: "+images[i][2]+";' onclick='copySourceUrl(event)'/>"
           html += "</div>"
         }
         document.getElementById("gallery").innerHTML = html;
@@ -226,6 +227,7 @@
         <img class='noscript-card' loading='auto' style='background: #fff;' src='./assets/stickers/writing.gif' alt='Writing'/>
         <img class='noscript-card' loading='auto' style='background: #fff;' src='./assets/stickers/yay.gif' alt='Yay!'/>
         <img class='noscript-card' loading='auto' style='background: #000;' src='./assets/stickers/yes.gif' alt='Yes!'/>
+        <img class='noscript-card' loading='auto' style='background: #000;' src='./assets/stickers/yummy.gif' alt='Yummy!'/>
       </noscript>
     </div> 
     

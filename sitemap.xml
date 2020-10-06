@@ -131,8 +131,8 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-10-05</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2020-10-06</lastmod>
+    <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
       <image:title>@condaluna.com logo</image:title>
@@ -404,6 +404,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/yes.gif</image:loc>
       <image:title>Yes!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/yummy.gif</image:loc>
+      <image:title>Yummy!</image:title>
     </image:image>
   </url>
 </urlset>
