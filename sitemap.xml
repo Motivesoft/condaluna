@@ -238,6 +238,10 @@
       <image:title>Happy Birthday</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/heart-bubble.gif</image:loc>
+      <image:title>Love</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/hearts.gif</image:loc>
       <image:title>Hearts and Sparkles</image:title>
     </image:image>
@@ -408,6 +412,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/yummy.gif</image:loc>
       <image:title>Yummy!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/yummy-2.gif</image:loc>
+      <image:title></image:title>
     </image:image>
   </url>
 </urlset>
