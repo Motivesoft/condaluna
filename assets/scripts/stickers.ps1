@@ -19,7 +19,7 @@ $L | ForEach-Object {
     $Title = $_.Title
     $Background = $_.Background
 
-    Write-Output "        <img class='noscript-card' loading='auto' style='background: $Background;' src='./$File' alt='$Title'/>"
+    Write-Output "        <img class='noscript-card' loading='auto' style='background: $Background;' src='./$File' title='$Title' alt='$Title'/>"
 }
 
 # Write the list of image values for the stickers.html section in sitemap.xml
