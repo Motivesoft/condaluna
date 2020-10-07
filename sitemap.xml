@@ -150,6 +150,10 @@
       <image:title>CatCondaluna on Twitter</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/10-out-of-10.gif</image:loc>
+      <image:title>10/10</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/amazing.gif</image:loc>
       <image:title>Amazing!</image:title>
     </image:image>
@@ -204,6 +208,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/cool-beans.gif</image:loc>
       <image:title>Cool Beans</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/flower.gif</image:loc>
+      <image:title>Flower</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/flower-explosion.gif</image:loc>
@@ -415,7 +423,7 @@
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/yummy-2.gif</image:loc>
-      <image:title></image:title>
+      <image:title>Yummy!</image:title>
     </image:image>
   </url>
 </urlset>
