@@ -83,80 +83,80 @@
 
     <div id="gallery" class="container-fluid">
       <script>
-        let images=[ 
-        [ './assets/stickers/10-out-of-10.gif', '10/10', '#000' ], 
-          [ './assets/stickers/amazing.gif', 'Amazing!', '#000' ], 
-          [ './assets/stickers/angry.gif', 'Angry', '#fff' ], 
-          [ './assets/stickers/animated-arrow.gif', 'Arrow', '#000' ], 
-          [ './assets/stickers/bats.gif', 'Bats!', '#fff' ], 
-          [ './assets/stickers/bee-kind.gif', 'Bee Kind', '#fff' ], 
-          [ './assets/stickers/breathe.gif', 'Breathe', '#fff' ], 
-          [ './assets/stickers/buffering.gif', 'Buffering', '#fff' ], 
-          [ './assets/stickers/chalk-arrow.gif', 'Chalk Arrow', '#000' ], 
-          [ './assets/stickers/chalk-heart.gif', 'Chalk Heart', '#000' ], 
-          [ './assets/stickers/coffee.gif', 'Coffee', '#fff' ], 
-          [ './assets/stickers/coffee-cup.gif', 'Coffee Cup', '#000' ], 
-          [ './assets/stickers/confetti.gif', 'Confetti', '#fff' ], 
-          [ './assets/stickers/cool.gif', 'Cool!', '#fff' ], 
-          [ './assets/stickers/cool-beans.gif', 'Cool Beans', '#fff' ], 
-          [ './assets/stickers/donut.gif', 'Yummy Donut!', '#000' ], 
-          [ './assets/stickers/flower.gif', 'Flower', '#fff' ], 
-          [ './assets/stickers/flower-explosion.gif', 'Flower Explosion', '#fff' ], 
-          [ './assets/stickers/followers-1.gif', 'I Love My Followers', '#fff' ], 
-          [ './assets/stickers/followers-2.gif', 'I Love My Followers', '#000' ], 
-          [ './assets/stickers/ghost.gif', 'Ghost', '#000' ], 
-          [ './assets/stickers/hahaha.gif', 'Ha Ha Ha', '#fff' ], 
-          [ './assets/stickers/halloween-pumpkin.gif', 'Halloween Pumpkin', '#fff' ], 
-          [ './assets/stickers/happy.gif', 'Happy', '#fff' ], 
-          [ './assets/stickers/happy-birthday.gif', 'Happy Birthday', '#fff' ], 
-          [ './assets/stickers/happy-birthday-2.gif', 'Happy Birthday', '#fff' ], 
-          [ './assets/stickers/heart-bubble.gif', 'Love', '#fff' ], 
-          [ './assets/stickers/hearts.gif', 'Hearts and Sparkles', '#fff' ], 
-          [ './assets/stickers/hola.gif', 'Hola', '#000' ], 
-          [ './assets/stickers/i-drew-this.gif', 'I Drew This!', '#000' ], 
-          [ './assets/stickers/i-love-digital-art.gif', 'I Love Digital Art!', '#000' ], 
-          [ './assets/stickers/impatient.gif', 'Impatient', '#fff' ], 
-          [ './assets/stickers/jajaja.gif', 'JaJaJa', '#fff' ], 
-          [ './assets/stickers/kisses.gif', 'Kisses', '#fff' ], 
-          [ './assets/stickers/link-in-bio.gif', 'Link In Bio', '#fff' ], 
-          [ './assets/stickers/link-in-bio-anim.gif', 'Link In Bio', '#fff' ], 
-          [ './assets/stickers/love.gif', 'Love', '#fff' ], 
-          [ './assets/stickers/love-hearts.gif', 'Love Hearts', '#fff' ], 
-          [ './assets/stickers/love-squeeze.gif', 'Love Squeeze', '#fff' ], 
-          [ './assets/stickers/love-this.gif', 'Love This!', '#fff' ], 
-          [ './assets/stickers/maracas.gif', 'Dancing with maracas', '#fff' ], 
-          [ './assets/stickers/migo-friday.gif', 'Friday!', '#000' ], 
-          [ './assets/stickers/music.gif', 'Music', '#fff' ], 
-          [ './assets/stickers/music-headphones.gif', 'Music', '#fff' ], 
-          [ './assets/stickers/new.gif', 'New!', '#fff' ], 
-          [ './assets/stickers/new-post.gif', 'New post', '#fff' ], 
-          [ './assets/stickers/new-post-flowers.gif', 'New Post', '#fff' ], 
-          [ './assets/stickers/on-a-coffee-break.gif', 'On a Coffee Break', '#000' ], 
-          [ './assets/stickers/peekaboo.gif', 'Peekaboo!', '#fff' ], 
-          [ './assets/stickers/proud-cat.gif', 'Proud Cat', '#fff' ], 
-          [ './assets/stickers/pumpkin.gif', 'Pumpkin', '#fff' ], 
-          [ './assets/stickers/raining-hearts.gif', 'Raining Hearts!', '#000' ], 
-          [ './assets/stickers/sleeping-cat.gif', 'Sleeping Cat', '#fff' ], 
-          [ './assets/stickers/sleepy.gif', 'Sleepy', '#fff' ], 
-          [ './assets/stickers/sparkles.gif', 'Sparkles and Hearts', '#fff' ], 
-          [ './assets/stickers/star.gif', 'Star', '#000' ], 
-          [ './assets/stickers/stars-and-sparkles.gif', 'Stars and Sparkles', '#000' ], 
-          [ './assets/stickers/thank-you.gif', 'Thank You', '#fff' ], 
-          [ './assets/stickers/thank-you-pling.gif', 'Thank you', '#fff' ], 
-          [ './assets/stickers/three-hearts.gif', 'Hearts', '#fff' ], 
-          [ './assets/stickers/trick-or-treat.gif', 'Trick Or Treat', '#000' ], 
-          [ './assets/stickers/twinkles.gif', 'Twinkles', '#000' ], 
-          [ './assets/stickers/virtual-hugs.gif', 'Virtual Hugs', '#000' ], 
-          [ './assets/stickers/washi-tape-1.gif', 'Washi Tape', '#fff' ], 
-          [ './assets/stickers/washi-tape-2.gif', 'Washi Tape', '#fff' ], 
-          [ './assets/stickers/washi-tape-3.gif', 'Washi Tape', '#fff' ], 
-          [ './assets/stickers/work.gif', 'Work', '#fff' ], 
-          [ './assets/stickers/wow.gif', 'Wow!', '#fff' ], 
-          [ './assets/stickers/writing.gif', 'Writing', '#fff' ], 
-          [ './assets/stickers/yay.gif', 'Yay!', '#fff' ], 
-          [ './assets/stickers/yes.gif', 'Yes!', '#000' ], 
-          [ './assets/stickers/yummy.gif', 'Yummy!', '#fff' ], 
-          [ './assets/stickers/yummy-2.gif', 'Yummy!', '#000' ], 
+        let images=[
+          [ './assets/stickers/10-out-of-10.gif', '10/10', '#000' ],
+          [ './assets/stickers/amazing.gif', 'Amazing!', '#000' ],
+          [ './assets/stickers/angry.gif', 'Angry', '#fff' ],
+          [ './assets/stickers/animated-arrow.gif', 'Arrow', '#000' ],
+          [ './assets/stickers/bats.gif', 'Bats!', '#fff' ],
+          [ './assets/stickers/bee-kind.gif', 'Bee Kind', '#fff' ],
+          [ './assets/stickers/breathe.gif', 'Breathe', '#fff' ],
+          [ './assets/stickers/buffering.gif', 'Buffering', '#fff' ],
+          [ './assets/stickers/chalk-arrow.gif', 'Chalk Arrow', '#000' ],
+          [ './assets/stickers/chalk-heart.gif', 'Chalk Heart', '#000' ],
+          [ './assets/stickers/coffee.gif', 'Coffee', '#fff' ],
+          [ './assets/stickers/coffee-cup.gif', 'Coffee Cup', '#000' ],
+          [ './assets/stickers/confetti.gif', 'Confetti', '#fff' ],
+          [ './assets/stickers/cool.gif', 'Cool!', '#fff' ],
+          [ './assets/stickers/cool-beans.gif', 'Cool Beans', '#fff' ],
+          [ './assets/stickers/donut.gif', 'Yummy Donut!', '#000' ],
+          [ './assets/stickers/flower.gif', 'Flower', '#fff' ],
+          [ './assets/stickers/flower-explosion.gif', 'Flower Explosion', '#fff' ],
+          [ './assets/stickers/followers-1.gif', 'I Love My Followers', '#fff' ],
+          [ './assets/stickers/followers-2.gif', 'I Love My Followers', '#000' ],
+          [ './assets/stickers/ghost.gif', 'Ghost', '#000' ],
+          [ './assets/stickers/hahaha.gif', 'Ha Ha Ha', '#fff' ],
+          [ './assets/stickers/halloween-pumpkin.gif', 'Halloween Pumpkin', '#fff' ],
+          [ './assets/stickers/happy.gif', 'Happy', '#fff' ],
+          [ './assets/stickers/happy-birthday.gif', 'Happy Birthday', '#fff' ],
+          [ './assets/stickers/happy-birthday-2.gif', 'Happy Birthday', '#fff' ],
+          [ './assets/stickers/heart-bubble.gif', 'Love', '#fff' ],
+          [ './assets/stickers/hearts.gif', 'Hearts and Sparkles', '#fff' ],
+          [ './assets/stickers/hola.gif', 'Hola', '#000' ],
+          [ './assets/stickers/i-drew-this.gif', 'I Drew This!', '#000' ],
+          [ './assets/stickers/i-love-digital-art.gif', 'I Love Digital Art!', '#000' ],
+          [ './assets/stickers/impatient.gif', 'Impatient', '#fff' ],
+          [ './assets/stickers/jajaja.gif', 'JaJaJa', '#fff' ],
+          [ './assets/stickers/kisses.gif', 'Kisses', '#fff' ],
+          [ './assets/stickers/link-in-bio.gif', 'Link In Bio', '#fff' ],
+          [ './assets/stickers/link-in-bio-anim.gif', 'Link In Bio', '#fff' ],
+          [ './assets/stickers/love.gif', 'Love', '#fff' ],
+          [ './assets/stickers/love-hearts.gif', 'Love Hearts', '#fff' ],
+          [ './assets/stickers/love-squeeze.gif', 'Love Squeeze', '#fff' ],
+          [ './assets/stickers/love-this.gif', 'Love This!', '#fff' ],
+          [ './assets/stickers/maracas.gif', 'Dancing with maracas', '#fff' ],
+          [ './assets/stickers/migo-friday.gif', 'Friday!', '#000' ],
+          [ './assets/stickers/music.gif', 'Music', '#fff' ],
+          [ './assets/stickers/music-headphones.gif', 'Music', '#fff' ],
+          [ './assets/stickers/new.gif', 'New!', '#fff' ],
+          [ './assets/stickers/new-post.gif', 'New post', '#fff' ],
+          [ './assets/stickers/new-post-flowers.gif', 'New Post', '#fff' ],
+          [ './assets/stickers/on-a-coffee-break.gif', 'On a Coffee Break', '#000' ],
+          [ './assets/stickers/peekaboo.gif', 'Peekaboo!', '#fff' ],
+          [ './assets/stickers/proud-cat.gif', 'Proud Cat', '#fff' ],
+          [ './assets/stickers/pumpkin.gif', 'Pumpkin', '#fff' ],
+          [ './assets/stickers/raining-hearts.gif', 'Raining Hearts!', '#000' ],
+          [ './assets/stickers/sleeping-cat.gif', 'Sleeping Cat', '#fff' ],
+          [ './assets/stickers/sleepy.gif', 'Sleepy', '#fff' ],
+          [ './assets/stickers/sparkles.gif', 'Sparkles and Hearts', '#fff' ],
+          [ './assets/stickers/star.gif', 'Star', '#000' ],
+          [ './assets/stickers/stars-and-sparkles.gif', 'Stars and Sparkles', '#000' ],
+          [ './assets/stickers/thank-you.gif', 'Thank You', '#fff' ],
+          [ './assets/stickers/thank-you-pling.gif', 'Thank you', '#fff' ],
+          [ './assets/stickers/three-hearts.gif', 'Hearts', '#fff' ],
+          [ './assets/stickers/trick-or-treat.gif', 'Trick Or Treat', '#000' ],
+          [ './assets/stickers/twinkles.gif', 'Twinkles', '#000' ],
+          [ './assets/stickers/virtual-hugs.gif', 'Virtual Hugs', '#000' ],
+          [ './assets/stickers/washi-tape-1.gif', 'Washi Tape', '#fff' ],
+          [ './assets/stickers/washi-tape-2.gif', 'Washi Tape', '#fff' ],
+          [ './assets/stickers/washi-tape-3.gif', 'Washi Tape', '#fff' ],
+          [ './assets/stickers/work.gif', 'Work', '#fff' ],
+          [ './assets/stickers/wow.gif', 'Wow!', '#fff' ],
+          [ './assets/stickers/writing.gif', 'Writing', '#fff' ],
+          [ './assets/stickers/yay.gif', 'Yay!', '#fff' ],
+          [ './assets/stickers/yes.gif', 'Yes!', '#000' ],
+          [ './assets/stickers/yummy.gif', 'Yummy!', '#fff' ],
+          [ './assets/stickers/yummy-2.gif', 'Yummy!', '#000' ],
         ];
         
         // Shuffle them to show something different at the top each time
@@ -170,7 +170,7 @@
         }
         document.getElementById("gallery").innerHTML = html;
       </script>
-      <noscript>
+      <noscript id='stickers'>
         <img class='noscript-card' loading='auto' style='background: #000;' src='./assets/stickers/10-out-of-10.gif' title='10/10' alt='10/10'/>
         <img class='noscript-card' loading='auto' style='background: #000;' src='./assets/stickers/amazing.gif' title='Amazing!' alt='Amazing!'/>
         <img class='noscript-card' loading='auto' style='background: #fff;' src='./assets/stickers/angry.gif' title='Angry' alt='Angry'/>
@@ -245,32 +245,6 @@
         <img class='noscript-card' loading='auto' style='background: #fff;' src='./assets/stickers/yummy.gif' title='Yummy!' alt='Yummy!'/>
         <img class='noscript-card' loading='auto' style='background: #000;' src='./assets/stickers/yummy-2.gif' title='Yummy!' alt='Yummy!'/>
       </noscript>
-    </div> 
-    
-    <div id="copyMessage">Source URL copied to clipboard.</div>
-  </div>
-
-  <script src="./app.js"></script>
-
-  <!-- Footer -->
-  <div class="footer">
-    <footer>
-      <div class="social">
-        <a href="https://giphy.com/condaluna">
-          <img src="./assets/social/giphy-round.png" title="Condaluna on GIPHY" alt="Condaluna on GIPHY"/>
-        </a>
-        <a href="https://www.facebook.com/CondalunaArt">
-          <img src="./assets/social/facebook-round.png" title="CondalunaArt on Facebook" alt="CondalunaArt on Facebook"/>
-        </a>
-        <a href="https://twitter.com/CatCondaluna">
-          <img src="./assets/social/twitter-round.png" title="CatCondaluna on Twitter" alt="CatCondaluna on Twitter"/>
-        </a>
-        <a href="https://www.instagram.com/catherinebrown666">
-          <img src="./assets/social/instagram-round.png" title="catherinebrown666 on Instagram" alt="catherinebrown666 on Instagram"/>
-        </a>
-      </div>
-      <div id="footer">
-        <noscript>Copyright &copy; 2020 Catherine Brown.</noscript>
       </div>
       <script>
         originYear = "2020";
