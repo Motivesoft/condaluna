@@ -4,48 +4,67 @@ $L = Import-Csv -Path .\assets\scripts\sticker-list.csv | Sort-Object -Property 
 
 # Write the list of image array entries for stickers.html
 $imagesArray=""
-Write-Output "** images[]"
-Write-Output "        let images=["
+Write-Output "--Image array"
 $L | ForEach-Object {
     $File = $_.File
     $Title = $_.Title
     $Background = $_.Background
 
-    #Write-Output "          [ './$File', '$Title', '$Background' ],"
     $imagesArray = $imagesArray + "`r`n          [ './$File', '$Title', '$Background' ],"
 }
-Write-Output "        ];"
 
 # Write the list of img values for the no-script scenario in stickers.html
 $imagesNoscript=""
-Write-Output "** <noscript>"
+Write-Output "--Noscript entries"
 $L | ForEach-Object {
     $File = $_.File
     $Title = $_.Title
     $Background = $_.Background
 
-    #Write-Output "        <img class='noscript-card' loading='auto' style='background: $Background;' src='./$File' title='$Title' alt='$Title'/>"
     $imagesNoscript = $imagesNoscript + "`r`n        <img class='noscript-card' loading='auto' style='background: $Background;' src='./$File' title='$Title' alt='$Title'/>"
 }
 
 # Write the list of image values for the stickers.html section in sitemap.xml
-Write-Output "** <sitemap>"
+$pageEntries=""
+Write-Output "--Sitemap entries"
 $L | ForEach-Object {
     $File = $_.File
     $Title = $_.Title
 
-    Write-Output "    <image:image>"
-    Write-Output "      <image:loc>https://condaluna.com/$File</image:loc>"
-    Write-Output "      <image:title>$Title</image:title>"
-    Write-Output "    </image:image>"
+    $pageEntries = $pageEntries + "`r`n    <image:image>"
+    $pageEntries = $pageEntries + "`r`n      <image:loc>https://condaluna.com/$File</image:loc>"
+    $pageEntries = $pageEntries + "`r`n      <image:title>$Title</image:title>"
+    $pageEntries = $pageEntries + "`r`n    </image:image>"
 }
 
-#$x = "`r`n          ['x','#1'],`r`n          ['x','#1'],`r`n          ['x','#1'],`r`n          ['x','#1'],`r`n          ['x','#1'],"
-#$y = "`r`n        <img class='noscript-card'/>`r`n        <img class='noscript-card'/>`r`n        <img class='noscript-card'/>`r`n        <img class='noscript-card'/>"
-
+# Stickers.html
 $content = [IO.File]::ReadAllText( '.\stickers.html' )
-
 $content = ($content -replace "(?ms)^\s+let images=\[.*\];", "        let images=[$imagesArray`r`n        ];")
 $content = ($content -replace "(?ms)^\s+<noscript id='stickers'>.*</noscript>", "      <noscript id='stickers'>$imagesNoscript`r`n      </noscript>")
-
 [IO.File]::WriteAllText('.\stickers.html',$content)
+
+# Sitemap.xml
+$date = Get-Date -Format "yyyy-MM-dd"
+$pagePrefix="    <loc>https://condaluna.com/stickers.html</loc>"+
+"`r`n    <lastmod>$date</lastmod>"+
+"`r`n    <changefreq>daily</changefreq>"+
+"`r`n    <image:image>"+
+"`r`n      <image:loc>https://condaluna.com/logo.png</image:loc>"+
+"`r`n      <image:title>@condaluna.com logo</image:title>"+
+"`r`n    </image:image>"+
+"`r`n    <image:image>"+
+"`r`n      <image:loc>https://condaluna.com/assets/social/instagram-round.png</image:loc>"+
+"`r`n      <image:title>catherinebrown666 on Instagram</image:title>"+
+"`r`n    </image:image>"+
+"`r`n    <image:image>"+
+"`r`n      <image:loc>https://condaluna.com/assets/social/facebook-round.png</image:loc>"+
+"`r`n      <image:title>CondalunaArt on Facebook</image:title>"+
+"`r`n    </image:image>"+
+"`r`n    <image:image>"+
+"`r`n      <image:loc>https://condaluna.com/assets/social/twitter-round.png</image:loc>"+
+"`r`n      <image:title>CatCondaluna on Twitter</image:title>"+
+"`r`n    </image:image>"
+$pageSuffix="`r`n  </url>"
+$content = [IO.File]::ReadAllText( '.\sitemap.xml' )
+$content = ($content -replace "(?ms)^\s+<loc>https://condaluna.com/stickers.html</loc>.*</url>", "$pagePrefix$pageEntries$pageSuffix")
+[IO.File]::WriteAllText('.\sitemap.xml',$content)
