@@ -4,6 +4,7 @@ $L = Import-Csv -Path .\assets\scripts\sticker-list.csv | Sort-Object -Property 
 
 # Write the list of image array entries for stickers.html
 Write-Output "** images[]"
+Write-Output "        let images=["
 $L | ForEach-Object {
     $File = $_.File
     $Title = $_.Title
@@ -11,6 +12,7 @@ $L | ForEach-Object {
 
     Write-Output "          [ './$File', '$Title', '$Background' ], "
 }
+Write-Output "        ];"
 
 # Write the list of img values for the no-script scenario in stickers.html
 Write-Output "** <noscript>"
