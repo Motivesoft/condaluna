@@ -210,6 +210,10 @@
       <image:title>Cool Beans</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/donut.gif</image:loc>
+      <image:title>Yummy Donut!</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/flower.gif</image:loc>
       <image:title>Flower</image:title>
     </image:image>
@@ -256,6 +260,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/hearts.gif</image:loc>
       <image:title>Hearts and Sparkles</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/hola.gif</image:loc>
+      <image:title>Hola</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/i-drew-this.gif</image:loc>
