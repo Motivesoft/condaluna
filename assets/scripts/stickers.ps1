@@ -25,7 +25,7 @@ $L | ForEach-Object {
     $Background = $_.Background
 
     $image = [System.Drawing.Image]::FromFile('./'+$File)
-    $imagesNoscript = $imagesNoscript + "`r`n        <img class='noscript-card' loading='auto' style='background: $Background;' src='./$File' title='$Title' alt='$Title' width='"+$image.Width+"' height='"+$image.Height+"'/>"
+    $imagesNoscript = $imagesNoscript + "`r`n        <img class='noscript-card' style='background: $Background;' src='./$File' title='$Title' alt='$Title' width='"+$image.Width+"' height='"+$image.Height+"'/>"
 }
 
 # Write the list of image values for the stickers.html section in sitemap.xml
