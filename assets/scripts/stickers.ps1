@@ -1,3 +1,5 @@
+[void][System.Reflection.Assembly]::LoadWithPartialName("System.Drawing")
+
 # Read the CSV file of file and title values
 # Sort it by file name
 $L = Import-Csv -Path .\assets\scripts\sticker-list.csv | Sort-Object -Property File
@@ -10,7 +12,8 @@ $L | ForEach-Object {
     $Title = $_.Title
     $Background = $_.Background
 
-    $imagesArray = $imagesArray + "`r`n          [ './$File', '$Title', '$Background' ],"
+    $image = [System.Drawing.Image]::FromFile('./'+$File)
+    $imagesArray = $imagesArray + "`r`n          [ './$File', '$Title', '$Background', " + $image.Width + ", " + $image.Height + " ],"
 }
 
 # Write the list of img values for the no-script scenario in stickers.html
@@ -21,7 +24,8 @@ $L | ForEach-Object {
     $Title = $_.Title
     $Background = $_.Background
 
-    $imagesNoscript = $imagesNoscript + "`r`n        <img class='noscript-card' loading='auto' style='background: $Background;' src='./$File' title='$Title' alt='$Title'/>"
+    $image = [System.Drawing.Image]::FromFile('./'+$File)
+    $imagesNoscript = $imagesNoscript + "`r`n        <img class='noscript-card' loading='auto' style='background: $Background;' src='./$File' title='$Title' alt='$Title' width='"+$image.Width+"' height='"+$image.Height+"'/>"
 }
 
 # Write the list of image values for the stickers.html section in sitemap.xml
