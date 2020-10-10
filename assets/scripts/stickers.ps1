@@ -39,7 +39,7 @@ $L | ForEach-Object {
 
 # Stickers.html
 $content = [IO.File]::ReadAllText( '.\stickers.html' )
-$content = ($content -replace "(?ms)^\s+let images=\[.*\];", "        let images=[$imagesArray`r`n        ];")
+$content = ($content -replace "(?ms)^\s+let images=\[.*?\];", "        let images=[$imagesArray`r`n        ];")
 $content = ($content -replace "(?ms)^\s+<noscript id='stickers'>.*?</noscript>", "      <noscript id='stickers'>$imagesNoscript`r`n      </noscript>")
 [IO.File]::WriteAllText('.\stickers.html',$content)
 
