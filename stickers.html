@@ -177,14 +177,38 @@
           [ './assets/stickers/yummy.gif', 'Yummy!', '#fff', 446, 266 ],
           [ './assets/stickers/yummy-2.gif', 'Yummy!', '#000', 468, 298 ],
         ];
-        
+
+        // Use src or data-src depending on whether we can lazy load
+        // This code block will swap data-src value into src when an image should be visible
+        img_tag="src"
+        if( 'isIntersecting' in window.IntersectionObserverEntry.prototype ) {
+          img_tag="data-src"
+          document.addEventListener("DOMContentLoaded", function() {
+              const imageObserver = new IntersectionObserver( (entries, imgObserver) => {
+                  entries.forEach( (entry) => {
+                      if (entry.isIntersecting) {
+                          const lazyImage = entry.target
+                          if( lazyImage.src==='') {
+                            console.log("Lazy loading ", lazyImage.getAttribute(img_tag))
+                            lazyImage.src = lazyImage.dataset.src
+                          }
+                      }
+                  })
+              });
+              const arr = document.querySelectorAll('img.lazy_img')
+              arr.forEach((v) => {
+                  imageObserver.observe(v);
+              })
+          })
+        }
+
         // Shuffle them to show something different at the top each time
         images.sort(() => Math.random() - 0.5);
 
         html = "";
         for( i = 0; i < images.length; i ++ ) {
           html += "<div class='card'>"
-          html += "  <img src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+";' width='"+images[i][3]+"' height='"+images[i][4]+"' onclick='copySourceUrl(event)'/>"
+          html += "  <img class='lazy_img' "+img_tag+"='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+";' width='"+images[i][3]+"' height='"+images[i][4]+"' onclick='copySourceUrl(event)'/>"
           html += "</div>"
         }
         document.getElementById("gallery").innerHTML = html;
