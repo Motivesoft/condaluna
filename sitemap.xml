@@ -198,6 +198,10 @@
       <image:title>Burger</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/cat-blanket.gif</image:loc>
+      <image:title>Cat Sleeping Under A Blanket</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/chalk-arrow.gif</image:loc>
       <image:title>Chalk Arrow</image:title>
     </image:image>
