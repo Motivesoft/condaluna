@@ -258,6 +258,10 @@
       <image:title>Fuzzball</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/garden-cat.gif</image:loc>
+      <image:title>Garden Cat</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/ghost.gif</image:loc>
       <image:title>Ghost</image:title>
     </image:image>
@@ -386,6 +390,10 @@
       <image:title>New Post</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/new-post-postit.gif</image:loc>
+      <image:title>New Post</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/noodles.gif</image:loc>
       <image:title>Noodles!</image:title>
     </image:image>
@@ -440,6 +448,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/stars-and-sparkles.gif</image:loc>
       <image:title>Stars and Sparkles</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/swipe-up.gif</image:loc>
+      <image:title>Swipe Up</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/thank-you.gif</image:loc>
