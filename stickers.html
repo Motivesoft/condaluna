@@ -178,18 +178,22 @@
           [ './assets/stickers/yummy-2.gif', 'Yummy!', '#000', 468, 298 ],
         ];
 
+        // Shuffle them to show something different at the top each time
+        images.sort(() => Math.random() - 0.5);
+
+        // Use this to build the output
+        html = "";
+
         // Use src or data-src depending on whether we can lazy load
         // This code block will swap data-src value into src when an image should be visible
-        img_tag="src"
         if( 'isIntersecting' in window.IntersectionObserverEntry.prototype ) {
-          img_tag="data-src"
           document.addEventListener("DOMContentLoaded", function() {
               const imageObserver = new IntersectionObserver( (entries, imgObserver) => {
                   entries.forEach( (entry) => {
                       if (entry.isIntersecting) {
                           const lazyImage = entry.target
-                          if( lazyImage.src==='') {
-                            console.log("Lazy loading ", lazyImage.getAttribute(img_tag))
+                          {
+                            console.log("Lazy loading ", lazyImage.getAttribute('data-src'))
                             lazyImage.src = lazyImage.dataset.src
                           }
                       }
@@ -200,16 +204,20 @@
                   imageObserver.observe(v);
               })
           })
-        }
 
-        // Shuffle them to show something different at the top each time
-        images.sort(() => Math.random() - 0.5);
-
-        html = "";
-        for( i = 0; i < images.length; i ++ ) {
-          html += "<div class='card'>"
-          html += "  <img class='lazy_img' "+img_tag+"='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+";' width='"+images[i][3]+"' height='"+images[i][4]+"' onclick='copySourceUrl(event)'/>"
-          html += "</div>"
+          // Construct the display using a tiny transparent image and we will then lazily load images that should be seen
+          for( i = 0; i < images.length; i ++ ) {
+            html += "<div class='card'>"
+            html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+";' width='"+images[i][3]+"' height='"+images[i][4]+"' onclick='copySourceUrl(event)'/>"
+            html += "</div>"
+          }
+        } else {
+          // Construct the display using the source images - no lazy loading
+          for( i = 0; i < images.length; i ++ ) {
+            html += "<div class='card'>"
+            html += "  <img class='lazy_img' src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+";' width='"+images[i][3]+"' height='"+images[i][4]+"' onclick='copySourceUrl(event)'/>"
+            html += "</div>"
+          }
         }
         document.getElementById("gallery").innerHTML = html;
       </script>
