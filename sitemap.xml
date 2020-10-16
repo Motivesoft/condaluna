@@ -306,6 +306,10 @@
       <image:title>Heart Bubbles</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/heart-popping.gif</image:loc>
+      <image:title>Heart</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/hearts.gif</image:loc>
       <image:title>Hearts and Sparkles</image:title>
     </image:image>
