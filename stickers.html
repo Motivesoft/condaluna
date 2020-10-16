@@ -92,6 +92,7 @@
           [ './assets/stickers/bee-kind.gif', 'Bee Kind', '#fff', 474, 440 ],
           [ './assets/stickers/be-mindful.gif', 'Be Mindful', '#000', 440, 324 ],
           [ './assets/stickers/blowing-bubbles.gif', 'Blowing Bubbles', '#000', 390, 390 ],
+          [ './assets/stickers/bluebells.gif', 'Bluebells', '#000', 500, 500 ],
           [ './assets/stickers/breathe.gif', 'Breathe', '#fff', 474, 436 ],
           [ './assets/stickers/bubbles.gif', 'Bubbles', '#000', 500, 500 ],
           [ './assets/stickers/buffering.gif', 'Buffering', '#fff', 354, 434 ],
@@ -104,6 +105,7 @@
           [ './assets/stickers/confetti.gif', 'Confetti', '#fff', 410, 406 ],
           [ './assets/stickers/cool.gif', 'Cool!', '#fff', 500, 224 ],
           [ './assets/stickers/cool-beans.gif', 'Cool Beans', '#fff', 500, 300 ],
+          [ './assets/stickers/corsage.gif', 'Corsage', '#fff', 500, 500 ],
           [ './assets/stickers/donut.gif', 'Yummy Donut!', '#000', 444, 444 ],
           [ './assets/stickers/explosions.gif', 'Explosions', '#000', 500, 500 ],
           [ './assets/stickers/flower.gif', 'Flower', '#fff', 340, 370 ],
@@ -124,7 +126,7 @@
           [ './assets/stickers/hearts.gif', 'Hearts and Sparkles', '#fff', 400, 380 ],
           [ './assets/stickers/heart-sparkles.gif', 'Heart Sparkles', '#000', 500, 500 ],
           [ './assets/stickers/hearts-popping.gif', 'Hearts Popping', '#000', 500, 500 ],
-          [ './assets/stickers/hearts-scrolling.gif', 'Hearts Scrolling', '#000', 500, 500 ],
+          [ './assets/stickers/hearts-scrolling.gif', 'Hearts Scrolling', '#fff', 500, 500 ],
           [ './assets/stickers/heart-stripes.gif', 'Heart', '#000', 500, 500 ],
           [ './assets/stickers/hola.gif', 'Hola', '#000', 500, 350 ],
           [ './assets/stickers/i-drew-this.gif', 'I Drew This!', '#000', 500, 500 ],
@@ -149,6 +151,7 @@
           [ './assets/stickers/new-post-postit.gif', 'New Post', '#fff', 500, 500 ],
           [ './assets/stickers/noodles.gif', 'Noodles!', '#000', 404, 392 ],
           [ './assets/stickers/on-a-coffee-break.gif', 'On a Coffee Break', '#000', 450, 476 ],
+          [ './assets/stickers/pale-daisies.gif', 'Pale Daisies', '#000', 500, 500 ],
           [ './assets/stickers/peekaboo.gif', 'Peekaboo!', '#fff', 428, 396 ],
           [ './assets/stickers/pink-daisies.gif', 'Pink Daisies', '#fff', 400, 400 ],
           [ './assets/stickers/popping.gif', 'Popping', '#000', 500, 500 ],
@@ -168,6 +171,7 @@
           [ './assets/stickers/trick-or-treat.gif', 'Trick Or Treat', '#000', 500, 500 ],
           [ './assets/stickers/twinkles.gif', 'Twinkles', '#000', 432, 406 ],
           [ './assets/stickers/virtual-hugs.gif', 'Virtual Hugs', '#000', 464, 272 ],
+          [ './assets/stickers/vote.gif', 'Vote!', '#fff', 500, 500 ],
           [ './assets/stickers/washi-tape-1.gif', 'Washi Tape', '#fff', 500, 220 ],
           [ './assets/stickers/washi-tape-2.gif', 'Washi Tape', '#fff', 500, 220 ],
           [ './assets/stickers/washi-tape-3.gif', 'Washi Tape', '#fff', 500, 220 ],
@@ -194,8 +198,9 @@
                   entries.forEach( (entry) => {
                       if (entry.isIntersecting) {
                           const lazyImage = entry.target
+                          //if(lazyImage.src !== lazyImage.dataset.src)
                           {
-                            console.log("Lazy loading ", lazyImage.getAttribute('data-src'))
+                            //console.log("Lazy loading ", lazyImage.getAttribute('data-src'))
                             lazyImage.src = lazyImage.dataset.src
                           }
                       }
@@ -232,6 +237,7 @@
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/bee-kind.gif' title='Bee Kind' alt='Bee Kind' width='474' height='440'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/be-mindful.gif' title='Be Mindful' alt='Be Mindful' width='440' height='324'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/blowing-bubbles.gif' title='Blowing Bubbles' alt='Blowing Bubbles' width='390' height='390'/>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/bluebells.gif' title='Bluebells' alt='Bluebells' width='500' height='500'/>
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/breathe.gif' title='Breathe' alt='Breathe' width='474' height='436'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/bubbles.gif' title='Bubbles' alt='Bubbles' width='500' height='500'/>
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/buffering.gif' title='Buffering' alt='Buffering' width='354' height='434'/>
@@ -244,6 +250,7 @@
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/confetti.gif' title='Confetti' alt='Confetti' width='410' height='406'/>
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/cool.gif' title='Cool!' alt='Cool!' width='500' height='224'/>
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/cool-beans.gif' title='Cool Beans' alt='Cool Beans' width='500' height='300'/>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/corsage.gif' title='Corsage' alt='Corsage' width='500' height='500'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/donut.gif' title='Yummy Donut!' alt='Yummy Donut!' width='444' height='444'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/explosions.gif' title='Explosions' alt='Explosions' width='500' height='500'/>
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/flower.gif' title='Flower' alt='Flower' width='340' height='370'/>
@@ -264,7 +271,7 @@
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/hearts.gif' title='Hearts and Sparkles' alt='Hearts and Sparkles' width='400' height='380'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-sparkles.gif' title='Heart Sparkles' alt='Heart Sparkles' width='500' height='500'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/hearts-popping.gif' title='Hearts Popping' alt='Hearts Popping' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/hearts-scrolling.gif' title='Hearts Scrolling' alt='Hearts Scrolling' width='500' height='500'/>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/hearts-scrolling.gif' title='Hearts Scrolling' alt='Hearts Scrolling' width='500' height='500'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-stripes.gif' title='Heart' alt='Heart' width='500' height='500'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/hola.gif' title='Hola' alt='Hola' width='500' height='350'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/i-drew-this.gif' title='I Drew This!' alt='I Drew This!' width='500' height='500'/>
@@ -289,6 +296,7 @@
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/new-post-postit.gif' title='New Post' alt='New Post' width='500' height='500'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/noodles.gif' title='Noodles!' alt='Noodles!' width='404' height='392'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/on-a-coffee-break.gif' title='On a Coffee Break' alt='On a Coffee Break' width='450' height='476'/>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/pale-daisies.gif' title='Pale Daisies' alt='Pale Daisies' width='500' height='500'/>
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/peekaboo.gif' title='Peekaboo!' alt='Peekaboo!' width='428' height='396'/>
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/pink-daisies.gif' title='Pink Daisies' alt='Pink Daisies' width='400' height='400'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/popping.gif' title='Popping' alt='Popping' width='500' height='500'/>
@@ -308,6 +316,7 @@
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/trick-or-treat.gif' title='Trick Or Treat' alt='Trick Or Treat' width='500' height='500'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/twinkles.gif' title='Twinkles' alt='Twinkles' width='432' height='406'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/virtual-hugs.gif' title='Virtual Hugs' alt='Virtual Hugs' width='464' height='272'/>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/vote.gif' title='Vote!' alt='Vote!' width='500' height='500'/>
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/washi-tape-1.gif' title='Washi Tape' alt='Washi Tape' width='500' height='220'/>
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/washi-tape-2.gif' title='Washi Tape' alt='Washi Tape' width='500' height='220'/>
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/washi-tape-3.gif' title='Washi Tape' alt='Washi Tape' width='500' height='220'/>

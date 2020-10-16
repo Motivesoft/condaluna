@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-10-15</lastmod>
+    <lastmod>2020-10-16</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -182,6 +182,10 @@
       <image:title>Blowing Bubbles</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/bluebells.gif</image:loc>
+      <image:title>Bluebells</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/breathe.gif</image:loc>
       <image:title>Breathe</image:title>
     </image:image>
@@ -228,6 +232,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/cool-beans.gif</image:loc>
       <image:title>Cool Beans</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/corsage.gif</image:loc>
+      <image:title>Corsage</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/donut.gif</image:loc>
@@ -410,6 +418,10 @@
       <image:title>On a Coffee Break</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/pale-daisies.gif</image:loc>
+      <image:title>Pale Daisies</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/peekaboo.gif</image:loc>
       <image:title>Peekaboo!</image:title>
     </image:image>
@@ -484,6 +496,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/virtual-hugs.gif</image:loc>
       <image:title>Virtual Hugs</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/vote.gif</image:loc>
+      <image:title>Vote!</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/washi-tape-1.gif</image:loc>
