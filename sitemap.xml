@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-10-16</lastmod>
+    <lastmod>2020-10-17</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -187,6 +187,10 @@
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/breathe.gif</image:loc>
+      <image:title>Breathe</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/breathe-patterned.gif</image:loc>
       <image:title>Breathe</image:title>
     </image:image>
     <image:image>
@@ -312,6 +316,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/hearts.gif</image:loc>
       <image:title>Hearts and Sparkles</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/hearts-family.gif</image:loc>
+      <image:title>Hearts</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/heart-sparkles.gif</image:loc>
@@ -475,6 +483,10 @@
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/swipe-up.gif</image:loc>
+      <image:title>Swipe Up</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/swipe-up-patterned.gif</image:loc>
       <image:title>Swipe Up</image:title>
     </image:image>
     <image:image>
