@@ -222,7 +222,7 @@
           // Construct the display using a tiny transparent image and we will then lazily load images that should be seen
           for( i = 0; i < images.length; i ++ ) {
             html += "<div class='card'>"
-            html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+";' width='"+images[i][3]+"' height='"+images[i][4]+"' onclick='copySourceUrl(event)'/>"
+            html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+"; max-width: "+images[i][3]+"px; max-height: "+images[i][4]+"px;' onclick='copySourceUrl(event)'/>"
             html += "</div>"
           }
         } else {
