@@ -204,16 +204,14 @@
               const imageObserver = new IntersectionObserver( (entries, imgObserver) => {
                   entries.forEach( (entry) => {
                       if (entry.isIntersecting) {
-                          const lazyImage = entry.target
-                          //if(lazyImage.src !== lazyImage.dataset.src)
-                          {
-                            //console.log("Lazy loading ", lazyImage.getAttribute('data-src'))
-                            lazyImage.src = lazyImage.dataset.src
-                          }
+                          const lazyImage = entry.target;
+                          lazyImage.src = lazyImage.dataset.src;
+                          lazyImage.classList.remove("lazy_img");
+                          imageObserver.unobserve(lazyImage);
                       }
                   })
               });
-              const arr = document.querySelectorAll('img.lazy_img')
+              const arr = document.querySelectorAll('img.lazy_img');
               arr.forEach((v) => {
                   imageObserver.observe(v);
               })
@@ -221,9 +219,10 @@
 
           // Construct the display using a tiny transparent image and we will then lazily load images that should be seen
           for( i = 0; i < images.length; i ++ ) {
-            html += "<div class='card'>"
-            html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+"; max-width: "+images[i][3]+"px; max-height: "+images[i][4]+"px;' onclick='copySourceUrl(event)'/>"
-            html += "</div>"
+            html += "<div class='card'>";
+            //html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+"; width=100%; height=auto;' width=\""+images[i][3]+"\" height=\""+images[i][4]+"\" onclick='copySourceUrl(event)'/>";
+            html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+"; max-width:"+images[i][3]+"px; max-height:"+images[i][4]+"px;' width=\""+images[i][3]+"\" height=\""+images[i][4]+"\" onclick='copySourceUrl(event)'/>";
+            html += "</div>";
           }
         } else {
           // Construct the display using the source images - no lazy loading
