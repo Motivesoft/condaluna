@@ -327,7 +327,7 @@
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/heart-popping.gif</image:loc>
-      <image:title>Heart</image:title>
+      <image:title>Heart Popping</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/hearts.gif</image:loc>
@@ -564,6 +564,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/washi-tape-3.gif</image:loc>
       <image:title>Washi Tape</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/washi-tape-halloween.gif</image:loc>
+      <image:title>Halloween Washi Tape</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/work.gif</image:loc>
