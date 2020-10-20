@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-10-19</lastmod>
+    <lastmod>2020-10-20</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -186,6 +186,10 @@
       <image:title>Bluebells</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/bouncy-heart.gif</image:loc>
+      <image:title>Heart</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/breathe.gif</image:loc>
       <image:title>Breathe</image:title>
     </image:image>
@@ -220,6 +224,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/check-it-out.gif</image:loc>
       <image:title>Check It Out</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/cloud-frame.gif</image:loc>
+      <image:title>Frame</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/coffee.gif</image:loc>
@@ -344,6 +352,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/hearts-popping.gif</image:loc>
       <image:title>Hearts Popping</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/hearts-popping-2.gif</image:loc>
+      <image:title>Hearts</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/hearts-scrolling.gif</image:loc>
