@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-10-20</lastmod>
+    <lastmod>2020-10-21</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -262,6 +262,18 @@
       <image:title>Explosions</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/fireworks-1.gif</image:loc>
+      <image:title>Fireworks!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/fireworks-2.gif</image:loc>
+      <image:title>Fireworks!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/fireworks-3.gif</image:loc>
+      <image:title>Fireworks!</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/flower.gif</image:loc>
       <image:title>Flower</image:title>
     </image:image>
@@ -292,6 +304,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/ghosty.gif</image:loc>
       <image:title>Ghost</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/green-vase.gif</image:loc>
+      <image:title>Vase of Flowers</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/hahaha.gif</image:loc>
@@ -462,6 +478,10 @@
       <image:title>Noodles!</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/omg.gif</image:loc>
+      <image:title>OMG</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/on-a-coffee-break.gif</image:loc>
       <image:title>On a Coffee Break</image:title>
     </image:image>
@@ -528,6 +548,14 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/thank-you.gif</image:loc>
       <image:title>Thank You</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/thank-you-heart-1.gif</image:loc>
+      <image:title>Thank You!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/thank-you-heart-2.gif</image:loc>
+      <image:title>Thank You!</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/thank-you-pling.gif</image:loc>
