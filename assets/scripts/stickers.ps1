@@ -44,7 +44,7 @@ $L | ForEach-Object {
 # Stickers.html
 $updateTimestamp = Get-Date -Format "F"
 $content = [IO.File]::ReadAllText( '.\stickers.html' )
-$content = ($content -replace "(?ms)<p>Images last updated:[ 0-9a-zA-Z]* </p>", "<p>Images last updated: $updateTimestamp</p>")
+$content = ($content -replace "(?ms)<p>Images last updated: [\s0-9a-zA-Z:]*</p>", "<p>Images last updated: $updateTimestamp</p>")
 $content = ($content -replace "(?ms)^\s+let images=\[.*?\];", "        let images=[$imagesArray`r`n        ];")
 $content = ($content -replace "(?ms)^\s+<noscript id='stickers'>.*?</noscript>", "      <noscript id='stickers'>$imagesNoscript`r`n      </noscript>")
 [IO.File]::WriteAllText('.\stickers.html',$content)
