@@ -54,7 +54,7 @@
       color: #888; 
       font-style: italic; 
       font-size: 10pt;
-      float: right;
+      text-align: right;
     }
   </style>
 </head>
@@ -85,9 +85,11 @@
       <img id="giphy-link" style="float:right;" src="./assets/social/stickers.png" alt="Condaluna stickers on GIPHY" title="Condaluna stickers on GIPHY" onmouseover="document.getElementById('giphy-link').src = './assets/social/stickers-hover.png';" onmouseout="document.getElementById('giphy-link').src = './assets/social/stickers.png';"/>
     </a>
     <h1>Stickers</h1>
-    <p>My stickers are now live on <a href="https://giphy.com/search/condaluna-stickers">GIPHY</a>!</p>
-    <p>To add them to your Instagram story, go to <i>stickers</i> and type <strong>condaluna</strong> into the search bar. For Facebook stories you’ll find them in the <i>GIF</i> search bar.</p>
-
+    <div>
+      <p>My stickers are now live on <a href="https://giphy.com/search/condaluna-stickers">GIPHY</a>!</p>
+      <p>To add them to your Instagram story, go to <i>stickers</i> and type <strong>condaluna</strong> into the search bar. For Facebook stories you’ll find them in the <i>GIF</i> search bar.</p>
+      <div class="update-message"><p>Updated 22 October 2020 12:12</p></div>
+    </div>
     <div id="gallery" class="container-fluid">
       <script>
         let images=[
@@ -394,7 +396,6 @@
       </noscript>
     </div> 
 
-    <div class="update-message"><p>Last updated: 22 October 2020 12:12</p></div>
     <div id="copyMessage">Source URL copied to clipboard.</div>
   </div>
 
