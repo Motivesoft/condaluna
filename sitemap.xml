@@ -250,6 +250,10 @@
       <image:title>Cool Beans</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/cool-funky.gif</image:loc>
+      <image:title>Cool</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/corsage.gif</image:loc>
       <image:title>Corsage</image:title>
     </image:image>
@@ -342,6 +346,18 @@
       <image:title>Heart Popping</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/heart-popping-hot-pink.gif</image:loc>
+      <image:title>Heart Popping</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/heart-popping-lilac.gif</image:loc>
+      <image:title>Heart Popping</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/heart-popping-pale-pink.gif</image:loc>
+      <image:title>Heart Popping</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/heart-popping-red.gif</image:loc>
       <image:title>Heart Popping</image:title>
     </image:image>
@@ -423,6 +439,10 @@
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/love.gif</image:loc>
+      <image:title>Love</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/love-heart-funky.gif</image:loc>
       <image:title>Love</image:title>
     </image:image>
     <image:image>
@@ -566,6 +586,14 @@
       <image:title>Hearts</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/three-sparkles-gold.gif</image:loc>
+      <image:title>Sparkles</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/three-sparkles-white.gif</image:loc>
+      <image:title>Sparkles</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/trick-or-treat.gif</image:loc>
       <image:title>Trick Or Treat</image:title>
     </image:image>
@@ -612,6 +640,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/yay.gif</image:loc>
       <image:title>Yay!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/yellow-daisies.gif</image:loc>
+      <image:title>Yellow Daisies</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/yes.gif</image:loc>
