@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-10-22</lastmod>
+    <lastmod>2020-10-23</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -551,6 +551,14 @@
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/sparkle-trail.gif</image:loc>
+      <image:title>Sparkle Trail</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/sparkle-trail-1.gif</image:loc>
+      <image:title>Sparkle Trail</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/sparkle-trail-2.gif</image:loc>
       <image:title>Sparkle Trail</image:title>
     </image:image>
     <image:image>
