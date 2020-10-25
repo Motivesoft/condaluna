@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-10-24</lastmod>
+    <lastmod>2020-10-25</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -322,6 +322,14 @@
       <image:title>Ghost</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/good-mood-1.gif</image:loc>
+      <image:title>Good Mood</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/good-mood-2.gif</image:loc>
+      <image:title>Good Mood</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/green-vase.gif</image:loc>
       <image:title>Vase of Flowers</image:title>
     </image:image>
@@ -387,6 +395,10 @@
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/hearts-family.gif</image:loc>
+      <image:title>Hearts</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/hearts-fireworks.gif</image:loc>
       <image:title>Hearts</image:title>
     </image:image>
     <image:image>
