@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-10-25</lastmod>
+    <lastmod>2020-10-26</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -246,6 +246,10 @@
       <image:title>Confetti</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/congrats.gif</image:loc>
+      <image:title>Congrats!</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/cool.gif</image:loc>
       <image:title>Cool!</image:title>
     </image:image>
@@ -322,6 +326,10 @@
       <image:title>Ghost</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/ghosty-2.gif</image:loc>
+      <image:title>Ghosty</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/good-mood-1.gif</image:loc>
       <image:title>Good Mood</image:title>
     </image:image>
@@ -330,8 +338,28 @@
       <image:title>Good Mood</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/good-mood-3.gif</image:loc>
+      <image:title>Good Mood</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/green-vase.gif</image:loc>
       <image:title>Vase of Flowers</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/ha-ha-1.gif</image:loc>
+      <image:title>Ha Ha</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/ha-ha-2.gif</image:loc>
+      <image:title>Ha Ha</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/ha-ha-3.gif</image:loc>
+      <image:title>Ha Ha</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/ha-ha-4.gif</image:loc>
+      <image:title>Ha Ha</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/hahaha.gif</image:loc>
@@ -482,6 +510,10 @@
       <image:title>Love Hearts</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/love-heart-splodge.gif</image:loc>
+      <image:title>Love</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/love-squeeze.gif</image:loc>
       <image:title>Love Squeeze</image:title>
     </image:image>
@@ -554,8 +586,16 @@
       <image:title>Popping</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/popping-sparkles.gif</image:loc>
+      <image:title>Sparkles</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/popup-hearts.gif</image:loc>
       <image:title>Hearts</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/pretty-flowers.gif</image:loc>
+      <image:title>Pretty Flowers</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/proud-cat.gif</image:loc>
@@ -624,6 +664,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/thank-you-pling.gif</image:loc>
       <image:title>Thank you</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/three-flowers-chalk.gif</image:loc>
+      <image:title>Flowers</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/three-hearts.gif</image:loc>
