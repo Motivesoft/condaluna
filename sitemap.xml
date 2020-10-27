@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-10-26</lastmod>
+    <lastmod>2020-10-27</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -180,6 +180,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/be-mindful.gif</image:loc>
       <image:title>Be Mindful</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/big-daisies.gif</image:loc>
+      <image:title>Big Daisies</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/blowing-bubbles.gif</image:loc>
@@ -266,6 +270,10 @@
       <image:title>Corsage</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/cute-cat-alert.gif</image:loc>
+      <image:title>Cute Cat Alert!</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/donut.gif</image:loc>
       <image:title>Yummy Donut!</image:title>
     </image:image>
@@ -344,6 +352,30 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/green-vase.gif</image:loc>
       <image:title>Vase of Flowers</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/growing-star.gif</image:loc>
+      <image:title>Star</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/growing-star-love-this.gif</image:loc>
+      <image:title>Love This!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/growing-star-star.gif</image:loc>
+      <image:title>Star</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/growing-star-vote.gif</image:loc>
+      <image:title>Vote!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/growing-star-wow.gif</image:loc>
+      <image:title>Wow!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/growing-star-yes.gif</image:loc>
+      <image:title>Yes!</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/ha-ha-1.gif</image:loc>
@@ -436,6 +468,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/heart-sparkles-2.gif</image:loc>
       <image:title>Heart Sparkles</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/heart-speech-bubble.gif</image:loc>
+      <image:title>Heart Speech Bubble</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/hearts-popping.gif</image:loc>
@@ -680,6 +716,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/three-sparkles-white.gif</image:loc>
       <image:title>Sparkles</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/three-stars.gif</image:loc>
+      <image:title>Stars</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/trick-or-treat.gif</image:loc>
