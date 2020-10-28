@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-10-27</lastmod>
+    <lastmod>2020-10-28</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -660,6 +660,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/sleepy.gif</image:loc>
       <image:title>Sleepy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/so-cute.gif</image:loc>
+      <image:title>So Cute!</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/sparkles.gif</image:loc>
