@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-10-28</lastmod>
+    <lastmod>2020-10-29</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -300,6 +300,14 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/flower-explosion.gif</image:loc>
       <image:title>Flower Explosion</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/flower-pot-1.gif</image:loc>
+      <image:title>Flower</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/flower-pot-1.gif</image:loc>
+      <image:title>Flower</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/flower-ring-1.gif</image:loc>
@@ -650,8 +658,16 @@
       <image:title>Pumpkin</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/pyjama-cat.gif</image:loc>
+      <image:title>Cat</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/raining-hearts.gif</image:loc>
       <image:title>Raining Hearts!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/single-daisy.gif</image:loc>
+      <image:title>Daisy</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/sleeping-cat.gif</image:loc>
@@ -796,6 +812,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/yummy-2.gif</image:loc>
       <image:title>Yummy!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/yum-yum.gif</image:loc>
+      <image:title>Yum Yum!</image:title>
     </image:image>
   </url>
 </urlset>
