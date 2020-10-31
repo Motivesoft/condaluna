@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-10-29</lastmod>
+    <lastmod>2020-10-31</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -180,6 +180,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/be-mindful.gif</image:loc>
       <image:title>Be Mindful</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/berries.gif</image:loc>
+      <image:title>Berries</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/big-daisies.gif</image:loc>
@@ -335,6 +339,10 @@
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/ghost.gif</image:loc>
+      <image:title>Ghost</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/ghost-splat.gif</image:loc>
       <image:title>Ghost</image:title>
     </image:image>
     <image:image>
@@ -684,6 +692,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/sparkles.gif</image:loc>
       <image:title>Sparkles and Hearts</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/sparkles-2.gif</image:loc>
+      <image:title>Sparkles</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/sparkle-trail.gif</image:loc>
