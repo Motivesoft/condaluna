@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-11-03</lastmod>
+    <lastmod>2020-11-04</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -536,6 +536,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/laptop-1.gif</image:loc>
       <image:title>Laptop / Coffee</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/laptop-2.gif</image:loc>
+      <image:title>Eat Sleep Zoom Repeat</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/link-in-bio.gif</image:loc>
