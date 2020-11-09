@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-11-07</lastmod>
+    <lastmod>2020-11-09</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -168,6 +168,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/animated-arrow.gif</image:loc>
       <image:title>Arrow</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/awesome.gif</image:loc>
+      <image:title>Awesome!</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/bats.gif</image:loc>
@@ -254,7 +258,19 @@
       <image:title>Coffee Cup</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/coloured-hearts.gif</image:loc>
+      <image:title>Hearts</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/confetti.gif</image:loc>
+      <image:title>Confetti</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/confetti-drop.gif</image:loc>
+      <image:title>Confetti</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/confetti-float.gif</image:loc>
       <image:title>Confetti</image:title>
     </image:image>
     <image:image>
