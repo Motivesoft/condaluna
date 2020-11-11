@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-11-10</lastmod>
+    <lastmod>2020-11-11</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -168,6 +168,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/animated-arrow.gif</image:loc>
       <image:title>Arrow</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/artist-at-work.gif</image:loc>
+      <image:title>Artist At Work</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/awesome.gif</image:loc>
@@ -612,6 +616,14 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/luna-migo-maracas.gif</image:loc>
       <image:title>luna-migo-maracas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/mandala-1.gif</image:loc>
+      <image:title>Mandala</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/mandala-2.gif</image:loc>
+      <image:title>Mandala</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/maracas.gif</image:loc>
