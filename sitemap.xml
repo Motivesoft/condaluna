@@ -90,11 +90,15 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2020-10-05</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2020-11-13</lastmod>
+    <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
       <image:title>@condaluna.com logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/social/instagram-round.png</image:loc>
+      <image:title>catherinebrown666 on Instagram</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/social/facebook-round.png</image:loc>
@@ -105,28 +109,64 @@
       <image:title>CatCondaluna on Twitter</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://condaluna.com/assets/social/instagram-round.png</image:loc>
-      <image:title>catherinebrown666 on Instagram</image:title>
-    </image:image>
-    <image:image>
       <image:loc>https://condaluna.com/assets/gifs/boxes.gif</image:loc>
       <image:title>Boxes</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/breathe.gif</image:loc>
+      <image:title>Breathe</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/desk.gif</image:loc>
+      <image:title>Desk</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/eat-sleep-zoom-repeat.gif</image:loc>
+      <image:title>Eat Sleep Zoom Repeat</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/gifs/fish-bowl.gif</image:loc>
-      <image:title>Fish bowl</image:title>
+      <image:title>Fish Bowl</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/i-love-digital-art.gif</image:loc>
+      <image:title>I Love Digital Art!</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/infinity.gif</image:loc>
       <image:title>Infinity</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://condaluna.com/assets/gifs/newtons-cradle.gif</image:loc>
-      <image:title>Newton's cradle</image:title>
+      <image:loc>https://condaluna.com/assets/gifs/laptop-1.gif</image:loc>
+      <image:title>Laptop</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://condaluna.com/assets/gifs/I love digital art!.gif</image:loc>
-      <image:title>I love digital art!</image:title>
+      <image:loc>https://condaluna.com/assets/gifs/love-heart.gif</image:loc>
+      <image:title>Love Heart</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/mandala-1.gif</image:loc>
+      <image:title>Mandala</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/mandala-2.gif</image:loc>
+      <image:title>Mandala</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/newtons-cradle.gif</image:loc>
+      <image:title>Newton's Cradle</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/peekaboo.gif</image:loc>
+      <image:title>Peekaboo!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/sparkle-trail.gif</image:loc>
+      <image:title>Sparkle Trail</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/star-trail.gif</image:loc>
+      <image:title>Star Trail</image:title>
     </image:image>
   </url>
   <url>
