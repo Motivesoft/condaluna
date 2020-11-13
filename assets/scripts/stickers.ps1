@@ -72,5 +72,5 @@ $pagePrefix="    <loc>https://condaluna.com/stickers.html</loc>"+
 "`r`n    </image:image>"
 $pageSuffix="`r`n  </url>"
 $content = [IO.File]::ReadAllText( '.\sitemap.xml' )
-$content = ($content -replace "(?ms)^\s+<loc>https://condaluna.com/stickers.html</loc>.*</url>", "$pagePrefix$pageEntries$pageSuffix")
+$content = ($content -replace "(?ms)^\s+<loc>https://condaluna.com/stickers.html</loc>.*?</url>", "$pagePrefix$pageEntries$pageSuffix")
 [IO.File]::WriteAllText('.\sitemap.xml',$content)
