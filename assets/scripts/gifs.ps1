@@ -31,7 +31,9 @@ $L | ForEach-Object {
 }
 
 # Stickers.html
+$updateTimestamp = Get-Date -Format "f"
 $content = [IO.File]::ReadAllText( '.\gifs.html' )
+$content = ($content -replace "<p id='timestamp'>.*?</p>", "<p id='timestamp'>Updated $updateTimestamp</p>")
 $content = ($content -replace "(?ms)^\s+<!--list-start-->.*?<!--list-end-->", "      <!--list-start-->$imagesList`r`n      <!--list-end-->")
 [IO.File]::WriteAllText('.\gifs.html',$content)
 
