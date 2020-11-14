@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://condaluna.com</loc>
@@ -90,7 +91,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2020-11-13</lastmod>
+    <lastmod>2020-11-14</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -119,6 +120,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/breathe.gif</image:loc>
       <image:title>Breathe</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/coffee.gif</image:loc>
+      <image:title>Coffee</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/desk.gif</image:loc>
