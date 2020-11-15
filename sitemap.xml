@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2020-11-14</lastmod>
+    <lastmod>2020-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -108,6 +108,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/social/twitter-round.png</image:loc>
       <image:title>CatCondaluna on Twitter</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/bee-kind.gif</image:loc>
+      <image:title>Bee Kind</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/be-you.gif</image:loc>
@@ -180,7 +184,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-11-13</lastmod>
+    <lastmod>2020-11-15</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -232,6 +236,10 @@
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/bee-kind.gif</image:loc>
+      <image:title>Bee Kind</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/bee-kind-2.gif</image:loc>
       <image:title>Bee Kind</image:title>
     </image:image>
     <image:image>
