@@ -6,15 +6,17 @@ $L = Import-Csv -Path .\assets\scripts\gifs-list.csv | Sort-Object -Property Fil
 
 # Write the list of image array entries for stickers.html
 $imagesList=""
+$noscriptList=""
 Write-Output "--Entries"
 $L | ForEach-Object {
     $File = $_.File
     $Title = $_.Title
 
     $image = [System.Drawing.Image]::FromFile('./'+$File)
-    $imagesList = $imagesList + "`r`n        <div class='card'>"
-    $imagesList = $imagesList + "`r`n          <img src='./$File' title='$Title' alt='$Title' width='"+$image.Width+"' height='"+$image.Height+"' onclick='copySourceUrl(event)'/>"
-    $imagesList = $imagesList + "`r`n        </div>"
+
+    $imagesList = $imagesList + "`r`n          [ './$File', '$Title', " + $image.Width + ", " + $image.Height + " ],"
+
+    $noscriptList = $noscriptList + "`r`n        <img class='noscript-gif-card' src='./$File' title='$Title' alt='$Title' width='"+$image.Width+"' height='"+$image.Height+"'/>"
 }
 
 # Write the list of image values for the stickers.html section in sitemap.xml
@@ -34,7 +36,8 @@ $L | ForEach-Object {
 $updateTimestamp = Get-Date -Format "f"
 $content = [IO.File]::ReadAllText( '.\gifs.html' )
 $content = ($content -replace "<p id='timestamp'>.*?</p>", "<p id='timestamp'>Updated $updateTimestamp</p>")
-$content = ($content -replace "(?ms)^\s+<!--list-start-->.*?<!--list-end-->", "      <!--list-start-->$imagesList`r`n      <!--list-end-->")
+$content = ($content -replace "(?ms)^\s+// image-list-start.*?// image-list-end", "          // image-list-start$imagesList`r`n          // image-list-end")
+$content = ($content -replace "(?ms)^\s+<!--list-start-noscript-->.*?<!--list-end-noscript-->", "        <!--list-start-noscript-->$noscriptList`r`n        <!--list-end-noscript-->")
 [IO.File]::WriteAllText('.\gifs.html',$content)
 
 # Sitemap.xml

@@ -59,6 +59,49 @@ h2 {
   color: #A47BBB;
 }
 
+.card {
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+.card img {
+  border-color: #eee;
+  border-style: dashed;
+  width: 100%;
+  height: auto;
+  padding: 6px;
+  margin: 6px 0px;
+}
+
+.card-gif {
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+.card-gif img {
+  width: 100%;
+  height: auto;
+  padding: 3px;
+  margin: 3px 0px;
+}
+
+.noscript-card {
+  border-radius: 1px;
+  border-color: #eee;
+  border-style: dashed;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.noscript-gif-card {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
 .update-message p {
   color: #888; 
   font-style: italic; 

@@ -25,14 +25,6 @@
         column-count: 2;
       }
     }
-
-    .card img {
-      width: 100%;
-      height: auto;
-      padding-bottom: 10px;
-      margin: 0px;
-      border: none;
-    }
   </style>
 </head>
 
@@ -62,72 +54,102 @@
     <h1>GIFs</h1>
     <p>A collection of my favourite animations, created using Procreate and my trusty old iPad!</p>
 
-    <div class="update-message"><p id='timestamp'>Updated 16 November 2020 13:23</p></div>
+    <div class="update-message"><p id='timestamp'>Updated 16 November 2020 14:17</p></div>
     <div id="gallery" class="container-fluid">
-      <!--list-start-->
-        <div class='card'>
-          <img src='./assets/gifs/bee-kind.gif' title='Bee Kind' alt='Bee Kind' width='500' height='500' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/be-you.gif' title='Be You' alt='Be You' width='500' height='500' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/boxes.gif' title='Boxes' alt='Boxes' width='1080' height='1080' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/breathe.gif' title='Breathe' alt='Breathe' width='474' height='436' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/coffee.gif' title='Coffee' alt='Coffee' width='500' height='500' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/desk.gif' title='Desk' alt='Desk' width='420' height='352' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/eat-sleep-zoom-repeat.gif' title='Eat Sleep Zoom Repeat' alt='Eat Sleep Zoom Repeat' width='500' height='500' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/fish-bowl.gif' title='Fish Bowl' alt='Fish Bowl' width='1080' height='1080' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/happy-birthday-dark.gif' title='Happy Birthday' alt='Happy Birthday' width='486' height='416' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/happy-birthday-light.gif' title='Happy Birthday' alt='Happy Birthday' width='486' height='416' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/i-love-digital-art.gif' title='I Love Digital Art!' alt='I Love Digital Art!' width='500' height='500' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/infinity.gif' title='Infinity' alt='Infinity' width='1080' height='1080' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/laptop-1.gif' title='Laptop' alt='Laptop' width='438' height='452' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/love-heart.gif' title='Love Heart' alt='Love Heart' width='500' height='450' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/mandala-1.gif' title='Mandala' alt='Mandala' width='500' height='500' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/mandala-2.gif' title='Mandala' alt='Mandala' width='2130' height='2130' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/newtons-cradle.gif' title='Newton's Cradle' alt='Newton's Cradle' width='2048' height='2048' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/peekaboo.gif' title='Peekaboo!' alt='Peekaboo!' width='428' height='396' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/sparkle-trail.gif' title='Sparkle Trail' alt='Sparkle Trail' width='500' height='500' onclick='copySourceUrl(event)'/>
-        </div>
-        <div class='card'>
-          <img src='./assets/gifs/star-trail.gif' title='Star Trail' alt='Star Trail' width='500' height='500' onclick='copySourceUrl(event)'/>
-        </div>
-      <!--list-end-->
-    </div>
-  
+      <script>
+        let images=[
+          // image-list-start
+          [ './assets/gifs/bee-kind.gif', 'Bee Kind', 500, 500 ],
+          [ './assets/gifs/be-you.gif', 'Be You', 500, 500 ],
+          [ './assets/gifs/boxes.gif', 'Boxes', 1080, 1080 ],
+          [ './assets/gifs/breathe.gif', 'Breathe', 474, 436 ],
+          [ './assets/gifs/coffee.gif', 'Coffee', 500, 500 ],
+          [ './assets/gifs/desk.gif', 'Desk', 420, 352 ],
+          [ './assets/gifs/eat-sleep-zoom-repeat.gif', 'Eat Sleep Zoom Repeat', 500, 500 ],
+          [ './assets/gifs/fish-bowl.gif', 'Fish Bowl', 1080, 1080 ],
+          [ './assets/gifs/happy-birthday-dark.gif', 'Happy Birthday', 486, 416 ],
+          [ './assets/gifs/happy-birthday-light.gif', 'Happy Birthday', 486, 416 ],
+          [ './assets/gifs/i-love-digital-art.gif', 'I Love Digital Art!', 500, 500 ],
+          [ './assets/gifs/infinity.gif', 'Infinity', 1080, 1080 ],
+          [ './assets/gifs/laptop-1.gif', 'Laptop', 438, 452 ],
+          [ './assets/gifs/love-heart.gif', 'Love Heart', 500, 450 ],
+          [ './assets/gifs/mandala-1.gif', 'Mandala', 500, 500 ],
+          [ './assets/gifs/mandala-2.gif', 'Mandala', 2130, 2130 ],
+          [ './assets/gifs/newtons-cradle.gif', 'Newton&apos;s Cradle', 2048, 2048 ],
+          [ './assets/gifs/peekaboo.gif', 'Peekaboo!', 428, 396 ],
+          [ './assets/gifs/sparkle-trail.gif', 'Sparkle Trail', 500, 500 ],
+          [ './assets/gifs/star-trail.gif', 'Star Trail', 500, 500 ],
+          // image-list-end
+        ];
+
+        // Shuffle them to show something different at the top each time
+        images.sort(() => Math.random() - 0.5);
+
+        // Use this to build the output
+        html = "";
+
+        // Use src or data-src depending on whether we can lazy load
+        // This code block will swap data-src value into src when an image should be visible
+        if( 'isIntersecting' in window.IntersectionObserverEntry.prototype ) {
+          document.addEventListener("DOMContentLoaded", function() {
+              const imageObserver = new IntersectionObserver( (entries, imgObserver) => {
+                  entries.forEach( (entry) => {
+                      if (entry.isIntersecting) {
+                          const lazyImage = entry.target;
+                          lazyImage.src = lazyImage.dataset.src;
+                          lazyImage.classList.remove("lazy_img");
+                          imageObserver.unobserve(lazyImage);
+                      }
+                  })
+              });
+              const arr = document.querySelectorAll('img.lazy_img');
+              arr.forEach((v) => {
+                  imageObserver.observe(v);
+              })
+          })
+
+          // Construct the display using a tiny transparent image and we will then lazily load images that should be seen
+          for( i = 0; i < images.length; i ++ ) {
+            html += "<div class='card-gif'>";
+            html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='max-width:"+images[i][2]+"px; max-height:"+images[i][3]+"px;' width=\""+images[i][2]+"\" height=\""+images[i][3]+"\" onclick='copySourceUrl(event)'/>";
+            html += "</div>";
+          }
+        } else {
+          // Construct the display using the source images - no lazy loading
+          for( i = 0; i < images.length; i ++ ) {
+            html += "<div class='card-gif'>"
+            html += "  <img class='lazy_img' src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='width='"+images[i][2]+"' height='"+images[i][3]+"' onclick='copySourceUrl(event)'/>"
+            html += "</div>"
+          }
+        }
+        document.getElementById("gallery").innerHTML = html;
+      </script>
+      <noscript id='gifs'>
+        <!--list-start-noscript-->
+        <img class='noscript-gif-card' src='./assets/gifs/bee-kind.gif' title='Bee Kind' alt='Bee Kind' width='500' height='500'/>
+        <img class='noscript-gif-card' src='./assets/gifs/be-you.gif' title='Be You' alt='Be You' width='500' height='500'/>
+        <img class='noscript-gif-card' src='./assets/gifs/boxes.gif' title='Boxes' alt='Boxes' width='1080' height='1080'/>
+        <img class='noscript-gif-card' src='./assets/gifs/breathe.gif' title='Breathe' alt='Breathe' width='474' height='436'/>
+        <img class='noscript-gif-card' src='./assets/gifs/coffee.gif' title='Coffee' alt='Coffee' width='500' height='500'/>
+        <img class='noscript-gif-card' src='./assets/gifs/desk.gif' title='Desk' alt='Desk' width='420' height='352'/>
+        <img class='noscript-gif-card' src='./assets/gifs/eat-sleep-zoom-repeat.gif' title='Eat Sleep Zoom Repeat' alt='Eat Sleep Zoom Repeat' width='500' height='500'/>
+        <img class='noscript-gif-card' src='./assets/gifs/fish-bowl.gif' title='Fish Bowl' alt='Fish Bowl' width='1080' height='1080'/>
+        <img class='noscript-gif-card' src='./assets/gifs/happy-birthday-dark.gif' title='Happy Birthday' alt='Happy Birthday' width='486' height='416'/>
+        <img class='noscript-gif-card' src='./assets/gifs/happy-birthday-light.gif' title='Happy Birthday' alt='Happy Birthday' width='486' height='416'/>
+        <img class='noscript-gif-card' src='./assets/gifs/i-love-digital-art.gif' title='I Love Digital Art!' alt='I Love Digital Art!' width='500' height='500'/>
+        <img class='noscript-gif-card' src='./assets/gifs/infinity.gif' title='Infinity' alt='Infinity' width='1080' height='1080'/>
+        <img class='noscript-gif-card' src='./assets/gifs/laptop-1.gif' title='Laptop' alt='Laptop' width='438' height='452'/>
+        <img class='noscript-gif-card' src='./assets/gifs/love-heart.gif' title='Love Heart' alt='Love Heart' width='500' height='450'/>
+        <img class='noscript-gif-card' src='./assets/gifs/mandala-1.gif' title='Mandala' alt='Mandala' width='500' height='500'/>
+        <img class='noscript-gif-card' src='./assets/gifs/mandala-2.gif' title='Mandala' alt='Mandala' width='2130' height='2130'/>
+        <img class='noscript-gif-card' src='./assets/gifs/newtons-cradle.gif' title='Newton&apos;s Cradle' alt='Newton&apos;s Cradle' width='2048' height='2048'/>
+        <img class='noscript-gif-card' src='./assets/gifs/peekaboo.gif' title='Peekaboo!' alt='Peekaboo!' width='428' height='396'/>
+        <img class='noscript-gif-card' src='./assets/gifs/sparkle-trail.gif' title='Sparkle Trail' alt='Sparkle Trail' width='500' height='500'/>
+        <img class='noscript-gif-card' src='./assets/gifs/star-trail.gif' title='Star Trail' alt='Star Trail' width='500' height='500'/>
+        <!--list-end-noscript-->
+      </div> 
+    </noscript>
+      
     <div id="copyMessage">Source URL copied to clipboard.</div>
   </div>
 
