@@ -875,6 +875,10 @@
       <image:title>Hearts</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/three-purple-stars.gif</image:loc>
+      <image:title>Stars</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/three-sparkles-gold.gif</image:loc>
       <image:title>Sparkles</image:title>
     </image:image>
