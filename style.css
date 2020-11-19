@@ -73,6 +73,11 @@ h2 {
   margin: 6px 0px;
 }
 
+.card img:hover,
+.card img:focus {
+  cursor: pointer;
+}
+
 .card-gif {
   margin: 0px 0px;
   padding: 0px;
@@ -85,6 +90,10 @@ h2 {
   margin: 3px 0px;
 }
 
+.card-gif img:hover,
+.card-gif img:focus {
+  cursor: pointer;
+}
 .noscript-card {
   border-radius: 1px;
   border-color: #eee;
