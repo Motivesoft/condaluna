@@ -57,7 +57,7 @@
     <div>
       <p>My stickers are now live on <a href="https://giphy.com/search/condaluna-stickers">GIPHY</a>!</p>
       <p>To add them to your Instagram story, go to <i>stickers</i> and type <strong>condaluna</strong> into the search bar. For Facebook stories you’ll find them in the <i>GIF</i> search bar.</p>
-      <div class="update-message"><p id='timestamp'>Updated 17 November 2020 12:30</p></div>
+      <div class="update-message"><p id='timestamp'>Updated 19 November 2020 11:26</p></div>
     </div>
     <div id="gallery" class="container-fluid">
       <script>
@@ -176,6 +176,7 @@
           [ './assets/stickers/look-2.gif', 'Look', '#000', 500, 408 ],
           [ './assets/stickers/lotus-blossom.gif', 'Lotus Blossom', '#000', 500, 500 ],
           [ './assets/stickers/love.gif', 'Love', '#fff', 492, 206 ],
+          [ './assets/stickers/love-graffiti-1.gif', 'Love', '#000', 500, 430 ],
           [ './assets/stickers/love-heart-funky.gif', 'Love', '#000', 464, 228 ],
           [ './assets/stickers/love-hearts.gif', 'Love Hearts', '#fff', 444, 424 ],
           [ './assets/stickers/love-heart-splodge.gif', 'Love', '#000', 464, 228 ],
@@ -207,6 +208,7 @@
           [ './assets/stickers/proud-cat.gif', 'Proud Cat', '#fff', 364, 500 ],
           [ './assets/stickers/pumpkin.gif', 'Pumpkin', '#fff', 400, 436 ],
           [ './assets/stickers/pyjama-cat.gif', 'Cat', '#000', 500, 500 ],
+          [ './assets/stickers/rainbow-heart.gif', 'Heart', '#000', 500, 500 ],
           [ './assets/stickers/raining-hearts.gif', 'Raining Hearts!', '#000', 500, 500 ],
           [ './assets/stickers/relax.gif', 'And...Relax!', '#000', 500, 500 ],
           [ './assets/stickers/single-daisy.gif', 'Daisy', '#000', 406, 470 ],
@@ -281,14 +283,14 @@
           for( i = 0; i < images.length; i ++ ) {
             html += "<div class='card'>";
             //html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+"; width=100%; height=auto;' width=\""+images[i][3]+"\" height=\""+images[i][4]+"\" onclick='copySourceUrl(event)'/>";
-            html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+"; max-width:"+images[i][3]+"px; max-height:"+images[i][4]+"px;' width=\""+images[i][3]+"\" height=\""+images[i][4]+"\" onclick='copySourceUrl(event)'/>";
+            html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+"; max-width:100%; max-height:100%;' width=\""+images[i][3]+"\" height=\""+images[i][4]+"\" onclick='copySourceUrl(event)'/>";
             html += "</div>";
           }
         } else {
           // Construct the display using the source images - no lazy loading
           for( i = 0; i < images.length; i ++ ) {
             html += "<div class='card'>"
-            html += "  <img class='lazy_img' src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+";' width='"+images[i][3]+"' height='"+images[i][4]+"' onclick='copySourceUrl(event)'/>"
+            html += "  <img class='lazy_img' src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+"; max-width:100%; max-height:100%;' width='"+images[i][3]+"' height='"+images[i][4]+"' onclick='copySourceUrl(event)'/>"
             html += "</div>"
           }
         }
@@ -409,6 +411,7 @@
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/look-2.gif' title='Look' alt='Look' width='500' height='408'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/lotus-blossom.gif' title='Lotus Blossom' alt='Lotus Blossom' width='500' height='500'/>
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/love.gif' title='Love' alt='Love' width='492' height='206'/>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/love-graffiti-1.gif' title='Love' alt='Love' width='500' height='430'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/love-heart-funky.gif' title='Love' alt='Love' width='464' height='228'/>
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/love-hearts.gif' title='Love Hearts' alt='Love Hearts' width='444' height='424'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/love-heart-splodge.gif' title='Love' alt='Love' width='464' height='228'/>
@@ -440,6 +443,7 @@
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/proud-cat.gif' title='Proud Cat' alt='Proud Cat' width='364' height='500'/>
         <img class='noscript-card' style='background: #fff;' src='./assets/stickers/pumpkin.gif' title='Pumpkin' alt='Pumpkin' width='400' height='436'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/pyjama-cat.gif' title='Cat' alt='Cat' width='500' height='500'/>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rainbow-heart.gif' title='Heart' alt='Heart' width='500' height='500'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/raining-hearts.gif' title='Raining Hearts!' alt='Raining Hearts!' width='500' height='500'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/relax.gif' title='And...Relax!' alt='And...Relax!' width='500' height='500'/>
         <img class='noscript-card' style='background: #000;' src='./assets/stickers/single-daisy.gif' title='Daisy' alt='Daisy' width='406' height='470'/>

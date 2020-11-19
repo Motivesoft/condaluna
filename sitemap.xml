@@ -204,7 +204,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-11-17</lastmod>
+    <lastmod>2020-11-19</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -679,6 +679,10 @@
       <image:title>Love</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/love-graffiti-1.gif</image:loc>
+      <image:title>Love</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/love-heart-funky.gif</image:loc>
       <image:title>Love</image:title>
     </image:image>
@@ -801,6 +805,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/pyjama-cat.gif</image:loc>
       <image:title>Cat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/rainbow-heart.gif</image:loc>
+      <image:title>Heart</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/raining-hearts.gif</image:loc>
