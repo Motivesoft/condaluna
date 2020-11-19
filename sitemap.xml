@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2020-11-16</lastmod>
+    <lastmod>2020-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -162,6 +162,14 @@
       <image:title>Laptop</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/love-graffiti-1.gif</image:loc>
+      <image:title>Love</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/love-graffiti-2.gif</image:loc>
+      <image:title>Love</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/gifs/love-heart.gif</image:loc>
       <image:title>Love Heart</image:title>
     </image:image>
@@ -180,6 +188,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/peekaboo.gif</image:loc>
       <image:title>Peekaboo!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/proud-cat.gif</image:loc>
+      <image:title>Proud Cat</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/sparkle-trail.gif</image:loc>
