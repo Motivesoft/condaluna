@@ -735,6 +735,10 @@
       <image:title>Friday!</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/moving-hearts.gif</image:loc>
+      <image:title>Hearts</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/music.gif</image:loc>
       <image:title>Music</image:title>
     </image:image>
