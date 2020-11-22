@@ -51,32 +51,43 @@
     <p>Hello, and welcome to my Condaluna gallery.</p>
     <script>
       let lunas=[ 
-        "./assets/stickers/caterpillar.gif",
-        "./assets/stickers/love-hearts.gif",
-        "./assets/stickers/bee-kind.gif",
-        "./assets/stickers/confetti.gif",
-        "./assets/stickers/love-squeeze.gif",
-        "./assets/stickers/hahaha.gif",
-        "./assets/stickers/jajaja.gif",
-        "./assets/stickers/music-headphones.gif",
-        "./assets/stickers/coffee.gif",
-        "./assets/stickers/kisses.gif",
-        "./assets/stickers/maracas.gif",
-        "./assets/stickers/halloween-pumpkin.gif",
-        "./assets/stickers/sleepy.gif",
-        "./assets/stickers/impatient.gif",
-        "./assets/stickers/angry.gif",
-        "./assets/stickers/work.gif",
-        "./assets/stickers/buffering.gif",
-        "./assets/stickers/peekaboo.gif",
-        "./assets/stickers/breathe.gif",
-        "./assets/stickers/writing.gif",
-        "./assets/stickers/bubbles.gif",
+        ["./assets/stickers/caterpillar.gif","Caterpillar"],
+        ["./assets/stickers/love-hearts.gif","Luna"],
+        ["./assets/stickers/bee-kind.gif","Luna"],
+        ["./assets/stickers/confetti.gif","Luna"],
+        ["./assets/stickers/love-squeeze.gif","Luna"],
+        ["./assets/stickers/hahaha.gif","Luna"],
+        ["./assets/stickers/jajaja.gif","Luna"],
+        ["./assets/stickers/music-headphones.gif","Luna"],
+        ["./assets/stickers/coffee.gif","Luna"],
+        ["./assets/stickers/kisses.gif","Luna"],
+        ["./assets/stickers/maracas.gif","Luna and Migo"],
+        ["./assets/stickers/halloween-pumpkin.gif","Luna"],
+        ["./assets/stickers/sleepy.gif","Luna"],
+        ["./assets/stickers/impatient.gif","Luna"],
+        ["./assets/stickers/angry.gif","Luna"],
+        ["./assets/stickers/work.gif","Luna"],
+        ["./assets/stickers/buffering.gif","Luna"],
+        ["./assets/stickers/peekaboo.gif","Luna"],
+        ["./assets/stickers/breathe.gif","Luna"],
+        ["./assets/stickers/writing.gif","Luna"],
+        ["./assets/stickers/bubbles.gif","Luna"],
       ];
-
+      let friday=[
+        ["./assets/stickers/migo-friday.gif","Migo"] // Keep this one at the end so we can choose when to use it
+      ];
+      
+      // if its Friday, add more images to the list
+      if( new Date().getDay() == 5 ) {
+        friday.forEach( (value) => {
+          lunas.push( value );
+        } );
+      }
+      
       // Generate a random index into the list of lunas and display it
-      i = Math.floor( Math.random() * lunas.length );
-      document.getElementById("randomluna").innerHTML = "<img src='" + lunas[ i ]+ "' style='float: right; width: max(25%, 150px); height: auto;' title='luna'></img>";
+      count = lunas.length;
+      i = Math.floor( Math.random() * count );
+      document.getElementById("randomluna").innerHTML = "<img src='" + lunas[i][0]+ "' style='float: right; width: max(25%, 150px); height: auto;' title='Meet "+lunas[i][1]+"!'></img>";
     </script>
     <p>I love drawing and doodling, and I create digital illustrations, GIFs, wallpapers, fonts and digital stickers.</p>
     <p>You can download the fonts and wallpapers for your own personal use and the stickers are available to use in your Facebook and Instagram stories!</p>
