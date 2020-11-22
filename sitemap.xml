@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2020-11-19</lastmod>
+    <lastmod>2020-11-22</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -124,6 +124,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/breathe.gif</image:loc>
       <image:title>Breathe</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/caterpillar.gif</image:loc>
+      <image:title>Caterpillar</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/coffee.gif</image:loc>
@@ -204,7 +208,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-11-20</lastmod>
+    <lastmod>2020-11-22</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -321,6 +325,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/cat-blanket.gif</image:loc>
       <image:title>Cat Sleeping Under A Blanket</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/caterpillar.gif</image:loc>
+      <image:title>Caterpillar</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/chalk-arrow.gif</image:loc>
