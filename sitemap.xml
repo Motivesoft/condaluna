@@ -787,6 +787,10 @@
       <image:title>New Post</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/new-post-squared.gif</image:loc>
+      <image:title>Hearts</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/stickers/noodles.gif</image:loc>
       <image:title>Noodles!</image:title>
     </image:image>
