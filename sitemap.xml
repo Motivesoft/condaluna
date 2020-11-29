@@ -224,7 +224,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-11-27</lastmod>
+    <lastmod>2020-11-29</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -917,6 +917,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/star.gif</image:loc>
       <image:title>Star</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/star-circle.gif</image:loc>
+      <image:title>Stars</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/stars-and-sparkles.gif</image:loc>
