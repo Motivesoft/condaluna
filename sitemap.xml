@@ -226,6 +226,10 @@
       <image:title>Hearts</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/snowball-snowman.gif</image:loc>
+      <image:title>Snowball...Snowman</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/gifs/sparkle-trail.gif</image:loc>
       <image:title>Sparkle Trail</image:title>
     </image:image>
