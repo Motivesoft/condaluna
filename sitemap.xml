@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2020-12-01</lastmod>
+    <lastmod>2020-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -135,6 +135,10 @@
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/cat-puff.gif</image:loc>
+      <image:title>Cat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/cat-roar.gif</image:loc>
       <image:title>Cat</image:title>
     </image:image>
     <image:image>
@@ -232,7 +236,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-12-01</lastmod>
+    <lastmod>2020-12-02</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -364,6 +368,10 @@
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/cat-puff-2.gif</image:loc>
+      <image:title>Cat</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/cat-roar.gif</image:loc>
       <image:title>Cat</image:title>
     </image:image>
     <image:image>
