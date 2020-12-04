@@ -23,7 +23,7 @@ header {
 
 body {
   overflow-y: scroll;
-  max-width: 1000px;
+  max-width: 950px;
   min-height: 100vh;
   padding: 10px;
   margin: 0px auto;
@@ -60,8 +60,8 @@ h2 {
 }
 
 .card {
-  margin: 0px 0px;
-  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 12px;
 }
 
 .card img {
@@ -69,8 +69,6 @@ h2 {
   border-style: dashed;
   width: 100%;
   height: auto;
-  padding: 6px;
-  margin: 6px 0px;
 }
 
 .card img:hover,
@@ -79,15 +77,13 @@ h2 {
 }
 
 .card-gif {
-  margin: 0px 0px;
-  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 12px;
 }
 
 .card-gif img {
   width: 100%;
   height: auto;
-  padding: 3px;
-  margin: 3px 0px;
 }
 
 .card-gif img:hover,
