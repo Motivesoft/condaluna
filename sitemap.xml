@@ -202,6 +202,10 @@
       <image:title>Mandala</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/mask-etiquette.gif</image:loc>
+      <image:title>Mask Etiquette</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/gifs/morning-mood.gif</image:loc>
       <image:title>Morning Mood</image:title>
     </image:image>
@@ -793,6 +797,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/maracas.gif</image:loc>
       <image:title>Dancing with maracas</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/mask-etiquette.gif</image:loc>
+      <image:title>Mask Etiquette</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/migo-friday.gif</image:loc>
