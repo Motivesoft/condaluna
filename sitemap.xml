@@ -264,7 +264,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-12-08</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -477,6 +477,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/cute-cat-alert.gif</image:loc>
       <image:title>Cute Cat Alert!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/dancing-elf.gif</image:loc>
+      <image:title>Dancing Elf</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/donut.gif</image:loc>
