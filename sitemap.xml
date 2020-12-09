@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2020-12-08</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -152,6 +152,14 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/coffee.gif</image:loc>
       <image:title>Coffee</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/dancing-elves.gif</image:loc>
+      <image:title>Dancing Elves</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/dancing-elves-card.gif</image:loc>
+      <image:title>Dancing Elves</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/desk.gif</image:loc>
@@ -485,6 +493,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/dancing-elf-2.gif</image:loc>
       <image:title>Dancing Elf</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/dancing-elves.gif</image:loc>
+      <image:title>Dancing Elves</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/donut.gif</image:loc>
