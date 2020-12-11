@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2020-12-09</lastmod>
+    <lastmod>2020-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -266,13 +266,17 @@
       <image:title>Star Trail</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/xmas-stocking-cat.gif</image:loc>
+      <image:title>Xmas Stocking Surprise!</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/gifs/xmas-tree-decorating.gif</image:loc>
       <image:title>Xmas Tree Decorating</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-12-10</lastmod>
+    <lastmod>2020-12-11</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -1133,6 +1137,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/xmas-decorations.gif</image:loc>
       <image:title>Xmas Decorations</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/xmas-stocking-cat.gif</image:loc>
+      <image:title>Xmas Surprise!</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/xmas-tree.gif</image:loc>
