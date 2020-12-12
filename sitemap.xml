@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2020-12-11</lastmod>
+    <lastmod>2020-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -172,6 +172,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/fish-bowl.gif</image:loc>
       <image:title>Fish Bowl</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/groovy-dancer.gif</image:loc>
+      <image:title>Groovy Dancer</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/happy-birthday-dark.gif</image:loc>
