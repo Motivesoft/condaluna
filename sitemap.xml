@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2020-12-14</lastmod>
+    <lastmod>2020-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -242,6 +242,10 @@
       <image:title>Peekaboo!</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/portrait-1.gif</image:loc>
+      <image:title>Portrait</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/gifs/proud-cat.gif</image:loc>
       <image:title>Proud Cat</image:title>
     </image:image>
@@ -284,7 +288,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-12-11</lastmod>
+    <lastmod>2020-12-15</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -857,6 +861,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/mask-etiquette.gif</image:loc>
       <image:title>Mask Etiquette</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/merry-crimbles.gif</image:loc>
+      <image:title>Xmas Surprise!</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/merry-xmas.gif</image:loc>
