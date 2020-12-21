@@ -292,7 +292,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-12-17</lastmod>
+    <lastmod>2020-12-22</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -669,6 +669,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/happy.gif</image:loc>
       <image:title>Happy</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/happy-2021.gif</image:loc>
+      <image:title>Happy 2021!</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/happy-birthday.gif</image:loc>
