@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2020-12-17</lastmod>
+    <lastmod>2020-12-24</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -238,6 +238,10 @@
       <image:title>Newton&apos;s Cradle</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/om-nom-nom.gif</image:loc>
+      <image:title>om nom nom</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/gifs/out-with-2020.gif</image:loc>
       <image:title>Out With 2020!</image:title>
     </image:image>
@@ -292,7 +296,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-12-22</lastmod>
+    <lastmod>2020-12-24</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -1017,6 +1021,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/rippling-hearts-6.gif</image:loc>
       <image:title>Hearts</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/rupert-snacks.gif</image:loc>
+      <image:title>Snacks!</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/single-daisy.gif</image:loc>
