@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2021-01-02</lastmod>
+    <lastmod>2021-01-06</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -282,6 +282,10 @@
       <image:title>Hearts</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/sending-hugs.gif</image:loc>
+      <image:title>Sending hugs</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://condaluna.com/assets/gifs/snowball-snowman.gif</image:loc>
       <image:title>Snowball...Snowman</image:title>
     </image:image>
@@ -304,7 +308,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2020-12-24</lastmod>
+    <lastmod>2021-01-06</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -1033,6 +1037,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/rupert-snacks.gif</image:loc>
       <image:title>Snacks!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/sending-hugs.gif</image:loc>
+      <image:title>Can't wait to give you a REAL hug</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/single-daisy.gif</image:loc>
