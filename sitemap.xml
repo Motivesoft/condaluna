@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2021-01-14</lastmod>
+    <lastmod>2021-01-16</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -123,7 +123,7 @@
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/be-right-back.gif</image:loc>
-      <image:title>we&apos;ll be right back</image:title>
+      <image:title>We&apos;ll be right back</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/besties.gif</image:loc>
@@ -244,6 +244,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/morning-mood.gif</image:loc>
       <image:title>Morning mood</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/my-day-off.gif</image:loc>
+      <image:title>It&apos;s my day off</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/newtons-cradle.gif</image:loc>
