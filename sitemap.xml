@@ -91,7 +91,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2021-01-27</lastmod>
+    <lastmod>2021-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -112,6 +112,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/always-be-dancing.gif</image:loc>
       <image:title>Always be dancing</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/gifs/awww.gif</image:loc>
+      <image:title>Awww</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/gifs/bad-hair.gif</image:loc>
@@ -324,7 +328,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2021-01-27</lastmod>
+    <lastmod>2021-01-28</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -373,6 +377,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/awesome.gif</image:loc>
       <image:title>Awesome!</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/stickers/awww.gif</image:loc>
+      <image:title>Awww</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/stickers/bad-hair.gif</image:loc>
