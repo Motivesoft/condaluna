@@ -90,6 +90,7 @@ h2 {
 .card-gif img:focus {
   cursor: pointer;
 }
+
 .noscript-card {
   border-radius: 1px;
   border-color: #eee;
@@ -114,7 +115,6 @@ h2 {
   text-align: right;
 }
 
-/* Style all font awesome icons */
 .social {
   padding-top: 5px;
   line-height: 0px;
@@ -225,6 +225,26 @@ h2 {
 .toggle-button:hover,
 .toggle-button:focus {
   background-color: grey;
+}
+
+.giphy-link-right {
+  float: right;
+}
+
+.giphy-link-left {
+  float: left;
+}
+
+.subhead-style-1 {
+  color: #E87596;
+}
+
+.subhead-style-2 {
+  color: #A47BBB;
+}
+
+.subhead-style-3 {
+  color: #FFCD8C;
 }
 
 /* The snackbar - position it at the bottom and in the middle of the screen */
