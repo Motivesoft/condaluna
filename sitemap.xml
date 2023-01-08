@@ -3,8 +3,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://condaluna.com</loc>
-    <lastmod>2020-10-22</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2023-01-08</lastmod>
+    <changefreq>monthly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
       <image:title>@condaluna.com logo</image:title>
@@ -12,6 +12,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/social/instagram-round.png</image:loc>
       <image:title>catherinebrown666 on Instagram</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/social/mastodon.svg</image:loc>
+      <image:title>Cat on Mastodon</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/social/twitter-round.png</image:loc>
@@ -24,8 +28,8 @@
   </url>
   <url>
     <loc>https://condaluna.com/index.html</loc>
-    <lastmod>2020-10-22</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2023-01-08</lastmod>
+    <changefreq>monthly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
       <image:title>@condaluna.com logo</image:title>
@@ -33,6 +37,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/social/facebook-round.png</image:loc>
       <image:title>CondalunaArt on Facebook</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/social/mastodon.svg</image:loc>
+      <image:title>Cat on Mastodon</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/social/twitter-round.png</image:loc>
@@ -45,7 +53,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/wallpapers.html</loc>
-    <lastmod>2020-09-25</lastmod>
+    <lastmod>2023-01-08</lastmod>
     <changefreq>monthly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -54,6 +62,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/social/facebook-round.png</image:loc>
       <image:title>CondalunaArt on Facebook</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/social/mastodon.svg</image:loc>
+      <image:title>Cat on Mastodon</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/social/twitter-round.png</image:loc>
@@ -70,7 +82,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/fonts.html</loc>
-    <lastmod>2020-09-19</lastmod>
+    <lastmod>2023-01-08</lastmod>
     <changefreq>monthly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -79,6 +91,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/social/facebook-round.png</image:loc>
       <image:title>CondalunaArt on Facebook</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/social/mastodon.svg</image:loc>
+      <image:title>Cat on Mastodon</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/social/twitter-round.png</image:loc>
@@ -91,8 +107,8 @@
   </url>
   <url>
     <loc>https://condaluna.com/gifs.html</loc>
-    <lastmod>2021-08-08</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2023-01-08</lastmod>
+    <changefreq>monthly</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
       <image:title>@condaluna.com logo</image:title>
@@ -104,6 +120,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/social/facebook-round.png</image:loc>
       <image:title>CondalunaArt on Facebook</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/social/mastodon.svg</image:loc>
+      <image:title>Cat on Mastodon</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/social/twitter-round.png</image:loc>
@@ -332,7 +352,7 @@
   </url>
   <url>
     <loc>https://condaluna.com/stickers.html</loc>
-    <lastmod>2021-08-08</lastmod>
+    <lastmod>2023-01-08</lastmod>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://condaluna.com/logo.png</image:loc>
@@ -345,6 +365,10 @@
     <image:image>
       <image:loc>https://condaluna.com/assets/social/facebook-round.png</image:loc>
       <image:title>CondalunaArt on Facebook</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://condaluna.com/assets/social/mastodon.svg</image:loc>
+      <image:title>Cat on Mastodon</image:title>
     </image:image>
     <image:image>
       <image:loc>https://condaluna.com/assets/social/twitter-round.png</image:loc>

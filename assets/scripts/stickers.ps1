@@ -67,6 +67,10 @@ $pagePrefix="    <loc>https://condaluna.com/stickers.html</loc>"+
 "`r`n      <image:title>CondalunaArt on Facebook</image:title>"+
 "`r`n    </image:image>"+
 "`r`n    <image:image>"+
+"`r`n      <image:loc>https://condaluna.com/assets/social/mastodon.svg</image:loc>"+
+"`r`n      <image:title>Cat on Mastodon</image:title>"+
+"`r`n    </image:image>"+
+"`r`n    <image:image>"+
 "`r`n      <image:loc>https://condaluna.com/assets/social/twitter-round.png</image:loc>"+
 "`r`n      <image:title>CatCondaluna on Twitter</image:title>"+
 "`r`n    </image:image>"
