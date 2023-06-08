@@ -52,7 +52,7 @@
 
   <div class="body">
     <a href="https://giphy.com/search/condaluna-gifs">
-      <img id="giphy-link" class="giphy-link-right" src="./assets/social/stickers.png" alt="Condaluna GIFs on GIPHY" title="Condaluna GIFs on GIPHY" onmouseover="document.getElementById('giphy-link').src = './assets/social/stickers-hover.png';" onmouseout="document.getElementById('giphy-link').src = './assets/social/stickers.png';"/>
+      <img id="giphy-link" class="giphy-link-right" src="./assets/social/stickers.png" alt="Condaluna GIFs on GIPHY" title="Condaluna GIFs on GIPHY" onmouseover="document.getElementById('giphy-link').src = './assets/social/stickers-hover.png';" onmouseout="document.getElementById('giphy-link').src = './assets/social/stickers.png';">
     </a>
     <h1>GIFs</h1>
     <p>A collection of my favourite animations, created using Procreate and my trusty old iPad!</p>
@@ -150,14 +150,14 @@
           // Construct the display using a tiny transparent image and we will then lazily load images that should be seen
           for( i = 0; i < images.length; i ++ ) {
             html += "<div class='card-gif'>";
-            html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='max-width:"+images[i][2]+"px; max-height:"+images[i][3]+"px;' width=\""+images[i][2]+"\" height=\""+images[i][3]+"\" onclick='copySourceUrl(event)'/>";
+            html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='max-width:"+images[i][2]+"px; max-height:"+images[i][3]+"px;' width=\""+images[i][2]+"\" height=\""+images[i][3]+"\" onclick='copySourceUrl(event)'>";
             html += "</div>";
           }
         } else {
           // Construct the display using the source images - no lazy loading
           for( i = 0; i < images.length; i ++ ) {
             html += "<div class='card-gif'>"
-            html += "  <img class='lazy_img' src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='width='"+images[i][2]+"' height='"+images[i][3]+"' onclick='copySourceUrl(event)'/>"
+            html += "  <img class='lazy_img' src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='width='"+images[i][2]+"' height='"+images[i][3]+"' onclick='copySourceUrl(event)'>"
             html += "</div>"
           }
         }
@@ -165,61 +165,61 @@
       </script>
       <noscript id='gifs'>
         <!--list-start-noscript-->
-        <img class='noscript-gif-card' src='./assets/gifs/always-be-dancing.gif' title='Always be dancing' alt='Always be dancing' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/awww.gif' title='Awww' alt='Awww' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/bad-hair.gif' title='Bad hair' alt='Bad hair' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/bee-kind.gif' title='Bee kind' alt='Bee kind' width='500' height='500'/>
-        <img class='noscript-gif-card' src='./assets/gifs/be-right-back.gif' title='We&apos;ll be right back' alt='We&apos;ll be right back' width='500' height='500'/>
-        <img class='noscript-gif-card' src='./assets/gifs/besties.gif' title='Besties' alt='Besties' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/be-you.gif' title='Be you' alt='Be you' width='500' height='500'/>
-        <img class='noscript-gif-card' src='./assets/gifs/be-you-pride.gif' title='Be You' alt='Be You' width='500' height='500'/>
-        <img class='noscript-gif-card' src='./assets/gifs/boxes.gif' title='Boxes' alt='Boxes' width='1080' height='1080'/>
-        <img class='noscript-gif-card' src='./assets/gifs/breathe.gif' title='Breathe' alt='Breathe' width='474' height='436'/>
-        <img class='noscript-gif-card' src='./assets/gifs/breathe-3.gif' title='Breathe' alt='Breathe' width='564' height='542'/>
-        <img class='noscript-gif-card' src='./assets/gifs/caterpillar.gif' title='Caterpillar' alt='Caterpillar' width='500' height='500'/>
-        <img class='noscript-gif-card' src='./assets/gifs/cat-hearts.gif' title='Cat hearts' alt='Cat hearts' width='500' height='500'/>
-        <img class='noscript-gif-card' src='./assets/gifs/cat-puff.gif' title='Cat' alt='Cat' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/cat-roar.gif' title='Cat' alt='Cat' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/coffee.gif' title='Coffee' alt='Coffee' width='500' height='500'/>
-        <img class='noscript-gif-card' src='./assets/gifs/dancing-elves.gif' title='Dancing elves' alt='Dancing elves' width='600' height='450'/>
-        <img class='noscript-gif-card' src='./assets/gifs/dancing-elves-card.gif' title='Dancing elves' alt='Dancing elves' width='600' height='450'/>
-        <img class='noscript-gif-card' src='./assets/gifs/desk.gif' title='Desk' alt='Desk' width='420' height='352'/>
-        <img class='noscript-gif-card' src='./assets/gifs/dry-january.gif' title='Dry January?' alt='Dry January?' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/eat-sleep-zoom-repeat.gif' title='Eat Sleep Zoom Repeat' alt='Eat Sleep Zoom Repeat' width='500' height='500'/>
-        <img class='noscript-gif-card' src='./assets/gifs/fish-bowl.gif' title='Fish bowl' alt='Fish bowl' width='1080' height='1080'/>
-        <img class='noscript-gif-card' src='./assets/gifs/groovy-dancer.gif' title='Groovy dancer' alt='Groovy dancer' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/happy-birthday-dark.gif' title='Happy Birthday' alt='Happy Birthday' width='486' height='416'/>
-        <img class='noscript-gif-card' src='./assets/gifs/happy-birthday-light.gif' title='Happy Birthday' alt='Happy Birthday' width='486' height='416'/>
-        <img class='noscript-gif-card' src='./assets/gifs/i-love-digital-art.gif' title='I love digital art!' alt='I love digital art!' width='500' height='500'/>
-        <img class='noscript-gif-card' src='./assets/gifs/infinity.gif' title='Infinity' alt='Infinity' width='1080' height='1080'/>
-        <img class='noscript-gif-card' src='./assets/gifs/laptop-1.gif' title='Laptop' alt='Laptop' width='438' height='452'/>
-        <img class='noscript-gif-card' src='./assets/gifs/love-graffiti-1.gif' title='Love' alt='Love' width='500' height='430'/>
-        <img class='noscript-gif-card' src='./assets/gifs/love-graffiti-2.gif' title='Love' alt='Love' width='500' height='430'/>
-        <img class='noscript-gif-card' src='./assets/gifs/love-heart.gif' title='Love heart' alt='Love heart' width='500' height='450'/>
-        <img class='noscript-gif-card' src='./assets/gifs/lucy-and-cat.gif' title='Lucy and Cat' alt='Lucy and Cat' width='546' height='546'/>
-        <img class='noscript-gif-card' src='./assets/gifs/mandala-1.gif' title='Mandala' alt='Mandala' width='500' height='500'/>
-        <img class='noscript-gif-card' src='./assets/gifs/mandala-2.gif' title='Mandala' alt='Mandala' width='2130' height='2130'/>
-        <img class='noscript-gif-card' src='./assets/gifs/mask-etiquette.gif' title='Mask etiquette' alt='Mask etiquette' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/morning-mood.gif' title='Morning mood' alt='Morning mood' width='500' height='500'/>
-        <img class='noscript-gif-card' src='./assets/gifs/my-day-off.gif' title='It&apos;s my day off' alt='It&apos;s my day off' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/newtons-cradle.gif' title='Newton&apos;s Cradle' alt='Newton&apos;s Cradle' width='2048' height='2048'/>
-        <img class='noscript-gif-card' src='./assets/gifs/not-doing-today.gif' title='Not doing today' alt='Not doing today' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/om-nom-nom.gif' title='om nom nom' alt='om nom nom' width='470' height='470'/>
-        <img class='noscript-gif-card' src='./assets/gifs/out-with-2020.gif' title='Out With 2020!' alt='Out With 2020!' width='600' height='500'/>
-        <img class='noscript-gif-card' src='./assets/gifs/peekaboo.gif' title='Peekaboo!' alt='Peekaboo!' width='428' height='396'/>
-        <img class='noscript-gif-card' src='./assets/gifs/portrait-1.gif' title='Portrait' alt='Portrait' width='600' height='540'/>
-        <img class='noscript-gif-card' src='./assets/gifs/proud-cat.gif' title='Proud Cat' alt='Proud Cat' width='500' height='500'/>
-        <img class='noscript-gif-card' src='./assets/gifs/rippling-hearts.gif' title='Hearts' alt='Hearts' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/rippling-hearts-multi.gif' title='Hearts' alt='Hearts' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/rippling-hearts-pastel.gif' title='Hearts' alt='Hearts' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/rippling-hearts-purple.gif' title='Hearts' alt='Hearts' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/sending-hugs.gif' title='Can&apos;t wait to give you a REAL hug' alt='Can&apos;t wait to give you a REAL hug' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/snowball-snowman.gif' title='Snowball...Snowman' alt='Snowball...Snowman' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/sparkle-trail.gif' title='Sparkle trail' alt='Sparkle trail' width='500' height='500'/>
-        <img class='noscript-gif-card' src='./assets/gifs/star-trail.gif' title='Star trail' alt='Star trail' width='500' height='500'/>
-        <img class='noscript-gif-card' src='./assets/gifs/xmas-stocking-cat.gif' title='Xmas stocking surprise!' alt='Xmas stocking surprise!' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/xmas-tree-decorating.gif' title='Xmas tree decorating' alt='Xmas tree decorating' width='600' height='600'/>
-        <img class='noscript-gif-card' src='./assets/gifs/you-can-do-anything.gif' title='You can do anything' alt='You can do anything' width='600' height='600'/>
+        <img class='noscript-gif-card' src='./assets/gifs/always-be-dancing.gif' title='Always be dancing' alt='Always be dancing' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/awww.gif' title='Awww' alt='Awww' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/bad-hair.gif' title='Bad hair' alt='Bad hair' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/bee-kind.gif' title='Bee kind' alt='Bee kind' width='500' height='500'>
+        <img class='noscript-gif-card' src='./assets/gifs/be-right-back.gif' title='We&apos;ll be right back' alt='We&apos;ll be right back' width='500' height='500'>
+        <img class='noscript-gif-card' src='./assets/gifs/besties.gif' title='Besties' alt='Besties' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/be-you.gif' title='Be you' alt='Be you' width='500' height='500'>
+        <img class='noscript-gif-card' src='./assets/gifs/be-you-pride.gif' title='Be You' alt='Be You' width='500' height='500'>
+        <img class='noscript-gif-card' src='./assets/gifs/boxes.gif' title='Boxes' alt='Boxes' width='1080' height='1080'>
+        <img class='noscript-gif-card' src='./assets/gifs/breathe.gif' title='Breathe' alt='Breathe' width='474' height='436'>
+        <img class='noscript-gif-card' src='./assets/gifs/breathe-3.gif' title='Breathe' alt='Breathe' width='564' height='542'>
+        <img class='noscript-gif-card' src='./assets/gifs/caterpillar.gif' title='Caterpillar' alt='Caterpillar' width='500' height='500'>
+        <img class='noscript-gif-card' src='./assets/gifs/cat-hearts.gif' title='Cat hearts' alt='Cat hearts' width='500' height='500'>
+        <img class='noscript-gif-card' src='./assets/gifs/cat-puff.gif' title='Cat' alt='Cat' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/cat-roar.gif' title='Cat' alt='Cat' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/coffee.gif' title='Coffee' alt='Coffee' width='500' height='500'>
+        <img class='noscript-gif-card' src='./assets/gifs/dancing-elves.gif' title='Dancing elves' alt='Dancing elves' width='600' height='450'>
+        <img class='noscript-gif-card' src='./assets/gifs/dancing-elves-card.gif' title='Dancing elves' alt='Dancing elves' width='600' height='450'>
+        <img class='noscript-gif-card' src='./assets/gifs/desk.gif' title='Desk' alt='Desk' width='420' height='352'>
+        <img class='noscript-gif-card' src='./assets/gifs/dry-january.gif' title='Dry January?' alt='Dry January?' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/eat-sleep-zoom-repeat.gif' title='Eat Sleep Zoom Repeat' alt='Eat Sleep Zoom Repeat' width='500' height='500'>
+        <img class='noscript-gif-card' src='./assets/gifs/fish-bowl.gif' title='Fish bowl' alt='Fish bowl' width='1080' height='1080'>
+        <img class='noscript-gif-card' src='./assets/gifs/groovy-dancer.gif' title='Groovy dancer' alt='Groovy dancer' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/happy-birthday-dark.gif' title='Happy Birthday' alt='Happy Birthday' width='486' height='416'>
+        <img class='noscript-gif-card' src='./assets/gifs/happy-birthday-light.gif' title='Happy Birthday' alt='Happy Birthday' width='486' height='416'>
+        <img class='noscript-gif-card' src='./assets/gifs/i-love-digital-art.gif' title='I love digital art!' alt='I love digital art!' width='500' height='500'>
+        <img class='noscript-gif-card' src='./assets/gifs/infinity.gif' title='Infinity' alt='Infinity' width='1080' height='1080'>
+        <img class='noscript-gif-card' src='./assets/gifs/laptop-1.gif' title='Laptop' alt='Laptop' width='438' height='452'>
+        <img class='noscript-gif-card' src='./assets/gifs/love-graffiti-1.gif' title='Love' alt='Love' width='500' height='430'>
+        <img class='noscript-gif-card' src='./assets/gifs/love-graffiti-2.gif' title='Love' alt='Love' width='500' height='430'>
+        <img class='noscript-gif-card' src='./assets/gifs/love-heart.gif' title='Love heart' alt='Love heart' width='500' height='450'>
+        <img class='noscript-gif-card' src='./assets/gifs/lucy-and-cat.gif' title='Lucy and Cat' alt='Lucy and Cat' width='546' height='546'>
+        <img class='noscript-gif-card' src='./assets/gifs/mandala-1.gif' title='Mandala' alt='Mandala' width='500' height='500'>
+        <img class='noscript-gif-card' src='./assets/gifs/mandala-2.gif' title='Mandala' alt='Mandala' width='2130' height='2130'>
+        <img class='noscript-gif-card' src='./assets/gifs/mask-etiquette.gif' title='Mask etiquette' alt='Mask etiquette' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/morning-mood.gif' title='Morning mood' alt='Morning mood' width='500' height='500'>
+        <img class='noscript-gif-card' src='./assets/gifs/my-day-off.gif' title='It&apos;s my day off' alt='It&apos;s my day off' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/newtons-cradle.gif' title='Newton&apos;s Cradle' alt='Newton&apos;s Cradle' width='2048' height='2048'>
+        <img class='noscript-gif-card' src='./assets/gifs/not-doing-today.gif' title='Not doing today' alt='Not doing today' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/om-nom-nom.gif' title='om nom nom' alt='om nom nom' width='470' height='470'>
+        <img class='noscript-gif-card' src='./assets/gifs/out-with-2020.gif' title='Out With 2020!' alt='Out With 2020!' width='600' height='500'>
+        <img class='noscript-gif-card' src='./assets/gifs/peekaboo.gif' title='Peekaboo!' alt='Peekaboo!' width='428' height='396'>
+        <img class='noscript-gif-card' src='./assets/gifs/portrait-1.gif' title='Portrait' alt='Portrait' width='600' height='540'>
+        <img class='noscript-gif-card' src='./assets/gifs/proud-cat.gif' title='Proud Cat' alt='Proud Cat' width='500' height='500'>
+        <img class='noscript-gif-card' src='./assets/gifs/rippling-hearts.gif' title='Hearts' alt='Hearts' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/rippling-hearts-multi.gif' title='Hearts' alt='Hearts' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/rippling-hearts-pastel.gif' title='Hearts' alt='Hearts' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/rippling-hearts-purple.gif' title='Hearts' alt='Hearts' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/sending-hugs.gif' title='Can&apos;t wait to give you a REAL hug' alt='Can&apos;t wait to give you a REAL hug' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/snowball-snowman.gif' title='Snowball...Snowman' alt='Snowball...Snowman' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/sparkle-trail.gif' title='Sparkle trail' alt='Sparkle trail' width='500' height='500'>
+        <img class='noscript-gif-card' src='./assets/gifs/star-trail.gif' title='Star trail' alt='Star trail' width='500' height='500'>
+        <img class='noscript-gif-card' src='./assets/gifs/xmas-stocking-cat.gif' title='Xmas stocking surprise!' alt='Xmas stocking surprise!' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/xmas-tree-decorating.gif' title='Xmas tree decorating' alt='Xmas tree decorating' width='600' height='600'>
+        <img class='noscript-gif-card' src='./assets/gifs/you-can-do-anything.gif' title='You can do anything' alt='You can do anything' width='600' height='600'>
         <!--list-end-noscript-->
       </div> 
     </noscript>
@@ -234,19 +234,19 @@
     <footer>
       <div class="social">
         <a href="https://giphy.com/condaluna">
-          <img src="./assets/social/giphy-round.png" title="Condaluna on GIPHY" alt="Condaluna on GIPHY"/>
+          <img src="./assets/social/giphy-round.png" title="Condaluna on GIPHY" alt="Condaluna on GIPHY">
         </a>
         <a href="https://www.facebook.com/CondalunaArt">
-          <img src="./assets/social/facebook-round.png" title="CondalunaArt on Facebook" alt="CondalunaArt on Facebook"/>
+          <img src="./assets/social/facebook-round.png" title="CondalunaArt on Facebook" alt="CondalunaArt on Facebook">
         </a>
         <a href="https://ohai.social/@Cat">
-          <img src="./assets/social/mastodon.svg" title="Cat on Mastodon" alt="Cat on Mastodon"/>
+          <img src="./assets/social/mastodon.svg" title="Cat on Mastodon" alt="Cat on Mastodon">
         </a>
         <a href="https://twitter.com/CatCondaluna">
-          <img src="./assets/social/twitter-round.png" title="CatCondaluna on Twitter" alt="CatCondaluna on Twitter"/>
+          <img src="./assets/social/twitter-round.png" title="CatCondaluna on Twitter" alt="CatCondaluna on Twitter">
         </a>
         <a href="https://www.instagram.com/catherinebrown666">
-          <img src="./assets/social/instagram-round.png" title="catherinebrown666 on Instagram" alt="catherinebrown666 on Instagram"/>
+          <img src="./assets/social/instagram-round.png" title="catherinebrown666 on Instagram" alt="catherinebrown666 on Instagram">
         </a>
       </div>
       <div id="footer">

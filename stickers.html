@@ -32,7 +32,7 @@
   <header>
     <nav class="navbar">
       <div class="brand-title"><a href="./index.html"><img src="./logo.png" width="80" height="80" title="@condaluna.com logo" alt="@condaluna.com logo"></a></div>
-      <a href="#" class="toggle-button" title="Menu" title="Menu">
+      <a href="#" class="toggle-button" title="Menu">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
@@ -51,7 +51,7 @@
 
   <div class="body">
     <a href="https://giphy.com/search/condaluna-stickers">
-      <img id="giphy-link" class="giphy-link-right" src="./assets/social/stickers.png" alt="Condaluna stickers on GIPHY" title="Condaluna stickers on GIPHY" onmouseover="document.getElementById('giphy-link').src = './assets/social/stickers-hover.png';" onmouseout="document.getElementById('giphy-link').src = './assets/social/stickers.png';"/>
+      <img id="giphy-link" class="giphy-link-right" src="./assets/social/stickers.png" alt="Condaluna stickers on GIPHY" title="Condaluna stickers on GIPHY" onmouseover="document.getElementById('giphy-link').src = './assets/social/stickers-hover.png';" onmouseout="document.getElementById('giphy-link').src = './assets/social/stickers.png';">
     </a>
     <h1>Stickers</h1>
     <div>
@@ -321,249 +321,249 @@
           // Construct the display using a tiny transparent image and we will then lazily load images that should be seen
           for( i = 0; i < images.length; i ++ ) {
             html += "<div class='card'>";
-            //html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+"; width=100%; height=auto;' width=\""+images[i][3]+"\" height=\""+images[i][4]+"\" onclick='copySourceUrl(event)'/>";
-            html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+"; max-width:100%; max-height:100%;' width=\""+images[i][3]+"\" height=\""+images[i][4]+"\" onclick='copySourceUrl(event)'/>";
+            //html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+"; width=100%; height=auto;' width=\""+images[i][3]+"\" height=\""+images[i][4]+"\" onclick='copySourceUrl(event)'>";
+            html += "  <img class='lazy_img' src='./assets/scripts/blank.png' data-src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+"; max-width:100%; max-height:100%;' width=\""+images[i][3]+"\" height=\""+images[i][4]+"\" onclick='copySourceUrl(event)'>";
             html += "</div>";
           }
         } else {
           // Construct the display using the source images - no lazy loading
           for( i = 0; i < images.length; i ++ ) {
             html += "<div class='card'>"
-            html += "  <img class='lazy_img' src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+"; max-width:100%; max-height:100%;' width='"+images[i][3]+"' height='"+images[i][4]+"' onclick='copySourceUrl(event)'/>"
+            html += "  <img class='lazy_img' src='"+images[i][0]+"' alt='"+images[i][1]+"' title='"+images[i][1]+"' style='background: "+images[i][2]+"; max-width:100%; max-height:100%;' width='"+images[i][3]+"' height='"+images[i][4]+"' onclick='copySourceUrl(event)'>"
             html += "</div>"
           }
         }
         document.getElementById("gallery").innerHTML = html;
       </script>
       <noscript id='stickers'>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/10-out-of-10.gif' title='10/10' alt='10/10' width='386' height='412'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/always-be-dancing.gif' title='Always Be Dancing' alt='Always Be Dancing' width='430' height='460'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/amazing.gif' title='Amazing!' alt='Amazing!' width='474' height='244'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/amazing-2.gif' title='Amazing' alt='Amazing' width='474' height='244'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/angry.gif' title='Angry' alt='Angry' width='344' height='426'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/animated-arrow.gif' title='Arrow' alt='Arrow' width='190' height='190'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/artist-at-work.gif' title='Artist At Work' alt='Artist At Work' width='500' height='294'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/awesome.gif' title='Awesome!' alt='Awesome!' width='500' height='290'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/awww.gif' title='Awww' alt='Awww' width='600' height='600'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/bad-hair.gif' title='Bad Hair' alt='Bad Hair' width='432' height='444'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/bats.gif' title='Bats!' alt='Bats!' width='426' height='414'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/bee-kind.gif' title='Bee Kind' alt='Bee Kind' width='474' height='440'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/bee-kind-2.gif' title='Bee Kind' alt='Bee Kind' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/be-mindful.gif' title='Be Mindful' alt='Be Mindful' width='440' height='324'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/berries.gif' title='Berries' alt='Berries' width='408' height='466'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/besties.gif' title='Besties' alt='Besties' width='600' height='600'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/be-you.gif' title='Be You' alt='Be You' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/be-you-pride.gif' title='Be You' alt='Be You' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/big-daisies.gif' title='Big Daisies' alt='Big Daisies' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/blowing-bubbles.gif' title='Blowing Bubbles' alt='Blowing Bubbles' width='390' height='390'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/bluebells.gif' title='Bluebells' alt='Bluebells' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/blue-hearts.gif' title='Hearts' alt='Hearts' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/bored.gif' title='Bored' alt='Bored' width='600' height='329'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/bouncing-heart-1.gif' title='Heart' alt='Heart' width='540' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/bouncy-heart.gif' title='Heart' alt='Heart' width='400' height='450'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/breathe.gif' title='Breathe' alt='Breathe' width='474' height='436'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/breathe-2.gif' title='Breathe!' alt='Breathe!' width='500' height='238'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/bubbles.gif' title='Bubbles' alt='Bubbles' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/buffering.gif' title='Buffering' alt='Buffering' width='354' height='434'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/burger.gif' title='Burger' alt='Burger' width='430' height='430'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/cat-blanket.gif' title='Cat Sleeping Under A Blanket' alt='Cat Sleeping Under A Blanket' width='500' height='432'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/caterpillar.gif' title='Caterpillar' alt='Caterpillar' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/cat-hearts.gif' title='Cat Hearts' alt='Cat Hearts' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/cat-puff-1.gif' title='Cat' alt='Cat' width='600' height='600'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/cat-puff-2.gif' title='Cat' alt='Cat' width='600' height='600'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/cat-roar.gif' title='Cat' alt='Cat' width='600' height='600'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/chalk-arrow.gif' title='Chalk Arrow' alt='Chalk Arrow' width='430' height='430'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/chalk-heart.gif' title='Chalk Heart' alt='Chalk Heart' width='320' height='360'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/check-it-out.gif' title='Check It Out' alt='Check It Out' width='450' height='310'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/cloud-frame.gif' title='Frame' alt='Frame' width='500' height='368'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/coffee.gif' title='Coffee' alt='Coffee' width='372' height='418'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/coffee-cup.gif' title='Coffee Cup' alt='Coffee Cup' width='420' height='430'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/color-propeller.gif' title='Color Propeller' alt='Color Propeller' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/coloured-hearts.gif' title='Hearts' alt='Hearts' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/confetti.gif' title='Confetti' alt='Confetti' width='410' height='406'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/confetti-drop.gif' title='Confetti' alt='Confetti' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/confetti-float.gif' title='Confetti' alt='Confetti' width='490' height='460'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/congrats.gif' title='Congrats!' alt='Congrats!' width='500' height='220'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/cool.gif' title='Cool!' alt='Cool!' width='500' height='224'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/cool-beans.gif' title='Cool Beans' alt='Cool Beans' width='500' height='300'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/cool-funky.gif' title='Cool' alt='Cool' width='500' height='232'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/corsage.gif' title='Corsage' alt='Corsage' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/cute-cat-alert.gif' title='Cute Cat Alert!' alt='Cute Cat Alert!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/dancing-elf.gif' title='Dancing Elf' alt='Dancing Elf' width='456' height='506'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/dancing-elf-2.gif' title='Dancing Elf' alt='Dancing Elf' width='450' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/dancing-elves.gif' title='Dancing Elves' alt='Dancing Elves' width='600' height='450'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/donut.gif' title='Yummy Donut!' alt='Yummy Donut!' width='444' height='444'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/elf.gif' title='Elf' alt='Elf' width='450' height='510'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/explosions.gif' title='Explosions' alt='Explosions' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/fireworks-1.gif' title='Fireworks!' alt='Fireworks!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/fireworks-2.gif' title='Fireworks!' alt='Fireworks!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/fireworks-3.gif' title='Fireworks!' alt='Fireworks!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/flower.gif' title='Flower' alt='Flower' width='340' height='370'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/flower-explosion.gif' title='Flower Explosion' alt='Flower Explosion' width='408' height='400'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/flower-pot-1.gif' title='Flower' alt='Flower' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/flower-pot-2.gif' title='Flower' alt='Flower' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/flower-ring-1.gif' title='Flower Ring' alt='Flower Ring' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/flower-ring-2.gif' title='Flower Ring' alt='Flower Ring' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/followers-1.gif' title='I Love My Followers' alt='I Love My Followers' width='470' height='236'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/followers-2.gif' title='I Love My Followers' alt='I Love My Followers' width='470' height='236'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/fuzzball.gif' title='Fuzzball' alt='Fuzzball' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/garden-cat.gif' title='Garden Cat' alt='Garden Cat' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/ghost.gif' title='Ghost' alt='Ghost' width='416' height='406'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/ghost-splat.gif' title='Ghost' alt='Ghost' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/ghosty.gif' title='Ghost' alt='Ghost' width='324' height='360'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/ghosty-2.gif' title='Ghosty' alt='Ghosty' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/good-mood-1.gif' title='Good Mood' alt='Good Mood' width='500' height='326'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/good-mood-2.gif' title='Good Mood' alt='Good Mood' width='500' height='326'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/good-mood-3.gif' title='Good Mood' alt='Good Mood' width='500' height='326'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/green-vase.gif' title='Vase of Flowers' alt='Vase of Flowers' width='452' height='472'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/growing-star.gif' title='Star' alt='Star' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/growing-star-love-this.gif' title='Love This!' alt='Love This!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/growing-star-star.gif' title='Star' alt='Star' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/growing-star-vote.gif' title='Vote!' alt='Vote!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/growing-star-wow.gif' title='Wow!' alt='Wow!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/growing-star-yes.gif' title='Yes!' alt='Yes!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/ha-ha-1.gif' title='Ha Ha' alt='Ha Ha' width='430' height='378'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/ha-ha-2.gif' title='Ha Ha' alt='Ha Ha' width='372' height='322'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/ha-ha-3.gif' title='Ha Ha' alt='Ha Ha' width='372' height='322'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/ha-ha-4.gif' title='Ha Ha' alt='Ha Ha' width='430' height='378'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/hahaha.gif' title='Ha Ha Ha' alt='Ha Ha Ha' width='436' height='416'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/halloween-pumpkin.gif' title='Halloween Pumpkin' alt='Halloween Pumpkin' width='440' height='490'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/happy.gif' title='Happy' alt='Happy' width='500' height='234'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/happy-2021.gif' title='Happy 2021!' alt='Happy 2021!' width='600' height='482'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/happy-birthday.gif' title='Happy Birthday' alt='Happy Birthday' width='486' height='416'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/happy-days.gif' title='Happy Days' alt='Happy Days' width='500' height='336'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/heart-bubble.gif' title='Love' alt='Love' width='430' height='386'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-bubbles-clear.gif' title='Heart Bubbles' alt='Heart Bubbles' width='380' height='356'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-bubbles-filled.gif' title='Heart Bubbles' alt='Heart Bubbles' width='380' height='356'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-fireworks.gif' title='Heart Fireworks' alt='Heart Fireworks' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-ipad.gif' title='Heart' alt='Heart' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-popping.gif' title='Heart Popping' alt='Heart Popping' width='404' height='406'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-popping-hot-pink.gif' title='Heart Popping' alt='Heart Popping' width='404' height='406'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-popping-lilac.gif' title='Heart Popping' alt='Heart Popping' width='404' height='406'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-popping-pale-pink.gif' title='Heart Popping' alt='Heart Popping' width='404' height='406'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-popping-red.gif' title='Heart Popping' alt='Heart Popping' width='404' height='406'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/hearts.gif' title='Hearts and Sparkles' alt='Hearts and Sparkles' width='400' height='380'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/hearts-2.gif' title='Hearts' alt='Hearts' width='440' height='400'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/hearts-3.gif' title='Hearts' alt='Hearts' width='440' height='400'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/hearts-family.gif' title='Hearts' alt='Hearts' width='500' height='354'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/hearts-fireworks.gif' title='Hearts' alt='Hearts' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-sparkles.gif' title='Heart Sparkles' alt='Heart Sparkles' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-sparkles-2.gif' title='Heart Sparkles' alt='Heart Sparkles' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-speech-bubble.gif' title='Heart Speech Bubble' alt='Heart Speech Bubble' width='430' height='386'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/hearts-popping.gif' title='Hearts Popping' alt='Hearts Popping' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/hearts-popping-2.gif' title='Hearts' alt='Hearts' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-stripes.gif' title='Heart' alt='Heart' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/hola.gif' title='Hola' alt='Hola' width='500' height='350'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/i-drew-this.gif' title='I Drew This!' alt='I Drew This!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/i-love-digital-art.gif' title='I Love Digital Art!' alt='I Love Digital Art!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/impatient.gif' title='Impatient' alt='Impatient' width='354' height='434'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/jajaja.gif' title='JaJaJa' alt='JaJaJa' width='436' height='416'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/kisses.gif' title='Kisses' alt='Kisses' width='500' height='450'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/knotted-arrow.gif' title='Knotty Arrow' alt='Knotty Arrow' width='390' height='390'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/laptop-1.gif' title='Laptop / Coffee' alt='Laptop / Coffee' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/laptop-2.gif' title='Eat Sleep Zoom Repeat' alt='Eat Sleep Zoom Repeat' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/link-in-bio.gif' title='Link In Bio' alt='Link In Bio' width='422' height='318'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/link-in-bio-anim.gif' title='Link In Bio' alt='Link In Bio' width='500' height='160'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/look.gif' title='Look!' alt='Look!' width='500' height='408'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/look-2.gif' title='Look' alt='Look' width='500' height='408'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/lotus-blossom.gif' title='Lotus Blossom' alt='Lotus Blossom' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/love.gif' title='Love' alt='Love' width='492' height='206'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/love-graffiti-1.gif' title='Love' alt='Love' width='500' height='430'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/love-heart-funky.gif' title='Love' alt='Love' width='464' height='228'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/love-hearts.gif' title='Love Hearts' alt='Love Hearts' width='444' height='424'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/love-heart-splodge.gif' title='Love' alt='Love' width='464' height='228'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/love-squeeze.gif' title='Love Squeeze' alt='Love Squeeze' width='440' height='416'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/love-this.gif' title='Love This!' alt='Love This!' width='484' height='474'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/lucy-and-cat.gif' title='Lucy and Cat' alt='Lucy and Cat' width='436' height='406'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/luna-migo-maracas.gif' title='Luna and Migo Music' alt='Luna and Migo Music' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/mandala-1.gif' title='Mandala' alt='Mandala' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/mandala-2.gif' title='Mandala' alt='Mandala' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/maracas.gif' title='Dancing with maracas' alt='Dancing with maracas' width='458' height='336'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/mask-etiquette.gif' title='Mask Etiquette' alt='Mask Etiquette' width='558' height='518'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/merry-crimbles.gif' title='Xmas Surprise!' alt='Xmas Surprise!' width='600' height='440'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/merry-xmas.gif' title='Merry Xmas' alt='Merry Xmas' width='600' height='370'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/migo-friday.gif' title='Friday!' alt='Friday!' width='360' height='410'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/morning-mood.gif' title='Morning Mood' alt='Morning Mood' width='576' height='526'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/moving-hearts.gif' title='Hearts' alt='Hearts' width='418' height='424'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/music.gif' title='Music' alt='Music' width='456' height='480'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/music-headphones.gif' title='Music' alt='Music' width='482' height='426'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/new.gif' title='New!' alt='New!' width='500' height='250'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/new-post.gif' title='New post' alt='New post' width='500' height='300'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/new-post-flowers.gif' title='New Post' alt='New Post' width='492' height='234'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/new-post-postit.gif' title='New Post' alt='New Post' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/new-post-splodge-1.gif' title='New Post' alt='New Post' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/new-post-splodge-2.gif' title='New Post' alt='New Post' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/new-post-squared.gif' title='Hearts' alt='Hearts' width='584' height='584'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/noodles.gif' title='Noodles!' alt='Noodles!' width='404' height='392'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/omg.gif' title='OMG' alt='OMG' width='500' height='300'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/on-a-coffee-break.gif' title='On a Coffee Break' alt='On a Coffee Break' width='450' height='476'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/pale-daisies.gif' title='Pale Daisies' alt='Pale Daisies' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/peekaboo.gif' title='Peekaboo!' alt='Peekaboo!' width='428' height='396'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/pink-daisies.gif' title='Pink Daisies' alt='Pink Daisies' width='400' height='400'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/popping.gif' title='Popping' alt='Popping' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/popping-sparkles.gif' title='Sparkles' alt='Sparkles' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/popup-hearts.gif' title='Hearts' alt='Hearts' width='380' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/pretty-flowers.gif' title='Pretty Flowers' alt='Pretty Flowers' width='500' height='460'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/proud-cat.gif' title='Proud Cat' alt='Proud Cat' width='364' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/pumpkin.gif' title='Pumpkin' alt='Pumpkin' width='400' height='436'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/pyjama-cat.gif' title='Cat' alt='Cat' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rainbow-heart.gif' title='Heart' alt='Heart' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/raining-hearts.gif' title='Raining Hearts!' alt='Raining Hearts!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/relax.gif' title='And...Relax!' alt='And...Relax!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rippling-hearts.gif' title='Hearts' alt='Hearts' width='510' height='510'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rippling-hearts-2.gif' title='Hearts' alt='Hearts' width='414' height='442'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rippling-hearts-3.gif' title='Hearts' alt='Hearts' width='520' height='530'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rippling-hearts-4.gif' title='Hearts' alt='Hearts' width='460' height='468'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rippling-hearts-5.gif' title='Hearts' alt='Hearts' width='460' height='460'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rippling-hearts-6.gif' title='Hearts' alt='Hearts' width='472' height='504'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rupert-snacks.gif' title='Snacks!' alt='Snacks!' width='470' height='470'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/sending-hugs.gif' title='Sending hugs' alt='Sending hugs' width='516' height='440'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/single-daisy.gif' title='Daisy' alt='Daisy' width='406' height='470'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/sleeping-cat.gif' title='Sleeping Cat' alt='Sleeping Cat' width='472' height='470'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/sleepy.gif' title='Sleepy' alt='Sleepy' width='340' height='410'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/snowball-snowman.gif' title='Snowball Fight!' alt='Snowball Fight!' width='600' height='600'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/so-cute.gif' title='So Cute!' alt='So Cute!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/sparkles.gif' title='Sparkles and Hearts' alt='Sparkles and Hearts' width='440' height='440'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/sparkles-2.gif' title='Sparkles' alt='Sparkles' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/sparkle-trail.gif' title='Sparkle Trail' alt='Sparkle Trail' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/sparkle-trail-1.gif' title='Sparkle Trail' alt='Sparkle Trail' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/sparkle-trail-2.gif' title='Sparkle Trail' alt='Sparkle Trail' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/star.gif' title='Star' alt='Star' width='318' height='318'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/star-circle.gif' title='Stars' alt='Stars' width='600' height='600'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/stars-and-sparkles.gif' title='Stars and Sparkles' alt='Stars and Sparkles' width='416' height='362'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/swipe-up.gif' title='Swipe Up' alt='Swipe Up' width='500' height='332'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/swipe-up-patterned.gif' title='Swipe Up' alt='Swipe Up' width='500' height='360'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/thank-you.gif' title='Thank You' alt='Thank You' width='500' height='378'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/thank-you-heart-1.gif' title='Thank You!' alt='Thank You!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/thank-you-heart-2.gif' title='Thank You!' alt='Thank You!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/thank-you-pling.gif' title='Thank you' alt='Thank you' width='400' height='300'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/three-flowers-chalk.gif' title='Flowers' alt='Flowers' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/three-hearts.gif' title='Hearts' alt='Hearts' width='390' height='420'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/three-purple-stars.gif' title='Stars' alt='Stars' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/three-sparkles-gold.gif' title='Sparkles' alt='Sparkles' width='400' height='420'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/three-sparkles-white.gif' title='Sparkles' alt='Sparkles' width='400' height='420'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/three-stars.gif' title='Stars' alt='Stars' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/trick-or-treat.gif' title='Trick Or Treat' alt='Trick Or Treat' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/twinkles.gif' title='Twinkles' alt='Twinkles' width='432' height='406'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/virtual-hugs.gif' title='Virtual Hugs' alt='Virtual Hugs' width='464' height='272'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/vote.gif' title='Vote!' alt='Vote!' width='500' height='500'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/washi-tape-1.gif' title='Washi Tape' alt='Washi Tape' width='500' height='220'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/washi-tape-2.gif' title='Washi Tape' alt='Washi Tape' width='500' height='220'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/washi-tape-3.gif' title='Washi Tape' alt='Washi Tape' width='500' height='220'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/washi-tape-halloween.gif' title='Halloween Washi Tape' alt='Halloween Washi Tape' width='500' height='220'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/work.gif' title='Work' alt='Work' width='438' height='452'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/wow.gif' title='Wow!' alt='Wow!' width='500' height='277'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/writing.gif' title='Writing' alt='Writing' width='420' height='352'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/xmas-decorations.gif' title='Xmas Decorations' alt='Xmas Decorations' width='400' height='400'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/xmas-stocking-cat.gif' title='Xmas Surprise!' alt='Xmas Surprise!' width='600' height='600'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/xmas-tree.gif' title='Xmas Tree' alt='Xmas Tree' width='457' height='480'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/xmas-tree-decorating.gif' title='Xmas Ttree Decorating' alt='Xmas Ttree Decorating' width='584' height='492'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/yay.gif' title='Yay!' alt='Yay!' width='500' height='220'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/yellow-daisies.gif' title='Yellow Daisies' alt='Yellow Daisies' width='500' height='500'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/yes.gif' title='Yes!' alt='Yes!' width='500' height='198'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/yummy.gif' title='Yummy!' alt='Yummy!' width='446' height='266'/>
-        <img class='noscript-card' style='background: #000;' src='./assets/stickers/yummy-2.gif' title='Yummy!' alt='Yummy!' width='468' height='298'/>
-        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/yum-yum.gif' title='Yum Yum!' alt='Yum Yum!' width='500' height='500'/>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/10-out-of-10.gif' title='10/10' alt='10/10' width='386' height='412'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/always-be-dancing.gif' title='Always Be Dancing' alt='Always Be Dancing' width='430' height='460'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/amazing.gif' title='Amazing!' alt='Amazing!' width='474' height='244'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/amazing-2.gif' title='Amazing' alt='Amazing' width='474' height='244'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/angry.gif' title='Angry' alt='Angry' width='344' height='426'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/animated-arrow.gif' title='Arrow' alt='Arrow' width='190' height='190'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/artist-at-work.gif' title='Artist At Work' alt='Artist At Work' width='500' height='294'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/awesome.gif' title='Awesome!' alt='Awesome!' width='500' height='290'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/awww.gif' title='Awww' alt='Awww' width='600' height='600'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/bad-hair.gif' title='Bad Hair' alt='Bad Hair' width='432' height='444'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/bats.gif' title='Bats!' alt='Bats!' width='426' height='414'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/bee-kind.gif' title='Bee Kind' alt='Bee Kind' width='474' height='440'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/bee-kind-2.gif' title='Bee Kind' alt='Bee Kind' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/be-mindful.gif' title='Be Mindful' alt='Be Mindful' width='440' height='324'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/berries.gif' title='Berries' alt='Berries' width='408' height='466'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/besties.gif' title='Besties' alt='Besties' width='600' height='600'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/be-you.gif' title='Be You' alt='Be You' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/be-you-pride.gif' title='Be You' alt='Be You' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/big-daisies.gif' title='Big Daisies' alt='Big Daisies' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/blowing-bubbles.gif' title='Blowing Bubbles' alt='Blowing Bubbles' width='390' height='390'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/bluebells.gif' title='Bluebells' alt='Bluebells' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/blue-hearts.gif' title='Hearts' alt='Hearts' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/bored.gif' title='Bored' alt='Bored' width='600' height='329'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/bouncing-heart-1.gif' title='Heart' alt='Heart' width='540' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/bouncy-heart.gif' title='Heart' alt='Heart' width='400' height='450'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/breathe.gif' title='Breathe' alt='Breathe' width='474' height='436'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/breathe-2.gif' title='Breathe!' alt='Breathe!' width='500' height='238'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/bubbles.gif' title='Bubbles' alt='Bubbles' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/buffering.gif' title='Buffering' alt='Buffering' width='354' height='434'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/burger.gif' title='Burger' alt='Burger' width='430' height='430'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/cat-blanket.gif' title='Cat Sleeping Under A Blanket' alt='Cat Sleeping Under A Blanket' width='500' height='432'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/caterpillar.gif' title='Caterpillar' alt='Caterpillar' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/cat-hearts.gif' title='Cat Hearts' alt='Cat Hearts' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/cat-puff-1.gif' title='Cat' alt='Cat' width='600' height='600'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/cat-puff-2.gif' title='Cat' alt='Cat' width='600' height='600'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/cat-roar.gif' title='Cat' alt='Cat' width='600' height='600'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/chalk-arrow.gif' title='Chalk Arrow' alt='Chalk Arrow' width='430' height='430'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/chalk-heart.gif' title='Chalk Heart' alt='Chalk Heart' width='320' height='360'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/check-it-out.gif' title='Check It Out' alt='Check It Out' width='450' height='310'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/cloud-frame.gif' title='Frame' alt='Frame' width='500' height='368'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/coffee.gif' title='Coffee' alt='Coffee' width='372' height='418'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/coffee-cup.gif' title='Coffee Cup' alt='Coffee Cup' width='420' height='430'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/color-propeller.gif' title='Color Propeller' alt='Color Propeller' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/coloured-hearts.gif' title='Hearts' alt='Hearts' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/confetti.gif' title='Confetti' alt='Confetti' width='410' height='406'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/confetti-drop.gif' title='Confetti' alt='Confetti' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/confetti-float.gif' title='Confetti' alt='Confetti' width='490' height='460'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/congrats.gif' title='Congrats!' alt='Congrats!' width='500' height='220'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/cool.gif' title='Cool!' alt='Cool!' width='500' height='224'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/cool-beans.gif' title='Cool Beans' alt='Cool Beans' width='500' height='300'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/cool-funky.gif' title='Cool' alt='Cool' width='500' height='232'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/corsage.gif' title='Corsage' alt='Corsage' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/cute-cat-alert.gif' title='Cute Cat Alert!' alt='Cute Cat Alert!' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/dancing-elf.gif' title='Dancing Elf' alt='Dancing Elf' width='456' height='506'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/dancing-elf-2.gif' title='Dancing Elf' alt='Dancing Elf' width='450' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/dancing-elves.gif' title='Dancing Elves' alt='Dancing Elves' width='600' height='450'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/donut.gif' title='Yummy Donut!' alt='Yummy Donut!' width='444' height='444'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/elf.gif' title='Elf' alt='Elf' width='450' height='510'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/explosions.gif' title='Explosions' alt='Explosions' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/fireworks-1.gif' title='Fireworks!' alt='Fireworks!' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/fireworks-2.gif' title='Fireworks!' alt='Fireworks!' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/fireworks-3.gif' title='Fireworks!' alt='Fireworks!' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/flower.gif' title='Flower' alt='Flower' width='340' height='370'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/flower-explosion.gif' title='Flower Explosion' alt='Flower Explosion' width='408' height='400'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/flower-pot-1.gif' title='Flower' alt='Flower' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/flower-pot-2.gif' title='Flower' alt='Flower' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/flower-ring-1.gif' title='Flower Ring' alt='Flower Ring' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/flower-ring-2.gif' title='Flower Ring' alt='Flower Ring' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/followers-1.gif' title='I Love My Followers' alt='I Love My Followers' width='470' height='236'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/followers-2.gif' title='I Love My Followers' alt='I Love My Followers' width='470' height='236'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/fuzzball.gif' title='Fuzzball' alt='Fuzzball' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/garden-cat.gif' title='Garden Cat' alt='Garden Cat' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/ghost.gif' title='Ghost' alt='Ghost' width='416' height='406'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/ghost-splat.gif' title='Ghost' alt='Ghost' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/ghosty.gif' title='Ghost' alt='Ghost' width='324' height='360'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/ghosty-2.gif' title='Ghosty' alt='Ghosty' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/good-mood-1.gif' title='Good Mood' alt='Good Mood' width='500' height='326'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/good-mood-2.gif' title='Good Mood' alt='Good Mood' width='500' height='326'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/good-mood-3.gif' title='Good Mood' alt='Good Mood' width='500' height='326'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/green-vase.gif' title='Vase of Flowers' alt='Vase of Flowers' width='452' height='472'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/growing-star.gif' title='Star' alt='Star' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/growing-star-love-this.gif' title='Love This!' alt='Love This!' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/growing-star-star.gif' title='Star' alt='Star' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/growing-star-vote.gif' title='Vote!' alt='Vote!' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/growing-star-wow.gif' title='Wow!' alt='Wow!' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/growing-star-yes.gif' title='Yes!' alt='Yes!' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/ha-ha-1.gif' title='Ha Ha' alt='Ha Ha' width='430' height='378'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/ha-ha-2.gif' title='Ha Ha' alt='Ha Ha' width='372' height='322'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/ha-ha-3.gif' title='Ha Ha' alt='Ha Ha' width='372' height='322'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/ha-ha-4.gif' title='Ha Ha' alt='Ha Ha' width='430' height='378'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/hahaha.gif' title='Ha Ha Ha' alt='Ha Ha Ha' width='436' height='416'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/halloween-pumpkin.gif' title='Halloween Pumpkin' alt='Halloween Pumpkin' width='440' height='490'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/happy.gif' title='Happy' alt='Happy' width='500' height='234'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/happy-2021.gif' title='Happy 2021!' alt='Happy 2021!' width='600' height='482'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/happy-birthday.gif' title='Happy Birthday' alt='Happy Birthday' width='486' height='416'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/happy-days.gif' title='Happy Days' alt='Happy Days' width='500' height='336'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/heart-bubble.gif' title='Love' alt='Love' width='430' height='386'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-bubbles-clear.gif' title='Heart Bubbles' alt='Heart Bubbles' width='380' height='356'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-bubbles-filled.gif' title='Heart Bubbles' alt='Heart Bubbles' width='380' height='356'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-fireworks.gif' title='Heart Fireworks' alt='Heart Fireworks' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-ipad.gif' title='Heart' alt='Heart' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-popping.gif' title='Heart Popping' alt='Heart Popping' width='404' height='406'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-popping-hot-pink.gif' title='Heart Popping' alt='Heart Popping' width='404' height='406'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-popping-lilac.gif' title='Heart Popping' alt='Heart Popping' width='404' height='406'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-popping-pale-pink.gif' title='Heart Popping' alt='Heart Popping' width='404' height='406'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-popping-red.gif' title='Heart Popping' alt='Heart Popping' width='404' height='406'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/hearts.gif' title='Hearts and Sparkles' alt='Hearts and Sparkles' width='400' height='380'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/hearts-2.gif' title='Hearts' alt='Hearts' width='440' height='400'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/hearts-3.gif' title='Hearts' alt='Hearts' width='440' height='400'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/hearts-family.gif' title='Hearts' alt='Hearts' width='500' height='354'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/hearts-fireworks.gif' title='Hearts' alt='Hearts' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-sparkles.gif' title='Heart Sparkles' alt='Heart Sparkles' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-sparkles-2.gif' title='Heart Sparkles' alt='Heart Sparkles' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-speech-bubble.gif' title='Heart Speech Bubble' alt='Heart Speech Bubble' width='430' height='386'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/hearts-popping.gif' title='Hearts Popping' alt='Hearts Popping' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/hearts-popping-2.gif' title='Hearts' alt='Hearts' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/heart-stripes.gif' title='Heart' alt='Heart' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/hola.gif' title='Hola' alt='Hola' width='500' height='350'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/i-drew-this.gif' title='I Drew This!' alt='I Drew This!' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/i-love-digital-art.gif' title='I Love Digital Art!' alt='I Love Digital Art!' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/impatient.gif' title='Impatient' alt='Impatient' width='354' height='434'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/jajaja.gif' title='JaJaJa' alt='JaJaJa' width='436' height='416'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/kisses.gif' title='Kisses' alt='Kisses' width='500' height='450'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/knotted-arrow.gif' title='Knotty Arrow' alt='Knotty Arrow' width='390' height='390'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/laptop-1.gif' title='Laptop / Coffee' alt='Laptop / Coffee' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/laptop-2.gif' title='Eat Sleep Zoom Repeat' alt='Eat Sleep Zoom Repeat' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/link-in-bio.gif' title='Link In Bio' alt='Link In Bio' width='422' height='318'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/link-in-bio-anim.gif' title='Link In Bio' alt='Link In Bio' width='500' height='160'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/look.gif' title='Look!' alt='Look!' width='500' height='408'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/look-2.gif' title='Look' alt='Look' width='500' height='408'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/lotus-blossom.gif' title='Lotus Blossom' alt='Lotus Blossom' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/love.gif' title='Love' alt='Love' width='492' height='206'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/love-graffiti-1.gif' title='Love' alt='Love' width='500' height='430'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/love-heart-funky.gif' title='Love' alt='Love' width='464' height='228'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/love-hearts.gif' title='Love Hearts' alt='Love Hearts' width='444' height='424'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/love-heart-splodge.gif' title='Love' alt='Love' width='464' height='228'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/love-squeeze.gif' title='Love Squeeze' alt='Love Squeeze' width='440' height='416'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/love-this.gif' title='Love This!' alt='Love This!' width='484' height='474'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/lucy-and-cat.gif' title='Lucy and Cat' alt='Lucy and Cat' width='436' height='406'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/luna-migo-maracas.gif' title='Luna and Migo Music' alt='Luna and Migo Music' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/mandala-1.gif' title='Mandala' alt='Mandala' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/mandala-2.gif' title='Mandala' alt='Mandala' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/maracas.gif' title='Dancing with maracas' alt='Dancing with maracas' width='458' height='336'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/mask-etiquette.gif' title='Mask Etiquette' alt='Mask Etiquette' width='558' height='518'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/merry-crimbles.gif' title='Xmas Surprise!' alt='Xmas Surprise!' width='600' height='440'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/merry-xmas.gif' title='Merry Xmas' alt='Merry Xmas' width='600' height='370'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/migo-friday.gif' title='Friday!' alt='Friday!' width='360' height='410'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/morning-mood.gif' title='Morning Mood' alt='Morning Mood' width='576' height='526'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/moving-hearts.gif' title='Hearts' alt='Hearts' width='418' height='424'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/music.gif' title='Music' alt='Music' width='456' height='480'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/music-headphones.gif' title='Music' alt='Music' width='482' height='426'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/new.gif' title='New!' alt='New!' width='500' height='250'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/new-post.gif' title='New post' alt='New post' width='500' height='300'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/new-post-flowers.gif' title='New Post' alt='New Post' width='492' height='234'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/new-post-postit.gif' title='New Post' alt='New Post' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/new-post-splodge-1.gif' title='New Post' alt='New Post' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/new-post-splodge-2.gif' title='New Post' alt='New Post' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/new-post-squared.gif' title='Hearts' alt='Hearts' width='584' height='584'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/noodles.gif' title='Noodles!' alt='Noodles!' width='404' height='392'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/omg.gif' title='OMG' alt='OMG' width='500' height='300'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/on-a-coffee-break.gif' title='On a Coffee Break' alt='On a Coffee Break' width='450' height='476'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/pale-daisies.gif' title='Pale Daisies' alt='Pale Daisies' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/peekaboo.gif' title='Peekaboo!' alt='Peekaboo!' width='428' height='396'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/pink-daisies.gif' title='Pink Daisies' alt='Pink Daisies' width='400' height='400'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/popping.gif' title='Popping' alt='Popping' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/popping-sparkles.gif' title='Sparkles' alt='Sparkles' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/popup-hearts.gif' title='Hearts' alt='Hearts' width='380' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/pretty-flowers.gif' title='Pretty Flowers' alt='Pretty Flowers' width='500' height='460'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/proud-cat.gif' title='Proud Cat' alt='Proud Cat' width='364' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/pumpkin.gif' title='Pumpkin' alt='Pumpkin' width='400' height='436'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/pyjama-cat.gif' title='Cat' alt='Cat' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rainbow-heart.gif' title='Heart' alt='Heart' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/raining-hearts.gif' title='Raining Hearts!' alt='Raining Hearts!' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/relax.gif' title='And...Relax!' alt='And...Relax!' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rippling-hearts.gif' title='Hearts' alt='Hearts' width='510' height='510'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rippling-hearts-2.gif' title='Hearts' alt='Hearts' width='414' height='442'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rippling-hearts-3.gif' title='Hearts' alt='Hearts' width='520' height='530'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rippling-hearts-4.gif' title='Hearts' alt='Hearts' width='460' height='468'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rippling-hearts-5.gif' title='Hearts' alt='Hearts' width='460' height='460'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rippling-hearts-6.gif' title='Hearts' alt='Hearts' width='472' height='504'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/rupert-snacks.gif' title='Snacks!' alt='Snacks!' width='470' height='470'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/sending-hugs.gif' title='Sending hugs' alt='Sending hugs' width='516' height='440'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/single-daisy.gif' title='Daisy' alt='Daisy' width='406' height='470'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/sleeping-cat.gif' title='Sleeping Cat' alt='Sleeping Cat' width='472' height='470'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/sleepy.gif' title='Sleepy' alt='Sleepy' width='340' height='410'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/snowball-snowman.gif' title='Snowball Fight!' alt='Snowball Fight!' width='600' height='600'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/so-cute.gif' title='So Cute!' alt='So Cute!' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/sparkles.gif' title='Sparkles and Hearts' alt='Sparkles and Hearts' width='440' height='440'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/sparkles-2.gif' title='Sparkles' alt='Sparkles' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/sparkle-trail.gif' title='Sparkle Trail' alt='Sparkle Trail' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/sparkle-trail-1.gif' title='Sparkle Trail' alt='Sparkle Trail' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/sparkle-trail-2.gif' title='Sparkle Trail' alt='Sparkle Trail' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/star.gif' title='Star' alt='Star' width='318' height='318'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/star-circle.gif' title='Stars' alt='Stars' width='600' height='600'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/stars-and-sparkles.gif' title='Stars and Sparkles' alt='Stars and Sparkles' width='416' height='362'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/swipe-up.gif' title='Swipe Up' alt='Swipe Up' width='500' height='332'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/swipe-up-patterned.gif' title='Swipe Up' alt='Swipe Up' width='500' height='360'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/thank-you.gif' title='Thank You' alt='Thank You' width='500' height='378'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/thank-you-heart-1.gif' title='Thank You!' alt='Thank You!' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/thank-you-heart-2.gif' title='Thank You!' alt='Thank You!' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/thank-you-pling.gif' title='Thank you' alt='Thank you' width='400' height='300'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/three-flowers-chalk.gif' title='Flowers' alt='Flowers' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/three-hearts.gif' title='Hearts' alt='Hearts' width='390' height='420'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/three-purple-stars.gif' title='Stars' alt='Stars' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/three-sparkles-gold.gif' title='Sparkles' alt='Sparkles' width='400' height='420'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/three-sparkles-white.gif' title='Sparkles' alt='Sparkles' width='400' height='420'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/three-stars.gif' title='Stars' alt='Stars' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/trick-or-treat.gif' title='Trick Or Treat' alt='Trick Or Treat' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/twinkles.gif' title='Twinkles' alt='Twinkles' width='432' height='406'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/virtual-hugs.gif' title='Virtual Hugs' alt='Virtual Hugs' width='464' height='272'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/vote.gif' title='Vote!' alt='Vote!' width='500' height='500'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/washi-tape-1.gif' title='Washi Tape' alt='Washi Tape' width='500' height='220'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/washi-tape-2.gif' title='Washi Tape' alt='Washi Tape' width='500' height='220'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/washi-tape-3.gif' title='Washi Tape' alt='Washi Tape' width='500' height='220'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/washi-tape-halloween.gif' title='Halloween Washi Tape' alt='Halloween Washi Tape' width='500' height='220'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/work.gif' title='Work' alt='Work' width='438' height='452'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/wow.gif' title='Wow!' alt='Wow!' width='500' height='277'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/writing.gif' title='Writing' alt='Writing' width='420' height='352'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/xmas-decorations.gif' title='Xmas Decorations' alt='Xmas Decorations' width='400' height='400'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/xmas-stocking-cat.gif' title='Xmas Surprise!' alt='Xmas Surprise!' width='600' height='600'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/xmas-tree.gif' title='Xmas Tree' alt='Xmas Tree' width='457' height='480'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/xmas-tree-decorating.gif' title='Xmas Ttree Decorating' alt='Xmas Ttree Decorating' width='584' height='492'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/yay.gif' title='Yay!' alt='Yay!' width='500' height='220'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/yellow-daisies.gif' title='Yellow Daisies' alt='Yellow Daisies' width='500' height='500'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/yes.gif' title='Yes!' alt='Yes!' width='500' height='198'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/yummy.gif' title='Yummy!' alt='Yummy!' width='446' height='266'>
+        <img class='noscript-card' style='background: #000;' src='./assets/stickers/yummy-2.gif' title='Yummy!' alt='Yummy!' width='468' height='298'>
+        <img class='noscript-card' style='background: #fff;' src='./assets/stickers/yum-yum.gif' title='Yum Yum!' alt='Yum Yum!' width='500' height='500'>
       </noscript>
     </div> 
 
@@ -577,19 +577,19 @@
     <footer>
       <div class="social">
         <a href="https://giphy.com/condaluna">
-          <img src="./assets/social/giphy-round.png" title="Condaluna on GIPHY" alt="Condaluna on GIPHY"/>
+          <img src="./assets/social/giphy-round.png" title="Condaluna on GIPHY" alt="Condaluna on GIPHY">
         </a>
         <a href="https://www.facebook.com/CondalunaArt">
-          <img src="./assets/social/facebook-round.png" title="CondalunaArt on Facebook" alt="CondalunaArt on Facebook"/>
+          <img src="./assets/social/facebook-round.png" title="CondalunaArt on Facebook" alt="CondalunaArt on Facebook">
         </a>
         <a href="https://ohai.social/@Cat">
-          <img src="./assets/social/mastodon.svg" title="Cat on Mastodon" alt="Cat on Mastodon"/>
+          <img src="./assets/social/mastodon.svg" title="Cat on Mastodon" alt="Cat on Mastodon">
         </a>
         <a href="https://twitter.com/CatCondaluna">
-          <img src="./assets/social/twitter-round.png" title="CatCondaluna on Twitter" alt="CatCondaluna on Twitter"/>
+          <img src="./assets/social/twitter-round.png" title="CatCondaluna on Twitter" alt="CatCondaluna on Twitter">
         </a>
         <a href="https://www.instagram.com/catherinebrown666">
-          <img src="./assets/social/instagram-round.png" title="catherinebrown666 on Instagram" alt="catherinebrown666 on Instagram"/>
+          <img src="./assets/social/instagram-round.png" title="catherinebrown666 on Instagram" alt="catherinebrown666 on Instagram">
         </a>
       </div>
       <div id="footer">
